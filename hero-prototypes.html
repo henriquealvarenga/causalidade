@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Hero — Protótipos visuais</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 3rem 2rem;
+    min-height: 100vh;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #f1f5f9;
+  }
+  .intro {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-bottom: 3rem;
+    max-width: 720px;
+    line-height: 1.5;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .option {
+    background: radial-gradient(ellipse at top, #1e293b 0%, #0f172a 100%);
+    border: 1px solid #1e293b;
+    border-radius: 14px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .option svg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+  }
+  .option h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin-bottom: 0.5rem;
+  }
+  .option .label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #64748b;
+    margin-bottom: 0.25rem;
+  }
+  .option p {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    line-height: 1.5;
+    max-width: 280px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Protótipos do hero visual</h1>
+<p class="intro">
+  Quatro opções desenhadas no mesmo estilo dos seus outros sites: preenchimento com gradiente,
+  volume, paleta azul→roxo. Cada uma carrega uma leitura temática diferente do argumento central do site.
+  Avalie em tela cheia — o hero aparecerá em ~180–240px no topo da landing page.
+</p>
+
+<div class="grid">
+
+  <!-- OPÇÃO 1: FUNIL DA EVIDÊNCIA -->
+  <div class="option">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="funnelGrad1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#60a5fa"/>
+          <stop offset="50%" stop-color="#6366f1"/>
+          <stop offset="100%" stop-color="#7c3aed"/>
+        </linearGradient>
+        <linearGradient id="funnelHighlight" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+          <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <!-- Partículas entrando (muitas, observação) -->
+      <circle cx="35" cy="38" r="3" fill="#60a5fa" opacity="0.5"/>
+      <circle cx="55" cy="28" r="4" fill="#60a5fa" opacity="0.7"/>
+      <circle cx="78" cy="35" r="3" fill="#60a5fa" opacity="0.6"/>
+      <circle cx="100" cy="25" r="4.5" fill="#60a5fa" opacity="0.8"/>
+      <circle cx="122" cy="32" r="3" fill="#60a5fa" opacity="0.6"/>
+      <circle cx="145" cy="28" r="4" fill="#60a5fa" opacity="0.7"/>
+      <circle cx="165" cy="38" r="3" fill="#60a5fa" opacity="0.5"/>
+      <!-- Corpo do funil -->
+      <path d="M 30 55 L 170 55 L 115 125 L 115 170 L 85 170 L 85 125 Z"
+            fill="url(#funnelGrad1)"/>
+      <path d="M 30 55 L 170 55 L 115 125 L 115 170 L 85 170 L 85 125 Z"
+            fill="url(#funnelHighlight)"/>
+      <!-- Linha sutil no topo -->
+      <line x1="30" y1="55" x2="170" y2="55" stroke="#93c5fd" stroke-width="1.5" opacity="0.4"/>
+      <!-- Partícula única saindo (experimentação) -->
+      <circle cx="100" cy="185" r="5" fill="#a78bfa"/>
+      <circle cx="100" cy="185" r="8" fill="#a78bfa" opacity="0.25"/>
+    </svg>
+    <div class="label">Opção 1</div>
+    <h2>Funil da Evidência</h2>
+    <p>Muitos sinais observacionais entrando no topo, uma conclusão rigorosa emergindo embaixo. Metáfora direta da tese central.</p>
+  </div>
+
+  <!-- OPÇÃO 2: FOREST PLOT ESTILIZADO -->
+  <div class="option">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="stackGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#60a5fa"/>
+          <stop offset="100%" stop-color="#a78bfa"/>
+        </linearGradient>
+      </defs>
+      <!-- Linha do efeito nulo (tracejada) -->
+      <line x1="100" y1="25" x2="100" y2="180"
+            stroke="#64748b" stroke-width="1" stroke-dasharray="3,4" opacity="0.6"/>
+      <!-- Intervalo muito amplo no topo (observacional, "animador") -->
+      <line x1="35" y1="50" x2="160" y2="50" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="130" cy="50" r="7" fill="#3b82f6"/>
+      <!-- Intervalo médio -->
+      <line x1="55" y1="85" x2="145" y2="85" stroke="#6366f1" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="118" cy="85" r="7" fill="#4f46e5"/>
+      <!-- Intervalo menor -->
+      <line x1="75" y1="120" x2="128" y2="120" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="108" cy="120" r="7" fill="#6d28d9"/>
+      <!-- Intervalo final, quase no nulo -->
+      <line x1="92" y1="155" x2="112" y2="155" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="102" cy="155" r="7" fill="#8b5cf6"/>
+    </svg>
+    <div class="label">Opção 2</div>
+    <h2>Contração do Efeito</h2>
+    <p>Forest plot estilizado: intervalos de confiança largos no topo (observacional) convergindo para um efeito pequeno ou nulo (experimental).</p>
+  </div>
+
+  <!-- OPÇÃO 3: CURVAS CONVERGINDO -->
+  <div class="option">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="curveGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#60a5fa"/>
+          <stop offset="100%" stop-color="#a78bfa"/>
+        </linearGradient>
+      </defs>
+      <!-- Curva barulhenta (observacional) -->
+      <path d="M 20 60 Q 40 30, 60 55 T 100 50 Q 120 20, 140 55 T 180 45"
+            fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+      <!-- Curva suave intermediária -->
+      <path d="M 20 100 Q 60 80, 100 100 T 180 100"
+            fill="none" stroke="#6366f1" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+      <!-- Linha praticamente reta (experimental, rigorosa) -->
+      <line x1="20" y1="150" x2="180" y2="148"
+            stroke="url(#curveGrad)" stroke-width="4" stroke-linecap="round"/>
+      <!-- Pontos de ancoragem discretos -->
+      <circle cx="20" cy="60" r="3" fill="#60a5fa"/>
+      <circle cx="180" cy="45" r="3" fill="#60a5fa"/>
+      <circle cx="180" cy="148" r="4" fill="#a78bfa"/>
+    </svg>
+    <div class="label">Opção 3</div>
+    <h2>Do Ruído ao Sinal</h2>
+    <p>Três camadas: observação (ruidosa), análise (suavizada), ensaio rigoroso (limpa). Metáfora da refinação epistêmica.</p>
+  </div>
+
+  <!-- OPÇÃO 4: MICROSCÓPIO REDESENHADO -->
+  <div class="option">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="micBody4" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#3b82f6"/>
+          <stop offset="100%" stop-color="#1e3a8a"/>
+        </linearGradient>
+        <linearGradient id="micLens4" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#a78bfa"/>
+          <stop offset="100%" stop-color="#6d28d9"/>
+        </linearGradient>
+        <linearGradient id="eyepiece4" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#60a5fa"/>
+          <stop offset="100%" stop-color="#3b82f6"/>
+        </linearGradient>
+      </defs>
+      <!-- Sombra da base -->
+      <ellipse cx="100" cy="178" rx="50" ry="6" fill="#000" opacity="0.35"/>
+      <!-- Base -->
+      <path d="M 55 172 L 145 172 L 135 160 L 65 160 Z" fill="#1e293b"/>
+      <!-- Plataforma -->
+      <rect x="60" y="138" width="80" height="8" rx="2" fill="#334155"/>
+      <!-- Amostra na plataforma (dot) -->
+      <circle cx="100" cy="137" r="3" fill="#fbbf24"/>
+      <!-- Braço curvado / suporte -->
+      <path d="M 110 70 L 110 160 Q 110 165 115 165 L 135 165"
+            fill="none" stroke="url(#micBody4)" stroke-width="12" stroke-linecap="round"/>
+      <!-- Objetiva (lente inferior) -->
+      <path d="M 90 90 L 110 90 L 108 120 L 92 120 Z" fill="url(#micLens4)"/>
+      <circle cx="100" cy="122" r="5" fill="#fbbf24" opacity="0.8"/>
+      <!-- Tubo ocular -->
+      <rect x="92" y="45" width="20" height="32" rx="4" fill="url(#eyepiece4)"/>
+      <!-- Ocular superior -->
+      <ellipse cx="102" cy="42" rx="14" ry="5" fill="#60a5fa"/>
+      <ellipse cx="102" cy="42" rx="14" ry="5" fill="url(#micBody4)" opacity="0.4"/>
+    </svg>
+    <div class="label">Opção 4</div>
+    <h2>Microscópio, Redesenhado</h2>
+    <p>Mantém a iconografia científica convencional, mas com volume, gradiente e proporção — no estilo dos seus outros sites.</p>
+  </div>
+
+</div>
+
+</body>
+</html>

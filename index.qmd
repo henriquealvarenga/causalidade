@@ -1,0 +1,181 @@
+---
+title: ""
+pagetitle: "Da Correlação à Causalidade"
+format:
+  html:
+    page-layout: custom
+    title-block-style: none
+    sidebar: false
+    toc: false
+    code-tools: false
+    code-fold: false
+    css: [styles.css, landing.css]
+---
+
+```{=html}
+<div class="landing">
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <svg class="hero-pattern" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="g-noise" x1="0" x2="1">
+            <stop offset="0%" stop-color="#74c0fc" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#74c0fc" stop-opacity=".22"/>
+            <stop offset="100%" stop-color="#74c0fc" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Nuvem dispersa de pontos -->
+        <g opacity="0.65">
+          <circle cx="60"  cy="100" r="2"   fill="#74c0fc" opacity=".35"/>
+          <circle cx="110" cy="170" r="2.5" fill="#74c0fc" opacity=".5"/>
+          <circle cx="150" cy="80"  r="1.8" fill="#74c0fc" opacity=".4"/>
+          <circle cx="200" cy="220" r="2.3" fill="#74c0fc" opacity=".45"/>
+          <circle cx="240" cy="140" r="2"   fill="#74c0fc" opacity=".55"/>
+          <circle cx="80"  cy="260" r="2.2" fill="#74c0fc" opacity=".35"/>
+          <circle cx="280" cy="60"  r="2"   fill="#74c0fc" opacity=".35"/>
+          <circle cx="170" cy="310" r="2.5" fill="#74c0fc" opacity=".4"/>
+          <circle cx="320" cy="190" r="2"   fill="#74c0fc" opacity=".45"/>
+          <circle cx="120" cy="40"  r="1.5" fill="#74c0fc" opacity=".3"/>
+          <circle cx="380" cy="100" r="2.3" fill="#74c0fc" opacity=".4"/>
+          <circle cx="40"  cy="200" r="1.8" fill="#74c0fc" opacity=".3"/>
+          <circle cx="220" cy="270" r="2"   fill="#74c0fc" opacity=".4"/>
+          <circle cx="350" cy="280" r="1.8" fill="#74c0fc" opacity=".35"/>
+          <circle cx="290" cy="320" r="2"   fill="#74c0fc" opacity=".3"/>
+          <circle cx="500" cy="120" r="2"   fill="#74c0fc" opacity=".4"/>
+          <circle cx="640" cy="180" r="2.3" fill="#74c0fc" opacity=".35"/>
+          <circle cx="780" cy="60"  r="1.8" fill="#74c0fc" opacity=".4"/>
+          <circle cx="860" cy="280" r="2.2" fill="#74c0fc" opacity=".35"/>
+          <circle cx="950" cy="160" r="2"   fill="#74c0fc" opacity=".45"/>
+          <circle cx="1080" cy="80" r="2.5" fill="#74c0fc" opacity=".4"/>
+          <circle cx="1140" cy="240" r="2"  fill="#74c0fc" opacity=".35"/>
+          <circle cx="700" cy="320" r="1.8" fill="#74c0fc" opacity=".3"/>
+          <circle cx="1020" cy="320" r="2"  fill="#74c0fc" opacity=".3"/>
+        </g>
+
+        <!-- Curva senoide atravessando o hero -->
+        <path d="M0,200 C150,140 250,260 400,200 C550,140 650,260 800,200 C950,140 1050,260 1200,200"
+              fill="none" stroke="url(#g-noise)" stroke-width="1.8"/>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">Causalidade em Epidemiologia</div>
+      <h1 class="hero-title">
+        Da Correlação à <span class="accent">Causalidade</span>
+      </h1>
+      <p class="hero-subtitle">
+        Hume, Mill, Koch, Bradford Hill e a epidemiologia contrafactual contemporânea.
+      </p>
+    </div>
+  </section>
+
+  <section class="modules-section">
+    <header class="section-header">
+      <h2 class="section-title">Causalidade</h2>
+    </header>
+    <div class="modules-grid">
+
+      <a class="module-card" href="01-antes-epidemiologia.html">
+        <div class="module-card-number">01</div>
+        <h3 class="module-card-title">Antes da epidemiologia</h3>
+        <p class="module-card-subtitle">Hume, Mill e os postulados de Henle-Koch.</p>
+      </a>
+
+      <a class="module-card" href="02-virada-seculo-xx.html">
+        <div class="module-card-number">02</div>
+        <h3 class="module-card-title">A virada do século XX</h3>
+        <p class="module-card-subtitle">Surgeon General, Hill e Rothman.</p>
+      </a>
+
+      <a class="module-card" href="03-revolucao-contrafactual.html">
+        <div class="module-card-number">03</div>
+        <h3 class="module-card-title">A revolução contrafactual</h3>
+        <p class="module-card-subtitle">Resultados potenciais, DAGs e target trial.</p>
+      </a>
+
+      <a class="module-card" href="04-confundimento.html">
+        <div class="module-card-number">04</div>
+        <h3 class="module-card-title">Confundimento na lente moderna</h3>
+        <p class="module-card-subtitle">Definição contrafactual, direção do viés, controle.</p>
+      </a>
+
+      <a class="module-card" href="05-causa-ou-associacao-hoje.html">
+        <div class="module-card-number">05</div>
+        <h3 class="module-card-title">Causa ou associação hoje</h3>
+        <p class="module-card-subtitle">Hill como considerações, triangulação, GRADE.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="modules-section">
+    <header class="section-header">
+      <h2 class="section-title">Casos clássicos</h2>
+    </header>
+    <div class="modules-grid">
+
+      <a class="module-card" href="casos/trh.html">
+        <div class="module-card-letter">A</div>
+        <h3 class="module-card-title">Terapia de reposição hormonal</h3>
+        <p class="module-card-subtitle">HERS e WHI invertem a recomendação cardiovascular.</p>
+      </a>
+
+      <a class="module-card" href="casos/vitamina-e.html">
+        <div class="module-card-letter">B</div>
+        <h3 class="module-card-title">Vitamina E</h3>
+        <p class="module-card-subtitle">Antioxidantes, estresse oxidativo e o limite da plausibilidade.</p>
+      </a>
+
+      <a class="module-card" href="casos/betacaroteno.html">
+        <div class="module-card-letter">C</div>
+        <h3 class="module-card-title">Betacaroteno</h3>
+        <p class="module-card-subtitle">ATBC e CARET: extrair o nutriente da matriz alimentar.</p>
+      </a>
+
+      <a class="module-card" href="casos/vitamina-d.html">
+        <div class="module-card-letter">D</div>
+        <h3 class="module-card-title">Vitamina D</h3>
+        <p class="module-card-subtitle">Causalidade reversa e o que o VITAL mostrou.</p>
+      </a>
+
+      <a class="module-card" href="casos/omega-3.html">
+        <div class="module-card-letter">E</div>
+        <h3 class="module-card-title">Ômega-3</h3>
+        <p class="module-card-subtitle">Subgrupos, fibrilação atrial e dose-dependência.</p>
+      </a>
+
+      <a class="module-card" href="casos/cast.html">
+        <div class="module-card-letter">F</div>
+        <h3 class="module-card-title">Antiarrítmicos pós-IAM (CAST)</h3>
+        <p class="module-card-subtitle">O desfecho substituto que matou pacientes.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="modules-section apoio-section">
+    <header class="section-header">
+      <h2 class="section-title">Referências</h2>
+    </header>
+    <div class="apoio-grid">
+
+      <a class="apoio-link" href="referencias.html">
+        <span class="apoio-link-label">Bibliografia</span>
+        <span class="apoio-link-meta">Referências verificadas via PubMed/DOI</span>
+      </a>
+
+    </div>
+  </section>
+
+  <footer class="landing-footer">
+    <div class="landing-footer-inner">
+      <a href="https://www.henriquealvarenga.com" target="_blank" rel="noopener">Henrique Alvarenga</a>
+      <span class="footer-sep">·</span>
+      <a href="about.html">Créditos <sup>®</sup></a>
+    </div>
+  </footer>
+
+</div>
+```

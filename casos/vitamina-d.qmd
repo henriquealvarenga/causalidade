@@ -1,0 +1,60 @@
+---
+title: "Vitamina D"
+subtitle: "Quando o marcador é confundido com causa"
+---
+
+## Contexto clínico
+
+A vitamina D é um secosteroide com receptores presentes em uma ampla variedade de tecidos — não apenas osso e rim, onde sua ação clássica regula homeostase do cálcio, mas também células imunes, vasculares, musculares, epiteliais. A diversidade do receptor sugeria, à primeira leitura biológica, papel sistêmico que a fisiologia clássica não capturava. Soma-se a essa diversidade um fato epidemiológico chamativo: concentrações séricas de 25-hidroxivitamina D, 25(OH)D, são em geral baixas em populações urbanas modernas, com prevalência de "deficiência" ou "insuficiência" estimada em proporção significativa de adultos saudáveis em diferentes meta-análises.
+
+A combinação dos dois fatos — receptor onipresente, deficiência prevalente — produziu, na primeira década dos anos 2000, uma das maiores expansões de testagem laboratorial e de prescrição preventiva da medicina recente. Dosagem rotineira de 25(OH)D entrou em prática em ambulatórios de adultos saudáveis; suplementação em doses entre 800 e 5.000 UI por dia tornou-se prescrição comum, com indicação que ia além das condições com base óssea estabelecida (osteomalácia, osteoporose, raquitismo) para incluir prevenção genérica.
+
+A pergunta clínica organizadora foi: a deficiência de vitamina D é causa de doença sistêmica, e portanto sua correção previne doença? A resposta exigiu mais de uma década de investigação em múltiplas frentes.
+
+## A evidência observacional
+
+A literatura observacional sobre 25(OH)D é vasta e remarcavelmente consistente em direção. Coortes prospectivas de variadas geografias e desenhos mostraram, repetidamente, que indivíduos com 25(OH)D baixo apresentavam, em seguimento, maior incidência de doença cardiovascular, câncer (com sinal mais consistente para colorretal), diabetes tipo 2, esclerose múltipla, doenças autoimunes, infecções respiratórias, declínio cognitivo, e mortalidade por todas as causas.
+
+A revisão sistemática de Autier e colaboradores [-@Autier2014VitaminD], publicada na *Lancet Diabetes & Endocrinology* em 2014, agrega 290 estudos prospectivos sobre 25(OH)D e desfechos não esqueléticos. A consistência das associações observacionais era impressionante: praticamente todas as condições estudadas mostravam relação inversa entre 25(OH)D e risco. A meta-análise umbrella de Theodoratou e colaboradores [-@Theodoratou2014Umbrella], publicada na *BMJ* no mesmo ano, identifica 137 desfechos diferentes investigados em meta-análises observacionais — um catálogo que revela a amplitude da literatura mas também sugere que algo na configuração do problema produzia associações em qualquer condição investigada.
+
+A força do sinal observacional combinava com a plausibilidade biológica de modo que a inferência causal — vitamina D baixa causa doenças variadas; suplementação preveniria todas elas — pareceu, durante anos, hipótese sustentável. As recomendações clínicas de testagem e suplementação acompanharam essa interpretação em muitas sociedades médicas.
+
+## Os ensaios randomizados
+
+A literatura experimental seguiu trajetória diferente. Pequenos ensaios randomizados ao longo dos anos 2000 mostraram resultados inconsistentes ou negativos em desfechos individuais. A meta-análise umbrella de Theodoratou [-@Theodoratou2014Umbrella] confronta sistematicamente meta-análises observacionais e meta-análises de ensaios randomizados para os 137 desfechos: a direção do efeito e a significância estatística concordavam entre os dois corpos de evidência apenas para peso ao nascer (em filhos de gestantes suplementadas). Para todos os demais — incluindo desfechos cardiovasculares, oncológicos, ósseos em adultos, e mortalidade — a evidência experimental não confirmava o sinal observacional.
+
+O ensaio decisivo veio em 2018, com o VITAL [-@Manson2019VITAL]. Manson e colaboradores randomizaram 25.871 participantes adultos, distribuídos em desenho fatorial 2x2, para receber vitamina D₃ 2.000 UI por dia ou placebo, e em paralelo ômega-3 marinho 1 g por dia ou placebo. Os desfechos primários eram câncer invasivo de qualquer tipo e eventos cardiovasculares maiores (composto de infarto, acidente vascular ou morte cardiovascular). Após seguimento mediano de 5,3 anos, vitamina D não reduziu o risco de nenhum dos desfechos primários: razão de risco para câncer de 0,96 (IC 95%: 0,88--1,06); razão de risco para evento cardiovascular maior de 0,97 (IC 95%: 0,85--1,12). Análises de desfechos secundários por sítio de câncer e tipo de evento cardiovascular foram igualmente nulas. Mortalidade total: razão de risco 0,99 (IC 95%: 0,87--1,12).
+
+Em paralelo, estudos de **randomização mendeliana** — método que usa variantes genéticas associadas a níveis de 25(OH)D como instrumentos para inferir causalidade — falharam em demonstrar que a redução genética da concentração de 25(OH)D produz aumento correspondente de risco cardiovascular ou de outras condições. Zittermann e Pilz [-@Zittermann2019VitaminD] sintetizam essa convergência: meta-análises de ensaios randomizados, mesmo em subgrupos com 25(OH)D baixo na linha de base, e estudos de randomização mendeliana, ambos apontam para ausência de efeito causal da suplementação ou da redução genética de 25(OH)D sobre desfechos cardiovasculares.
+
+A triangulação produzia, então, três fontes de evidência apontando para uma mesma direção (efeito nulo no nível populacional) por mecanismos de viés diferentes — ensaios randomizados controlam confundimento por desenho, randomização mendeliana usa variantes genéticas como instrumentos não confundidos por estilo de vida. A robustez da convergência permitiu que a interpretação causal das observacionais fosse formalmente revisada.
+
+## A leitura mais cuidadosa que se seguiu
+
+A reformulação interpretativa de Autier e colaboradores [-@Autier2014VitaminD] é hoje a leitura predominante: **25(OH)D baixo é, em larga medida, marcador de doença e de hábitos não saudáveis, e não causa primária dela**. Vários mecanismos de causalidade reversa ou de confundimento operam simultaneamente.
+
+Primeiro, **inflamação sistêmica reduz 25(OH)D circulante**. Citocinas pró-inflamatórias diminuem a 25-hidroxilase hepática e aumentam o catabolismo da vitamina D. Doenças com componente inflamatório crônico — câncer, doença cardiovascular, doença hepática, doença renal, infecções crônicas — produzem, por essa via, redução da 25(OH)D na fase pré-clínica e clínica. A direção da causalidade é da doença para o nível, não o oposto.
+
+Segundo, **estilo de vida sedentário e obesidade** correlacionam-se com 25(OH)D baixo. Obesos têm vitamina D sequestrada no tecido adiposo, com 25(OH)D circulante mais baixa para a mesma ingestão. Sedentários têm menos exposição solar (passam menos tempo ao ar livre, frequentemente). Ambos são fortes determinantes independentes de doença cardiovascular, cancer e mortalidade, e o ajuste estatístico para cada um deles, sem ajuste para o outro ou para terceiros não medidos, deixa confundimento residual relevante.
+
+Terceiro, **doenças com restrição de mobilidade reduzem exposição solar**. Indivíduos em fase pré-clínica de doença grave passam mais tempo em casa, têm 25(OH)D menor por essa via, e em seguimento desenvolvem o desfecho — não pela vitamina D, mas pela doença que já estava em curso quando a 25(OH)D foi medida.
+
+A síntese contemporânea separa, com clareza, dois cenários clínicos. **Deficiência verdadeira em populações específicas** — pacientes com osteomalácia, malabsorção, uso crônico de corticoide, doença óssea metabólica, recém-nascidos amamentados sem exposição solar — exige tratamento, e a suplementação tem indicação clínica direta. **Suplementação populacional para prevenção primária de doença sistêmica** em adultos saudáveis com 25(OH)D moderadamente baixa carece de suporte experimental, e o VITAL é o maior teste disponível dessa hipótese específica.
+
+## Lição metodológica
+
+A história da vitamina D é, talvez, o exemplo contemporâneo mais didático do problema da **causalidade reversa**. A magnitude e consistência das associações observacionais não decorreram primariamente de viés do usuário saudável (como na terapia de reposição hormonal) ou de extrapolação alimentar inválida (como no betacaroteno). A explicação principal é mais sutil: o marcador biológico medido nos estudos era ele mesmo afetado pela doença em curso, e o ajuste estatístico não conseguia separar essa contribuição da contribuição direta do nível como causa.
+
+A randomização mendeliana, ao usar variantes genéticas como instrumento, transforma o problema. Variantes genéticas determinantes de 25(OH)D baseline (variantes em CYP2R1, GC, DHCR7) são fixadas ao nascer, antes de qualquer doença em curso, e portanto não podem ser causadas pela doença que se quer estudar. Quando essas variantes não predizem desfechos, a inferência de causalidade reversa para os achados observacionais ganha sustentação independente. A convergência entre RCT e MR é um exemplo canônico de **triangulação** no sentido formalizado por Savitz, Pearce e Rothman [-@Savitz2025Considerations] — duas fontes de evidência com vieses estruturalmente distintos apontando para a mesma conclusão.
+
+A segunda lição é a importância de **separar nível populacional do nível individual** no manejo clínico. Que a suplementação populacional para prevenção primária seja sem benefício demonstrado não significa que a deficiência clínica em pacientes com indicação específica deva ser ignorada. A pergunta epidemiológica — vitamina D causa doença na população? — é diferente da pergunta clínica — este paciente, com este perfil, beneficia-se desta intervenção? A confusão entre essas perguntas, em direções opostas, contribuiu tanto para a expansão indevida da prescrição preventiva nos anos 2000 quanto para o eventual ceticismo clínico mais tarde, com o risco simétrico de subtratar deficiência verdadeira.
+
+Os investigadores que produziram a literatura observacional sobre vitamina D realizaram trabalho cuidadoso. A inferência que emergiu da agregação dessa literatura — que a deficiência de vitamina D é causa generalizada de doença — apenas se mostrou frágil quando confrontada com tipos diferentes de evidência. A correção interpretativa que se seguiu é exemplar do funcionamento da epidemiologia metodológica contemporânea: nenhuma das partes errou no que fazia; a combinação de fontes independentes revelou a estrutura da relação.
+
+## Para discussão em sala
+
+1. As associações observacionais entre 25(OH)D baixo e múltiplas doenças foram replicadas em centenas de estudos. O VITAL e estudos de randomização mendeliana não confirmam efeito causal da suplementação. Discuta como decidir, na prática clínica, entre as duas leituras possíveis: "a observação está errada" *vs* "a observação está certa, mas não é a vitamina D que está causando o efeito".
+
+2. Em um adulto saudável de 50 anos, com 25(OH)D de 22 ng/mL (considerada "insuficiente" por algumas diretrizes), o que fazer? Discuta a posição clínica baseada em (a) evidência atual de eficácia da suplementação para prevenção, (b) evidência de segurança da suplementação em doses moderadas, (c) custos e implicações para o sistema de saúde.
+
+3. Mesmo com VITAL e randomização mendeliana negativos, persiste discussão sobre se subgrupos específicos podem se beneficiar — gestantes, populações com obesidade, pessoas com pele mais pigmentada em latitudes altas, idosos institucionalizados. Como avaliar criticamente os ensaios subsequentes que testam essas hipóteses específicas? Que critérios para acreditar em achado positivo em subgrupo após resultado negativo no estudo principal?

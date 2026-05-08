@@ -1,0 +1,155 @@
+---
+title: "Sobre este projeto"
+subtitle: "Informações sobre o autor, metodologia e filosofia por trás do site"
+---
+
+## Autor
+
+**Henrique Alvarenga da Silva**
+
+Médico psiquiatra. Técnico Administrativo Educacional na Universidade Federal de São João del-Rei (UFSJ) e professor na AFYA Educacional. Especialista em Psiquiatria e Psicopatologia, com foco em metodologia de pesquisa e educação médica baseada em evidências.
+
+::: {.contact-links}
+[🌐 Site pessoal](https://www.henriquealvarenga.com){.contact-link}
+[📧 E-mail](mailto:henrique@ufsj.edu.br){.contact-link}
+[🆔 ORCID](https://orcid.org/0000-0001-9799-5240){.contact-link}
+[📚 GitHub](https://github.com/henriquealvarenga){.contact-link}
+:::
+
+
+
+
+
+::: {.about-section}
+## Metodologia e tecnologias
+
+Este recurso foi construído usando ferramentas de código aberto e ciência aberta:
+
+::: {.tech-stack}
+::: {.tech-item}
+#### Escrita & Estrutura
+**Quarto** — Sistema de publicação científica  
+**Markdown** — Linguagem de marcação  
+**BibTeX** — Gerenciamento bibliográfico
+:::
+
+::: {.tech-item}
+#### Desenvolvimento
+**Positron IDE** — Ambiente integrado  
+**Git/GitHub** — Controle de versão  
+**GitHub Pages** — Hospedagem
+:::
+
+::: {.tech-item}
+#### Pesquisa
+**PubMed** — Base bibliográfica  
+**Zotero** — Gerenciamento de referências  
+**DOI verification** — Validação de citações
+:::
+
+::: {.tech-item}
+#### Design
+**CSS moderno** — Interface responsiva  
+**Inter typography** — Tipografia limpa  
+**SVG graphics** — Ícones escaláveis
+:::
+:::
+
+### Inteligência artificial
+
+O desenvolvimento contou com auxílio de IA generativa:
+
+- **Claude** (Anthropic) — assistência na estruturação, código CSS, organização bibliográfica
+- **PubMed search automation** — busca sistemática de literatura recente
+
+::: {.callout-note}
+## Transparência sobre uso de IA
+
+A IA foi utilizada como ferramenta de apoio, não substituto do trabalho intelectual. Toda informação foi verificada, todas as referências conferidas individualmente, todos os DOIs validados. A responsabilidade pelo conteúdo final é integralmente do autor.
+:::
+:::
+
+::: {.about-section}
+## Repositório e colaboração
+
+O código-fonte está disponível publicamente:
+
+🔗 **Repositório:** [github.com/henriquealvarenga/causalidade](https://github.com/henriquealvarenga/causalidade)
+
+Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
+- Correções bibliográficas
+- Sugestões de novos casos paradigmáticos
+- Melhorias na interface
+- Traduções para outras línguas
+:::
+
+::: {.about-section}
+## Outros projetos do autor
+
+- [Tipos de Dados em Saúde](www.henriquealvarenga.com/tiposdedados) — Classificação e organização de dados para pesquisa
+- [Dos Dados aos Gráficos](www.henriquealvarenga.com/graficos) — Visualização estatística para profissionais de saúde    
+- [Revisões de Literatura em Saúde](www.henriquealvarenga.com/literature-review) — Metodologia para revisão sistemática
+- [Manual Básico da Linguagem R](www.henriquealvarenga.com/manual-r) — Introdução à programação estatística
+:::
+
+::: {.about-section}
+## Licenciamento
+
+Este trabalho está licenciado sob **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
+
+**Você pode:**
+- **Compartilhar** — copiar e redistribuir o material
+- **Adaptar** — remixar, transformar e criar a partir do material
+
+**Sob as condições:**
+- **Atribuição** — dar crédito apropriado
+- **NãoComercial** — não usar para fins comerciais  
+- **CompartilhaIgual** — distribuir contribuições sob a mesma licença
+
+🔗 [Texto completo da licença](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
+:::
+
+::: {.about-section}
+## Citação sugerida
+
+**ABNT:**
+SILVA, Henrique Alvarenga da. **Da Correlação à Causalidade: O Difícil Caminho da Evidência Científica**. Recurso educacional aberto, 2026. Disponível em: https://henriquealvarenga.com/correlacao-causalidade/
+
+**APA 7ª ed.:**
+Silva, H. A. (2026). *Da correlação à causalidade: O difícil caminho da evidência científica*. Recurso educacional aberto. https://henriquealvarenga.com/correlacao-causalidade/
+
+**BibTeX:**
+```
+@misc{silva2026correlacao,
+  author = {Silva, Henrique Alvarenga da},
+  title = {Da Correlação à Causalidade: O Difícil Caminho da Evidência Científica},
+  year = {2026},
+  url = {https://henriquealvarenga.com/correlacao-causalidade/},
+  note = {Recurso educacional aberto}
+}
+```
+:::
+
+::: {.about-section}
+## Agradecimentos
+
+Aos estudantes de medicina que, com suas perguntas sobre "essa nova descoberta que saiu no jornal", motivaram a criação deste material. Aos colegas que compartilharam experiências sobre como explicar "reversões científicas" aos pacientes sem abalar sua confiança na medicina.
+
+À comunidade de medicina baseada em evidências, que nos ensina que decepcionar-se com a evidência é parte do rigor científico, não sinal de fracasso.
+:::
+
+::: {.about-section}
+## Contato
+
+Dúvidas, sugestões ou correções:
+
+📧 [henriquealvarenga@ufsj.edu.br](mailto:henriquealvarenga@ufsj.edu.br)
+
+Ou via *issues* no repositório GitHub.
+
+---
+
+*Última atualização: Maio de 2026*
+:::
+
+

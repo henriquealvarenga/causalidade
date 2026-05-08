@@ -1,0 +1,47 @@
+# ==============================================================
+# .gitignore — Da Correlação à Causalidade
+# Quarto + GitHub Pages (servido a partir de /docs em main)
+# ==============================================================
+
+# --- Cache do Quarto (regenerável) ---
+.quarto/
+_freeze/
+
+# --- macOS ---
+.DS_Store
+**/.DS_Store
+
+# --- Backups e temporários ---
+*.bak
+*~
+*.swp
+*.tmp
+*.orig
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+.Rproj.user/
+
+# --- R ---
+*.Rproj
+.Rhistory
+.Rdata
+.RData
+.Ruserdata
+*.Rcheck/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.env
+.venv
+venv/
+
+# --- Logs e ambientes locais ---
+*.log
+node_modules/
+
+# --- PDFs (cópias locais de artigos para consulta — não distribuir) ---
+references/PDF/
+*.pdf

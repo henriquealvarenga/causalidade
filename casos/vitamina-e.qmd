@@ -1,0 +1,50 @@
+---
+title: "Vitamina E"
+subtitle: "Antioxidantes e o limite da plausibilidade biológica"
+---
+
+## Contexto clínico
+
+A formulação da hipótese do estresse oxidativo na aterogênese, consolidada nos anos 1980, foi um dos momentos mais convincentes da articulação entre biologia básica e prevenção clínica. A oxidação de partículas de LDL — modificação química que altera sua reconhecibilidade pelos receptores hepáticos e facilita captura por macrófagos na íntima arterial — passou a ser considerada passo necessário no início da placa aterosclerótica. A vitamina E, alfa-tocoferol, atua como antioxidante lipofílico, integrando-se nas membranas celulares e nas próprias lipoproteínas onde a oxidação ocorre. Em ensaios *in vitro* e em modelos animais, suplementação de vitamina E reduzia a oxidação de LDL e marcadores correlatos.
+
+A inferência clínica seguinte teve apelo lógico imediato. Se a oxidação de LDL é causa proximal de aterosclerose, e se vitamina E reduz oxidação, então suplementação com vitamina E deveria reduzir eventos cardiovasculares. A hipótese reunia três elementos que normalmente se buscam juntos: mecanismo identificado, intervenção que atinge o mecanismo, e desfecho clinicamente relevante na ponta. Faltava, como sempre, o teste experimental.
+
+A vitamina E em doses suplementares (tipicamente 200--800 UI por dia, muito acima da ingestão dietética usual) tornou-se, ao longo dos anos 1990, um dos suplementos mais consumidos nos Estados Unidos. Estima-se que mais de 10% da população adulta americana usasse suplementação regular no auge da prática.
+
+## A evidência observacional
+
+Em maio de 1993, o *New England Journal of Medicine* publica em uma mesma edição dois estudos prospectivos de grande porte. Stampfer e colaboradores [-@Stampfer1993VitaminEWomen] reportam, no Nurses' Health Study, que mulheres no quintil superior de ingestão de vitamina E tinham risco relativo ajustado de 0,66 (IC 95%: 0,50--0,87) para doença coronariana maior em comparação com o quintil inferior. A maior parte da variabilidade na ingestão e da redução de risco era atribuível ao consumo de suplementos. Mulheres que tomavam suplementos por mais de dois anos tinham risco relativo de 0,59 (IC 95%: 0,38--0,91), após ajuste para idade, tabagismo, fatores de risco coronarianos e uso de outros antioxidantes.
+
+No mesmo número, Rimm e colaboradores [-@Rimm1993VitaminEMen] reportam achados consistentes em homens — o Health Professionals Follow-up Study, com 39.910 profissionais americanos. Para homens consumindo mais de 60 UI por dia, o risco relativo multivariado era 0,64 (IC 95%: 0,49--0,83) em comparação com aqueles consumindo menos de 7,5 UI por dia. Para os que tomavam suplemento de pelo menos 100 UI por dia por dois anos ou mais, o risco relativo era 0,63 (IC 95%: 0,47--0,84).
+
+Os dois estudos são cuidadosos em sua linguagem: declaram explicitamente que "esses dados prospectivos não provam relação causal" e que "ensaios randomizados de vitamina E em prevenção primária e secundária estão sendo conduzidos; recomendações de política pública sobre uso ampliado de vitamina E devem aguardar resultados desses ensaios". A advertência foi com frequência ignorada. A combinação de mecanismo plausível, magnitude do efeito e consistência entre populações masculina e feminina foi tratada por parte da literatura clínica como evidência suficiente, e a prescrição de suplementação ampliou-se nas décadas seguintes.
+
+## Os ensaios randomizados
+
+O GISSI-Prevenzione [-@GISSI1999Prevenzione], publicado em 1999, randomizou 11.324 sobreviventes de infarto agudo do miocárdio recente (até três meses) para receber suplementação com ômega-3 polinsaturado, vitamina E (300 mg/dia), ambos ou nenhum, por 3,5 anos. Para o desfecho composto primário (morte, infarto não fatal, acidente vascular), vitamina E **não produziu redução significativa** de risco; o ômega-3 sim, em magnitude modesta. Foi o primeiro ensaio randomizado de grande porte a falhar em confirmar o sinal observacional.
+
+O HOPE [-@Yusuf2000HOPE], publicado em 2000, foi mais decisivo. Randomizou 9.541 pacientes de alto risco cardiovascular (com doença cardiovascular estabelecida ou diabetes mais um fator de risco) para 400 UI diárias de vitamina E *versus* placebo, em desenho fatorial 2x2 que também testava ramipril. Após 4,5 anos médios, a vitamina E não produziu efeito significativo no desfecho composto primário (RR 1,05; IC 95%: 0,95--1,16) nem em qualquer desfecho secundário cardiovascular. O sinal observacional não se reproduziu em condições experimentais.
+
+Em 2005, Miller e colaboradores [-@Miller2005VitaminEMortality] publicam meta-análise de 19 ensaios randomizados, totalizando 135.967 participantes, examinando a relação dose-resposta entre suplementação com vitamina E e mortalidade por todas as causas. O resultado pivotou a discussão: doses iguais ou superiores a 400 UI por dia associaram-se a aumento estatisticamente significativo de mortalidade total (diferença de risco agrupada de 39 por 10.000 pessoas; IC 95%: 3--74), e a análise de dose-resposta indicava que o aumento começava em torno de 150 UI por dia. A hipótese antioxidante, longe de produzir benefício, agora suscitava preocupação com dano em doses populares.
+
+Em 2011, Klein e colaboradores [-@Klein2011SELECT] publicam o seguimento estendido do SELECT (Selenium and Vitamin E Cancer Prevention Trial), envolvendo 35.533 homens, originalmente desenhado para testar prevenção de câncer de próstata. O resultado primário tinha sido neutro em 2008. Com seguimento adicional, a vitamina E (400 UI/dia) **aumentou** significativamente o risco de câncer de próstata em comparação com placebo (HR 1,17; IC 99%: 1,004--1,36; *p* = 0,008). O efeito foi modesto em magnitude absoluta — 1,6 caso adicional por 1.000 pessoas-ano — mas reforçou o padrão emergente: em vez de proteção, dano.
+
+## Lição metodológica
+
+A história da vitamina E é, em alguns aspectos, mais inquietante que a da terapia hormonal. Não havia, no caso da vitamina E, mecanismo evidente para confundimento residual de magnitude tão grande quanto o necessário para inverter o sinal — usuários e não usuários de suplemento podiam diferir em comportamentos saudáveis, mas a expectativa razoável era de atenuação, não inversão. A explicação contemporânea preferida combina três elementos.
+
+O primeiro é, ainda assim, **viés do usuário saudável**. As coortes observacionais comparavam usuários voluntários de suplementos — pessoas que ativamente escolheram pagar por algo que esperavam beneficiá-las — com não usuários. Essa autosseleção carrega correlação com outros comportamentos protetores não totalmente capturados pelo ajuste estatístico. A magnitude do confundimento residual provavelmente foi suficiente para produzir as razões de risco em torno de 0,6 observadas, sem necessidade de qualquer efeito biológico real.
+
+O segundo é a **diferença entre escala dietética e escala suplementar**. A ingestão dietética de vitamina E em populações ocidentais varia tipicamente entre 5 e 30 UI por dia. Os ensaios usaram doses 10 a 50 vezes maiores. Há razões fisiológicas para que vitamina E em doses suplementares se comporte de modo diferente da vitamina E em sua matriz alimentar — alteração da farmacocinética de outros tocoferóis, possíveis efeitos pró-oxidantes em concentrações teciduais elevadas, interferência com vias de sinalização que dependem de espécies reativas de oxigênio em níveis fisiológicos. A inferência observacional sobre dietas naturais não autorizava conclusão sobre suplementação isolada.
+
+O terceiro é a **limitação intrínseca do raciocínio mecanístico**. Mesmo que a oxidação de LDL seja parte do processo aterogênico, e mesmo que vitamina E reduza essa oxidação, a inferência de que reduzir a oxidação reduz desfechos clínicos depende de premissas adicionais sobre quantos outros caminhos contribuem para a aterogênese, sobre quanto da progressão da doença é determinada na fase em que a vitamina E age, e sobre se a intervenção tem efeitos paralelos não considerados. A plausibilidade biológica é critério necessário, não suficiente — observação que Hill já fazia em 1965, e que Ioannidis [-@Ioannidis2016ExposureWide] retoma com ênfase ao avaliar criticamente o peso atribuído a esse critério em décadas de prática.
+
+Os pesquisadores que conduziram os estudos observacionais sobre vitamina E publicaram dados sólidos com interpretação cautelosa — o cuidado da linguagem dos artigos originais é, em retrospecto, mais defensável do que parte da prática clínica e da política nutricional que se seguiu. O caso ilustra que a produção rigorosa de dados é condição necessária mas não suficiente: a tradução de evidência observacional em política precisa do passo experimental, e quando esse passo não vem, a comunidade clínica precisa preservar a contenção.
+
+## Para discussão em sala
+
+1. Em 1993, depois da publicação simultânea de Stampfer e Rimm, era razoável recomendar suplementação com vitamina E para prevenção cardiovascular? E em 2000, depois do HOPE? Discuta como o estado da evidência se modificou e como a recomendação clínica deveria ter acompanhado essa modificação.
+
+2. A hipótese do estresse oxidativo continua vigente como modelo de aterogênese. Como conciliar a permanência do mecanismo com a falha experimental da intervenção que o tinha como alvo? Que isso ensina sobre a relação entre alvo molecular plausível e desfecho clínico?
+
+3. Em 2024, multivitamínicos contendo vitamina E em doses entre 30 e 400 UI continuam sendo amplamente vendidos e consumidos, frequentemente como prevenção genérica. Discuta a posição ética do médico clínico ao orientar pacientes que pedem essa suplementação: o que dizer com base no estado atual da evidência, e como dizer.

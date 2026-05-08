@@ -1,0 +1,50 @@
+---
+title: "Terapia de Reposição Hormonal"
+subtitle: "Do Nurses' Health Study ao WHI"
+---
+
+## Contexto clínico
+
+A terapia hormonal pós-menopáusica entrou na prática clínica nos Estados Unidos em meados do século XX como tratamento para sintomas vasomotores associados à transição menopausal — ondas de calor, sudorese noturna, distúrbios do sono — e para prevenção de osteoporose. Os efeitos sintomáticos são observáveis em curto prazo e replicáveis. A pergunta que se sobrepôs nas décadas seguintes foi distinta e mais ambiciosa: a reposição hormonal poderia também prevenir doença cardiovascular em mulheres pós-menopáusicas?
+
+A hipótese tinha sustentação biológica plausível. Estrogênio modifica favoravelmente o perfil lipídico, aumentando HDL e reduzindo LDL; tem efeitos vasodilatadores diretos e modula marcadores inflamatórios endoteliais; mulheres pré-menopáusicas têm incidência de doença coronariana sistematicamente menor que homens da mesma idade, diferença que se atenua após a menopausa natural. O mecanismo — estrogênio como cardioprotetor — articulava em uma narrativa única observações epidemiológicas, dados laboratoriais e um efeito biológico mensurável.
+
+A partir dos anos 1980, essa articulação produziu prescrição ampliada de terapia estrogênica isolada (em mulheres histerectomizadas) ou combinada com progestágeno (em mulheres com útero intacto, para prevenção de hiperplasia endometrial) com o objetivo declarado de prevenção primária e secundária de doença coronariana.
+
+## A evidência observacional
+
+A base de evidência observacional cresceu durante quase duas décadas. O Nurses' Health Study, coorte de mais de cem mil enfermeiras americanas seguidas com questionários periódicos desde 1976, foi o estudo prospectivo de maior porte. Em 1985, Stampfer e colaboradores [-@Stampfer1985Prospective] reportam, em 32.317 mulheres pós-menopáusicas inicialmente livres de doença coronariana, risco relativo ajustado de 0,3 entre usuárias atuais de estrogênio comparadas a nunca-usuárias. O ajuste contemplava tabagismo, hipertensão, diabetes, colesterol, história familiar de infarto, uso prévio de contraceptivos e obesidade.
+
+Em 1991, com 10 anos de seguimento e 224 acidentes vasculares e 405 casos de doença coronariana maior, o mesmo grupo [-@Stampfer1991Postmenopausal] reporta risco relativo ajustado de 0,56 (IC 95%: 0,40--0,80) para doença coronariana maior em usuárias atuais. O efeito persistia em análises restritas a subpopulações de baixo risco — não fumantes, sem diabetes, sem hipertensão — e em análises restritas a mulheres recentemente examinadas, o que diminuía suspeita de viés de detecção. Estudos observacionais subsequentes em outras coortes replicaram a magnitude e direção do achado.
+
+A interpretação dominante nos anos 1990 organizava-se em três pilares: a coerência do mecanismo biológico; a consistência entre estudos observacionais; e a plausibilidade da magnitude do efeito (uma redução de aproximadamente 40 a 50% no risco coronariano). O ponto que ainda faltava era o ensaio randomizado.
+
+## Os ensaios randomizados
+
+O HERS (Heart and Estrogen/progestin Replacement Study), publicado por Hulley e colaboradores [-@Hulley1998HERS] em 1998, foi o primeiro grande ensaio randomizado de terapia hormonal combinada para **prevenção secundária** — 2.763 mulheres pós-menopáusicas com doença coronariana estabelecida, randomizadas para estrogênio conjugado equino mais acetato de medroxiprogesterona ou placebo. Após 4,1 anos de seguimento, o resultado foi nulo no desfecho primário (infarto não fatal ou morte por doença coronariana): 172 eventos no grupo hormônio *vs* 176 no placebo (RH 0,99; IC 95%: 0,80--1,22). Mais inquieto, o ensaio detectou padrão temporal: excesso de eventos no primeiro ano de tratamento e redução nos anos 4 e 5. Eventos tromboembólicos venosos e doença vesicular aumentaram significativamente. O efeito favorável sobre o perfil lipídico — LDL 11% menor, HDL 10% maior no grupo hormônio — não se traduziu em benefício clínico.
+
+Em 2002, o braço de estrogênio mais progestágeno do Women's Health Initiative (WHI), publicado pelo grupo de redação dos investigadores [-@Rossouw2002WHI], é interrompido precocemente. O ensaio havia randomizado 16.608 mulheres pós-menopáusicas saudáveis com útero intacto para a mesma combinação testada no HERS *versus* placebo, em desenho de **prevenção primária** com 8,5 anos planejados de seguimento. Após 5,2 anos, o comitê de monitoramento decide pela parada porque a estatística para câncer de mama invasivo cruzou a fronteira de parada por dano e o índice global indicava riscos excedendo benefícios. As razões de risco encontradas: doença coronariana 1,29 (IC 95%: 1,02--1,63); câncer de mama 1,26 (1,00--1,59); acidente vascular 1,41 (1,07--1,85); embolia pulmonar 2,13 (1,39--3,25). Houve redução de fraturas de quadril e câncer colorretal, mas o balanço global era desfavorável.
+
+A interrupção do WHI em 2002 inverteu, em poucos meses, a recomendação clínica que havia se consolidado ao longo de duas décadas. As prescrições de terapia hormonal nos Estados Unidos caíram em mais de 50% no ano seguinte.
+
+## A leitura mais cuidadosa que se seguiu
+
+A primeira reação foi binária: evidência observacional errada, evidência experimental certa. Análises posteriores — em particular o seguimento estendido publicado por Manson e colaboradores [-@Manson2013WHIExtended] em 2013, com 13 anos cumulativos — mostraram que a história era mais matizada. A divisão pré-especificada por faixa etária revelou heterogeneidade significativa: mulheres com 50 a 59 anos no momento da randomização tiveram resultados mais favoráveis para mortalidade por todas as causas e infarto do miocárdio do que mulheres mais velhas. Os benefícios do braço de estrogênio isolado (em mulheres histerectomizadas) eram mais favoráveis que os do braço combinado. O seguimento de 18 anos para mortalidade [-@Manson2017WHIMortality] confirmou ausência de associação entre terapia hormonal e mortalidade total na coorte agregada, mas com a heterogeneidade etária persistindo em análises pré-especificadas.
+
+A leitura contemporânea reconhece que a discrepância entre evidência observacional e WHI tem várias contribuições simultâneas. O **viés do usuário saudável** é a mais imediata: nas coortes observacionais, mulheres em uso de terapia hormonal eram, em média, mais brancas, mais educadas, mais magras, mais ativas, com acesso mais regular a cuidados preventivos — fatores associados independentemente a menor risco cardiovascular e não totalmente capturados pelo ajuste estatístico. O **viés de prevalentes** soma-se a esse: a coorte em uso prolongado de terapia hormonal são as sobreviventes de eventos precoces, eventualmente com perfil cardiovascular favorável distinto. Há ainda diferença plausível na **idade de início** entre as populações: usuárias do Nurses' Health Study tipicamente começavam a terapia próximo da menopausa; participantes do WHI tinham idade média de 63 anos no início do ensaio, vários anos após a transição menopausal — janela de tempo durante a qual placas ateroscleróticas podem ter se desenvolvido e podem responder de modo diferente ao estrogênio.
+
+A síntese contemporânea separa indicações com clareza. Para sintomas vasomotores em mulheres recentemente menopáusicas, a terapia hormonal continua indicada com balanço favorável de riscos e benefícios em curto prazo. Para prevenção primária ou secundária de doença cardiovascular, a recomendação é contrária — o WHI estabeleceu que o uso com essa indicação produz, em populações comparáveis às estudadas, mais dano que benefício.
+
+## Lição metodológica
+
+Os investigadores que conduziram décadas de estudos observacionais sobre terapia hormonal e doença cardiovascular trabalharam com rigor compatível com o estado da arte da época, e seus dados — vistos como dados — não eram falhos. O que falhou foi a **inferência causal a partir desses dados**, em específico, a hipótese implícita de que ajuste para confundidores conhecidos era suficiente para isolar o efeito da terapia. Os confundidores não medidos — comportamentos protetores agregados na figura da "usuária saudável" — operaram em direção positiva, inflando uma associação que parecia robusta a inspeção convencional.
+
+A história da terapia hormonal cristalizou três lições que organizam a epidemiologia observacional contemporânea. A primeira é estrutural: ajuste estatístico para confundidores medidos não controla confundidores não medidos, e a magnitude desse confundimento residual frequentemente é suficiente para inverter, e não apenas atenuar, o sinal observado. A análise de viés quantitativa formaliza essa preocupação. A segunda é a virada para a noção de *target trial*: a pergunta clínica precisa especificar exatamente que população, em que momento, com que regime, comparada a que alternativa — e a distância entre o protocolo emulado e qualquer estudo observacional precisa ser explicitada. A terceira é a importância da heterogeneidade: o efeito médio de uma intervenção pode mascarar subpopulações em que o efeito é benéfico ou prejudicial, e análise pré-especificada por subgrupos relevantes preserva informação que a estimativa agregada elimina.
+
+## Para discussão em sala
+
+1. As coortes observacionais (NHS) e o WHI estudaram populações diferentes em momentos diferentes do ciclo menopausal. Discuta em que medida a discrepância entre os achados pode ser atribuída a confundimento por usuário saudável *vs* heterogeneidade real entre populações com diferentes idades de início. Como decidir entre essas duas explicações?
+
+2. Antes de 2002, era razoável recomendar terapia hormonal para prevenção cardiovascular com base na evidência observacional disponível? Argumente considerando o que se sabia, mas também considerando o que metodologicamente já era possível antecipar como limitação.
+
+3. A terapia hormonal continua indicada para sintomas vasomotores em mulheres recentemente menopáusicas. Como conciliar essa recomendação com os achados desfavoráveis do WHI? O que esse caso ensina sobre a relação entre desfecho de eficácia e desfecho de segurança em uma mesma intervenção?

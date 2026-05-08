@@ -1,0 +1,27 @@
+---
+title: "Casos clássicos"
+subtitle: "Seis exemplos para discussão metodológica em sala"
+---
+
+## Sobre esta seção
+
+Os casos abaixo são exemplos paradigmáticos da literatura clínica recente em que a evidência observacional sustentou uma expectativa de efeito que ensaios randomizados subsequentes mataram, modificaram ou complicaram. Cada caso é discutido com estrutura comum — contexto clínico, evidência observacional, evidência experimental, lição metodológica — e finaliza com perguntas para discussão em sala. As referências são primárias e verificadas em PubMed.
+
+A intenção pedagógica não é apresentar uma lista de "estudos que erraram". A maior parte dos investigadores citados trabalhou dentro do estado da arte da época e produziu dados sólidos; o que mudou foi a qualidade da inferência possível à medida que evidências de tipos diferentes se acumularam. Os casos servem para tornar concretos os argumentos abstratos da seção [Causalidade](../01-antes-epidemiologia.qmd) — confundimento por usuário saudável, causalidade reversa, falácia do componente ativo, problema do desfecho substituto, comparador e formulação como variáveis ocultas.
+
+## Os seis casos
+
+| Caso | Tema metodológico central |
+|------|---------------------------|
+| [Terapia de reposição hormonal](trh.qmd) | Confundimento por usuário saudável; heterogeneidade por idade; do NHS ao WHI |
+| [Vitamina E](vitamina-e.qmd) | Plausibilidade biológica como critério necessário mas não suficiente; dose alta e dano |
+| [Betacaroteno](betacaroteno.qmd) | Falácia do componente ativo; resposta heterogênea por população (fumantes *vs* não fumantes) |
+| [Vitamina D](vitamina-d.qmd) | Causalidade reversa; triangulação entre RCT e randomização mendeliana |
+| [Ômega-3](omega-3.qmd) | Caso ainda em evolução; importância da formulação e do comparador; sinal de fibrilação atrial |
+| [Antiarrítmicos pós-IAM (CAST)](cast.qmd) | Problema do desfecho substituto; o ensaio que detectou e parou o dano |
+
+## Como usar em aula
+
+Cada caso pode ser lido isoladamente. Para uso didático sequencial, sugere-se a ordem da tabela acima — começa com TRH (o caso paradigmático de confundimento), avança por mecanismos cada vez mais específicos, e fecha com CAST (o exemplo mais limpo do problema do substituto).
+
+Os exercícios ao final de cada caso são pensados para discussão em pequeno grupo, com 20--30 minutos por caso. Não há respostas-modelo: a maior parte das perguntas admite resposta defensável em mais de uma direção, e o objetivo da discussão é articular argumentos.

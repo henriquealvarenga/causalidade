@@ -1,0 +1,50 @@
+---
+title: "Betacaroteno"
+subtitle: "Quando a suplementação faz o oposto do esperado"
+---
+
+## Contexto clínico
+
+A associação entre consumo regular de frutas e vegetais e menor incidência de câncer foi observada de modo consistente em estudos epidemiológicos ao longo dos anos 1970 e 1980, com sinal mais forte para câncer de pulmão. Coortes prospectivas e estudos caso-controle mostravam, em populações diversas, riscos relativos da ordem de 0,5 a 0,7 para o quintil superior de ingestão em comparação com o inferior. Quando se buscavam compostos plausivelmente responsáveis pelo efeito, os carotenoides — pigmentos vegetais com propriedades antioxidantes — apareciam como candidatos naturais. O betacaroteno é o mais abundante deles, o mais facilmente medido em soro e o precursor metabólico da vitamina A.
+
+A inferência seguinte foi a que sustentou décadas de prática clínica e de política nutricional. Se vegetais ricos em betacaroteno estão associados a menor risco de câncer de pulmão, e se o betacaroteno tem propriedades antioxidantes capazes de neutralizar espécies reativas de oxigênio que danificam DNA, então betacaroteno purificado em forma de suplemento deveria, ele mesmo, reduzir o risco de câncer. A hipótese tinha plausibilidade biológica e congruência com observação epidemiológica.
+
+A população em que o efeito esperado seria mais relevante era a de fumantes — grupo com a maior incidência absoluta de câncer de pulmão e portanto a maior diferença absoluta a se ganhar com prevenção efetiva. Foi essa população, aliás, que dois grandes ensaios randomizados internacionais escolheram para testar a hipótese.
+
+## A evidência observacional
+
+A literatura observacional do início dos anos 1990 era consistente. Múltiplos estudos prospectivos mostravam concentrações séricas mais baixas de betacaroteno em pessoas que vieram a desenvolver câncer de pulmão; ingestão dietética estimada de carotenoides correlacionava-se inversamente com incidência. Em coortes específicas de fumantes, a associação era robusta — fumantes com ingestão dietética alta de betacaroteno tinham risco de câncer de pulmão até 30% menor que fumantes com ingestão baixa, ajustado para tabagismo cumulativo.
+
+A interpretação que dominava a discussão clínica organizava esses achados em uma narrativa lógica: a nicotina e demais componentes do tabaco geram estresse oxidativo persistente; o estresse oxidativo lesiona DNA das células bronquiais; o betacaroteno, antioxidante lipofílico que se acumula no tecido pulmonar, neutraliza radicais livres antes que eles produzam mutações iniciadoras. A intervenção esperada — suplementar fumantes com betacaroteno — parecia, simultaneamente, eticamente atraente (em uma população de alto risco em que a cessação tabágica era difícil) e biologicamente justificada.
+
+Os dois ensaios desenhados para testar essa expectativa tinham proteção e validade ética asseguradas: ambos foram randomizados, controlados por placebo, e tinham comitês de monitoramento independentes capazes de interromper o estudo se aparecesse dano. A precaução metodológica que justificou a condução dos ensaios é a mesma que permitiu detectar o resultado inesperado.
+
+## Os ensaios randomizados
+
+O Alpha-Tocopherol, Beta Carotene Cancer Prevention Study (ATBC) [-@ATBC1994] randomizou 29.133 fumantes finlandeses do sexo masculino, de 50 a 69 anos, para receber alfa-tocoferol (vitamina E, 50 mg/dia) isolado, betacaroteno (20 mg/dia) isolado, ambos, ou placebo, em desenho fatorial 2x2, por cinco a oito anos. Em 1994, o resultado é publicado e contraintuitivo. Ao longo do seguimento, foram diagnosticados 876 novos casos de câncer de pulmão. O alfa-tocoferol não produziu redução de incidência. **O betacaroteno aumentou** a incidência em 18% (IC 95%: 3--36%) em comparação com os que não o receberam. A mortalidade total foi 8% maior (IC 95%: 1--16%) entre os que receberam betacaroteno, atribuída sobretudo a mais mortes por câncer de pulmão e por doença coronariana isquêmica.
+
+O Beta Carotene and Retinol Efficacy Trial (CARET) [-@Omenn1996CARET] foi um esforço paralelo nos Estados Unidos, com desenho semelhante mas em população de risco ainda maior — 18.314 fumantes, ex-fumantes e trabalhadores expostos a asbesto, randomizados para receber 30 mg/dia de betacaroteno mais 25.000 UI de retinol, ou placebo. Em 1996, com seguimento médio de 4 anos, o ensaio é interrompido precocemente, 21 meses antes do previsto. O grupo em tratamento ativo apresentava risco relativo de 1,28 (IC 95%: 1,04--1,57) para câncer de pulmão; risco relativo de 1,17 (IC 95%: 1,03--1,33) para morte por qualquer causa; e risco relativo de 1,46 (IC 95%: 1,07--2,00) para morte por câncer de pulmão. O comitê de monitoramento entendeu que a evidência de dano já era suficiente, e a continuação do ensaio expunha pacientes a risco sem possibilidade de benefício.
+
+No mesmo número do *New England Journal of Medicine* em que o CARET é publicado, Hennekens e colaboradores [-@Hennekens1996PHS] reportam o resultado do Physicians' Health Study, ensaio randomizado de longo prazo em 22.071 médicos americanos do sexo masculino — 11% fumantes correntes, 39% ex-fumantes — recebendo 50 mg de betacaroteno em dias alternados ou placebo. Após 12 anos de seguimento, o estudo encontrou ausência de efeito: nem benefício nem dano para incidência de câncer, doença cardiovascular, ou mortalidade total. Em uma população majoritariamente de não fumantes, o suplemento foi neutro.
+
+A meta-análise de Bjelakovic e colaboradores [-@Bjelakovic2007Antioxidants], publicada na *JAMA* em 2007, agrega 47 ensaios de baixo risco de viés com 180.938 participantes e confirma o padrão. Suplementação com betacaroteno aumentou mortalidade total em 7% (IC 95%: 2--11%); vitamina A em 16% (IC 95%: 10--24%); vitamina E em 4% (IC 95%: 1--7%). Vitamina C e selênio foram neutros. O sinal de dano era pequeno em termos absolutos, mas consistente em meta-análise rigorosa.
+
+## Lição metodológica
+
+A história do betacaroteno é particularmente útil por sua simetria narrativa. A evidência observacional sustentava uma hipótese específica de proteção; a evidência experimental retornou, em duas populações independentes de alto risco, sinal de dano; em uma população de baixo risco, sinal nulo. Nenhuma combinação de viés do usuário saudável ou de confundimento residual usual explica essa configuração — em particular, a inversão de sinal em fumantes não decorre apenas de ajuste insuficiente. A explicação contemporânea aponta para três fenômenos sobrepostos.
+
+O primeiro é a **falácia do componente ativo**. Frutas e vegetais são matrizes alimentares complexas com centenas de compostos bioativos — outros carotenoides (alfa-caroteno, criptoxantina, luteína, licopeno), polifenóis, fibras, vitaminas, minerais, fitoquímicos diversos — que interagem entre si e com o microbioma intestinal. Atribuir a um único composto a totalidade do efeito observado para a matriz alimentar é, na maioria dos contextos, uma simplificação não justificada. Suplementar com o composto isolado, em doses muito acima das alcançáveis pela dieta, retira-o do contexto químico em que ele opera fisiologicamente.
+
+O segundo é a **interação com a biologia específica do hospedeiro**. Em fumantes, a fisiologia tecidual pulmonar difere — há estresse oxidativo crônico elevado, alteração de razões de oxidoredução, indução de enzimas metabólicas como o citocromo P450. Em concentrações teciduais elevadas, o betacaroteno pode inverter seu papel químico de antioxidante para pró-oxidante, especialmente em ambientes ricos em oxigênio — situação que ocorre justamente no parênquima pulmonar do fumante. A intervenção que parecia segura no modelo *in vitro* pode operar de modo oposto em vivo.
+
+O terceiro é o **viés do usuário saudável** atuando, ainda assim, na evidência observacional original. Pessoas que consomem mais frutas e vegetais diferem sistematicamente daquelas que consomem menos em uma variedade de comportamentos protetores — atividade física, hábito de não fumar (mesmo entre os classificados como fumantes, há gradação na intensidade), busca de cuidado preventivo. O ajuste estatístico controla parte dessa diferença, mas não toda. A magnitude do confundimento residual no caso da vitamina E é provavelmente suficiente para explicar parcela do sinal observacional.
+
+Os investigadores que conduziram tanto os estudos observacionais quanto os ensaios randomizados sobre betacaroteno trabalharam dentro do estado da arte de cada uma das gerações de pesquisa. Os dois ensaios — ATBC e CARET — são exemplos virtuosos de investigação clínica: bem desenhados, conduzidos com rigor, monitorados de modo independente, capazes de detectar e reportar resultados contrários à hipótese. O dano detectado nos braços de tratamento do ATBC e do CARET, vale enfatizar, foi consequência da intervenção testada, não do desenho experimental que a testou. O desenho fez seu trabalho exatamente como deveria.
+
+## Para discussão em sala
+
+1. Em 1990, antes da publicação do ATBC, era razoável recomendar suplementação com betacaroteno para fumantes com base na evidência observacional disponível? Discuta considerando a magnitude do efeito observacional, a plausibilidade biológica e a natureza da evidência experimental disponível à época.
+
+2. O Physicians' Health Study testou a mesma intervenção em uma população diferente (médicos americanos majoritariamente saudáveis e não fumantes) e encontrou efeito nulo. Como conciliar resultados nulos no PHS com resultados de dano no ATBC e no CARET? Que esse padrão revela sobre a generalização de achados de ensaios entre populações?
+
+3. Multivitamínicos com betacaroteno em doses acima de 5 mg/dia continuam sendo comercializados em muitos países, frequentemente com alegações de prevenção genérica. Discuta a posição ética do médico clínico ao orientar pacientes — especialmente fumantes — que pedem orientação sobre essa suplementação. O que considerar; como expressar.

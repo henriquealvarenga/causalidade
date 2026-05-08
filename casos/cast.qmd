@@ -1,0 +1,50 @@
+---
+title: "Antiarrítmicos pós-IAM (CAST)"
+subtitle: "Quando o desfecho substituto engana"
+---
+
+## Contexto clínico
+
+A morte súbita após infarto agudo do miocárdio é evento clínico relevante e relativamente frequente nas primeiras décadas após o evento isquêmico. A maior parte dessas mortes envolve mecanismos arrítmicos — taquicardia ventricular sustentada que degenera em fibrilação ventricular. A pergunta clínica natural foi: quem está sob risco?
+
+Em 1977, Ruberman e colaboradores [-@Ruberman1977Ventricular] publicam estudo de coorte com 1.739 homens com infarto prévio. Demonstram que a presença de extrassístoles ventriculares complexas — em particular as polimorfas, repetitivas, e o fenômeno R sobre T — em registro de uma hora se associa a aumento de três vezes no risco de morte súbita coronariana e de duas vezes no risco de morte por qualquer causa, ajustado para outros marcadores prognósticos. O achado é replicado em outras coortes e cristaliza-se como conhecimento clínico estabelecido: extrassístoles ventriculares complexas são marcador independente de risco pós-infarto.
+
+A inferência seguinte foi feita em terreno mais escorregadio. Se as extrassístoles indicam risco de morte súbita arrítmica, então — raciocínio aparentemente lógico — suprimi-las deveria reduzir esse risco. Os antiarrítmicos da classe IC, sobretudo encainida e flecainida, tornaram-se rapidamente disponíveis e demonstraram, em ensaios pequenos, capacidade efetiva de suprimir extrassístoles. A aprovação para uso ampliado em arritmias ventriculares assintomáticas ou minimamente sintomáticas levou, no fim dos anos 1980, a uma estimativa de aproximadamente 200 mil pacientes em uso desses fármacos nos Estados Unidos.
+
+A prática se sustentava em três pilares: a associação observada entre extrassístoles e morte súbita; a plausibilidade biológica do mecanismo arrítmico; e a evidência de que os fármacos atingiam o alvo intermediário (supressão das extrassístoles). Faltava o quarto pilar — evidência de que essa supressão se traduzia em redução da mortalidade real.
+
+## A evidência observacional e o vácuo experimental
+
+Antes do CAST, a literatura sobre antiarrítmicos da classe I em pacientes pós-infarto consistia majoritariamente em estudos de pequeno porte avaliando o **desfecho substituto** — supressão das extrassístoles em monitorização Holter. Vários estudos confirmavam que os fármacos faziam o que se propunham a fazer no nível eletrocardiográfico. Nenhum deles tinha poder estatístico, tempo de seguimento ou desenho adequado para avaliar o desfecho clinicamente relevante: mortalidade total ou morte súbita.
+
+Algumas séries observacionais sugeriam tendência favorável; outras eram neutras. Persistia uma assimetria epistêmica entre a base de evidência sobre o marcador (robusta, replicada) e a base sobre o desfecho clínico (escassa, indireta). A prática clínica preencheu o vácuo com inferência: se o fármaco reverte o marcador de risco, espera-se que reverta também o risco. A inferência foi tratada como aproximação razoável até que pudesse ser testada formalmente.
+
+Foi essa lacuna que o National Heart, Lung, and Blood Institute, com o desenho de Greene e colaboradores [-@Greene1992CAST], se propôs a fechar.
+
+## CAST: o ensaio randomizado
+
+O Cardiac Arrhythmia Suppression Trial foi desenhado para testar diretamente a hipótese de que a supressão de extrassístoles ventriculares assintomáticas ou minimamente sintomáticas em sobreviventes de infarto reduziria a mortalidade arrítmica e a mortalidade total. O desenho previa uma fase de titulação aberta na qual o fármaco era ajustado até que a supressão fosse documentada; em seguida, o paciente entrava em fase randomizada — fármaco efetivo na supressão *versus* placebo — em desenho duplo-cego. Três fármacos foram avaliados: encainida, flecainida e moricizina.
+
+Em abril de 1989, durante análise interina rotineira, o comitê de monitoramento de dados encontra excesso significativo de mortalidade nos braços de encainida e flecainida em comparação com placebo. Após cerca de 10 meses de seguimento médio, os pacientes em uso de droga ativa apresentavam quase três vezes a taxa de mortalidade dos que recebiam placebo. O comitê recomenda parada imediata desses dois braços. O relatório preliminar [-@CAST1989Preliminary] é publicado no *New England Journal of Medicine* em agosto de 1989.
+
+O relato definitivo dos braços de encainida e flecainida, publicado por Echt e colaboradores [-@Echt1991CAST] em 1991, consolida os números: 89 mortes ao longo do seguimento, das quais 59 por arritmia (43 em droga ativa *vs* 16 em placebo; *p* = 0,0004) e 22 por causa cardíaca não arrítmica (17 *vs* 5; *p* = 0,01). O risco relativo de morte arrítmica para droga ativa em relação a placebo era 3,6, e o risco relativo de mortalidade total era 2,5. Os fármacos tinham efeito claro sobre o desfecho substituto — suprimiam extrassístoles —, mas o desfecho clínico se movia na direção oposta da expectativa.
+
+O braço de moricizina (CAST-II) [-@CAST1992MoricizineII] continuou em ensaio modificado, restrito a pacientes com fração de ejeção mais baixa e com janela de inclusão pós-infarto mais curta, no esforço de identificar subpopulação que pudesse se beneficiar. CAST-II também é encerrado precocemente: nas duas primeiras semanas de tratamento, observou-se mortalidade significativamente maior no grupo da moricizina (17 mortes em 665 pacientes) do que no placebo (3 em 660); a análise condicional de poder indicava menos de 8% de chance de detectar benefício de sobrevida caso o ensaio fosse completado.
+
+## Lição metodológica
+
+A história do CAST é o exemplo mais consequente do que a literatura epidemiológica metodológica passou a chamar de **problema do desfecho substituto**. Um marcador biológico associado a um desfecho clínico — extrassístoles ventriculares e morte súbita, no caso — pode estar associado por mecanismos compartilhados com o desfecho, como expressão de doença subjacente, sem que sua manipulação afete o desfecho. Pior, a manipulação do marcador pode introduzir efeitos paralelos do agente sobre vias causais não consideradas. As classes IC, em particular, têm propriedades pró-arrítmicas próprias: prolongam a condução intraventricular e podem facilitar reentrada em corações com substrato isquêmico. Essas propriedades não eram visíveis no desfecho substituto monitorado; emergiram apenas quando o desfecho clínico foi medido diretamente.
+
+Vale registrar que o trabalho dos investigadores que conduziram o CAST não foi causa do problema, e sim sua resposta. A prática clínica anterior a 1989 baseava-se em inferência compatível com o conhecimento e a evidência disponíveis na época. O desenho do CAST — randomizado, com placebo, comitê de monitoramento independente — era o instrumento corretivo possível, e a parada precoce em 1989 deu testemunho de que esse instrumento funcionou: o ensaio identificou o dano, comunicou-o à comunidade médica, e a prática mudou. Estima-se que a interrupção precoce do CAST tenha evitado número expressivo de mortes nos anos subsequentes, ao retirar de uso uma intervenção amplamente empregada.
+
+A lição metodológica que a epidemiologia contemporânea extrai do CAST é direta. A demonstração de que um agente atua sobre um marcador associado a um desfecho não estabelece, por si só, eficácia sobre o desfecho. Eficácia clínica se mede no desfecho clinicamente relevante — mortalidade por todas as causas, eventos cardiovasculares maiores, qualidade de vida, função preservada — e não em parâmetros laboratoriais ou eletrocardiográficos. A formalização dessa exigência aparece, no Cap. 03, na noção de *target trial*: o protocolo precisa especificar explicitamente qual desfecho clinicamente relevante se pretende afetar, e a análise — observacional ou experimental — precisa estimar exatamente esse desfecho.
+
+A intuição de que "se o marcador é causa do desfecho, então corrigir o marcador corrige o desfecho" tem outras manifestações na prática contemporânea: ajuste agressivo de glicemia como *proxy* de evento microvascular; LDL pós-tratamento como *proxy* de mortalidade cardiovascular; biomarcadores oncológicos circulantes como *proxy* de sobrevida em ensaios de fase II. Em cada um desses contextos, a história do CAST funciona como advertência: o marcador precisa ter sido validado contra o desfecho clínico em ensaios prévios, e mesmo essa validação tem alcance restrito ao contexto em que foi feita.
+
+## Para discussão em sala
+
+1. Antes da publicação do CAST, era razoável prescrever encainida ou flecainida para pacientes pós-infarto com extrassístoles ventriculares assintomáticas? Discuta a partir do conhecimento disponível à época, sem contaminar o argumento com o que se sabe hoje.
+
+2. O comitê de monitoramento de dados do CAST decidiu pela parada precoce em abril de 1989. Discuta as obrigações éticas envolvidas nessa decisão — o que se devia aos pacientes randomizados para droga ativa? O que se devia aos pacientes em uso clínico do fármaco fora do ensaio?
+
+3. Em um ensaio fase II que demonstra redução de marcador tumoral circulante após nova quimioterapia, deve-se aprovar o fármaco com base nesse achado, ou aguardar ensaios fase III com desfecho de sobrevida? Argumente com referência ao CAST e à literatura sobre desfechos substitutos.

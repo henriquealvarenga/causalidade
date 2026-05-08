@@ -1,0 +1,64 @@
+---
+title: "Ômega-3"
+subtitle: "Um caso ainda em evolução"
+---
+
+## Contexto clínico
+
+Os ácidos graxos poli-insaturados de cadeia longa da família ômega-3, dos quais os principais com relevância cardiovascular são o ácido eicosapentaenoico (EPA) e o ácido docosa-hexaenoico (DHA), entraram na agenda de prevenção cardiovascular a partir de observações epidemiológicas das décadas de 1970 e 1980. Populações com alto consumo dietético de peixe — esquimós da Groenlândia, populações japonesas costeiras, residentes do Mediterrâneo — apresentavam menor incidência de doença coronariana do que populações com dietas pobres em peixe e ricas em gorduras saturadas. A associação se replicou em várias coortes prospectivas em diferentes geografias.
+
+A justificativa biológica era ampla. Ômega-3 reduz triglicerídeos séricos, modula a composição lipídica de membranas celulares (incluindo as do miocárdio), influencia a produção de eicosanoides com propriedades anti-inflamatórias e antiagregantes, estabiliza eletricamente o miocárdio em modelos experimentais, e afeta a frequência cardíaca em repouso. Diferentemente da maior parte dos casos discutidos neste site, ômega-3 produz alterações fisiológicas mensuráveis em curto prazo, e a translação para benefício clínico parecia ter base mecanística mais sólida do que mera plausibilidade abstrata.
+
+A primeira indicação randomizada veio do GISSI-Prevenzione [-@GISSI1999Prevenzione], em 1999: 11.324 pacientes recém-egressos de infarto, randomizados em desenho fatorial para ômega-3, vitamina E, ambos ou nenhum, mostraram redução do desfecho composto primário (morte, infarto não fatal, acidente vascular) na ordem de 10--15% no braço ômega-3, com benefício atribuível a redução de morte cardiovascular. O ensaio é da era pré-estatina universal — o uso de hipolipemiantes era heterogêneo na coorte —, e a generalização para populações modernas em terapia padrão ficou em aberto.
+
+## A fase contemporânea: ensaios discordantes
+
+A primeira década dos anos 2000 produziu ensaios menores cujos resultados foram inconsistentes. A controvérsia se cristalizou em quatro grandes ensaios entre 2018 e 2020, que se contradizem em padrão informativo.
+
+O **ASCEND** [-@ASCEND2018Omega3], publicado em 2018, randomizou 15.480 pacientes diabéticos sem doença cardiovascular estabelecida para receber ômega-3 1 g por dia ou placebo (óleo de oliva). Após 7,4 anos de seguimento, o desfecho vascular sério primário ocorreu em 8,9% no grupo ômega-3 e 9,2% no placebo (RR 0,97; IC 95%: 0,87--1,08). Resultado neutro em prevenção primária em diabéticos.
+
+O **VITAL ômega-3** [-@Manson2019VITALOmega], publicado em 2018 (mesmo grupo do braço de vitamina D), randomizou 25.871 adultos americanos saudáveis para receber 1 g de ômega-3 por dia ou placebo. Em seguimento mediano de 5,3 anos, o desfecho primário composto cardiovascular ocorreu em 386 do grupo ômega-3 e 419 do placebo (RR 0,92; IC 95%: 0,80--1,06; *p* = 0,24). Câncer invasivo: 820 *vs* 797 (RR 1,03; IC 95%: 0,93--1,13). Resultado neutro em prevenção primária em adultos saudáveis. Análise de desfechos secundários sugeriu redução de infarto total (RR 0,72; IC 95%: 0,59--0,90), achado a ser confirmado em estudos posteriores.
+
+O **REDUCE-IT** [-@Bhatt2019REDUCEIT], publicado simultaneamente, randomizou 8.179 pacientes com doença cardiovascular estabelecida ou diabetes com fatores de risco adicionais, em uso de estatina e com triglicerídeos entre 135 e 499 mg/dL, para receber **icosapent etil 4 g/dia** (forma purificada de EPA, sem DHA) ou placebo (óleo mineral). Em 4,9 anos médios, o desfecho primário ocorreu em 17,2% no grupo tratado *vs* 22,0% no placebo (RR 0,75; IC 95%: 0,68--0,83; *p* < 0,001) — redução clinicamente substancial em população de alto risco. Resultado positivo, com magnitude que destoava dos demais ensaios.
+
+O **STRENGTH** [-@Nicholls2020STRENGTH], publicado em 2020, foi desenhado para testar uma formulação distinta — **ácido carboxílico de ômega-3** (EPA + DHA) na mesma dose de 4 g/dia — em população clinicamente similar à do REDUCE-IT (alto risco cardiovascular, triglicerídeos elevados, em uso de estatina). Comparador: óleo de milho. Após 13.078 pacientes randomizados e 1.384 desfechos primários, o ensaio foi interrompido precocemente por análise interina indicando baixa probabilidade de benefício. Resultado: 12,0% no grupo tratado *vs* 12,2% no placebo (RR 0,99; IC 95%: 0,90--1,09; *p* = 0,84). Neutro.
+
+A discrepância entre REDUCE-IT (positivo) e STRENGTH (neutro), em populações análogas, exige explicação. Três hipóteses competem na literatura. A primeira atribui a diferença à **formulação**: EPA puro em alta dose pode ter efeito biológico que EPA+DHA não reproduz, possivelmente por competição metabólica ou por efeitos diferenciais sobre membranas celulares. A segunda atribui ao **comparador**: o óleo mineral usado como placebo no REDUCE-IT pode ter tido efeito desfavorável (aumentou LDL e marcadores inflamatórios em comparação com baseline), inflando artificialmente o efeito relativo do braço ativo. A terceira combina os dois fatores. A literatura, no momento atual, não converge sobre qual hipótese é dominante.
+
+## O sinal de fibrilação atrial
+
+Outro achado relevante atravessa transversalmente os ensaios contemporâneos. Tanto REDUCE-IT [-@Bhatt2019REDUCEIT] quanto STRENGTH [-@Nicholls2020STRENGTH] reportaram **aumento de fibrilação atrial** nos braços de ômega-3 (3,1% *vs* 2,1% no REDUCE-IT; signal similar no STRENGTH). A meta-análise de Gencer e colaboradores [-@Gencer2021AFOmega], publicada em 2021 na *Circulation*, agrega 7 ensaios cardiovasculares com 81.210 pacientes e mostra associação dose-dependente: razão de risco para fibrilação atrial de 1,25 (IC 95%: 1,07--1,46) no agregado, com HR de 1,49 (IC 95%: 1,04--2,15) em ensaios usando dose superior a 1 g/dia, *vs* HR de 1,12 (IC 95%: 1,03--1,22) em doses de 1 g/dia ou inferiores. A meta-regressão indica aumento de 11% no risco de FA por grama adicional de ômega-3 por dia.
+
+O sinal de FA não invalida o achado positivo do REDUCE-IT em desfechos isquêmicos, mas reorganiza o cálculo de risco-benefício e levanta questão sobre quais subpopulações ganham, quais perdem, e em que magnitude líquida.
+
+## A leitura possível neste momento
+
+A literatura sobre ômega-3 cardiovascular não tem, no momento, o tipo de fechamento que TRH ou betacaroteno alcançaram. A síntese provisória que se desenha, sujeita a revisão por ensaios futuros, opera com três proposições.
+
+Primeira: **ômega-3 em dose dietética baixa (< 1 g/dia), em populações não selecionadas em terapia cardiovascular padrão moderna, não reduz eventos cardiovasculares maiores em prevenção primária**. ASCEND e VITAL convergem nesse ponto.
+
+Segunda: **icosapent etil em alta dose (4 g/dia) reduz eventos cardiovasculares em pacientes de alto risco com hipertrigliceridemia já em uso de estatina**, achado positivo do REDUCE-IT, mas com magnitude possivelmente inflada por efeito do comparador e não replicado pela formulação alternativa do STRENGTH. A indicação clínica da formulação foi mantida em diretrizes, com explicitação da incerteza.
+
+Terceira: **doses superiores a 1 g/dia aumentam risco de fibrilação atrial em proporção dose-dependente**. O achado é robusto em meta-análise contemporânea, e tem implicação direta para o cálculo individualizado de risco-benefício.
+
+## Lição metodológica
+
+O caso ômega-3 funciona como contraponto aos demais cenários discutidos neste site. Aqui, ao contrário de TRH ou betacaroteno, a evidência observacional original não foi simplesmente invertida pela evidência experimental; ela foi parcialmente confirmada (GISSI), parcialmente neutralizada (ASCEND, VITAL), e parcialmente reescrita (REDUCE-IT positivo, STRENGTH neutro). A complexidade resultante força reconhecimento de que evidência clínica não converge necessariamente para um veredicto único, e que diferentes fontes podem informar diferentes perguntas.
+
+Três aprendizados específicos emergem para a prática contemporânea.
+
+O primeiro é a **especificidade da pergunta**. "Ômega-3 funciona?" é pergunta inadequada. Em qual dose, qual formulação, qual população, comparada a qual alternativa, para qual desfecho, em qual horizonte de tempo — cada especificação produz resposta diferente. O target trial torna explícita essa exigência. Estudos que parecem contradizer-se podem estar respondendo perguntas distintas e cumulativas, não a mesma.
+
+O segundo é a **importância do comparador**. O debate REDUCE-IT *vs* STRENGTH ilustra que escolha de placebo não é decisão administrativa neutra. Óleo mineral *vs* óleo de milho *vs* óleo de oliva *vs* placebo não-oleoso podem produzir efeitos diferentes que se confundem com o efeito do agente testado. Triangulação entre ensaios com comparadores diferentes vira parte essencial da inferência.
+
+O terceiro é a **necessidade de seguir efeitos adversos com o mesmo cuidado dos efeitos benéficos**. A fibrilação atrial era achado secundário em REDUCE-IT e STRENGTH, mas a meta-análise subsequente revelou um sinal sistemático e dose-dependente. Em uma intervenção com balanço de risco-benefício potencialmente fino, eventos adversos modestos em magnitude isolada podem reorganizar substantivamente a indicação clínica quando agregados.
+
+Os investigadores que conduziram a sequência de ensaios sobre ômega-3 trabalharam com rigor e mantiveram a discussão metodológica franca diante de resultados discordantes — o debate sobre o comparador no REDUCE-IT, em particular, foi conduzido em editoriais e respostas com tom de investigação científica genuína, não de defesa de posições. O caso permanece em aberto, e a posição clínica honesta é reconhecer que o aberto é o estado atual, não uma falha temporária.
+
+## Para discussão em sala
+
+1. Em um paciente com doença coronariana estabelecida, em uso de estatina, com LDL controlado mas triglicerídeos de 250 mg/dL, o cardiologista considera prescrever icosapent etil 4 g/dia com base no REDUCE-IT. Como discutir com o paciente o balanço entre o benefício esperado em desfechos isquêmicos e o aumento de risco de fibrilação atrial? Que outras considerações entrar nessa decisão?
+
+2. REDUCE-IT e STRENGTH testaram populações análogas em doses similares e chegaram a conclusões opostas. Discuta as três hipóteses competidoras (formulação, comparador, ambas). Como uma pergunta de pesquisa subsequente poderia distinguir entre elas? Qual desenho seria informativo?
+
+3. A meta-análise de fibrilação atrial agrega ensaios cuja maioria tem desfechos cardiovasculares como primário. Discuta as implicações metodológicas de extrair achado de evento adverso a partir de ensaios desenhados para outro desfecho. Que cuidados na interpretação?

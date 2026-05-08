@@ -1,0 +1,93 @@
+---
+title: "Causa ou associação hoje"
+subtitle: "Hill como considerações, triangulação e o debate atual"
+---
+
+## Hill são considerações, não critérios
+
+A leitura mais influente dos pontos de vista de Hill, ao longo de seis décadas de prática epidemiológica, transformou-os no oposto do que eram. Hill apresentou nove ângulos auxiliares à decisão sobre causalidade, com a advertência explícita de que nenhum, isoladamente, é necessário (com a exceção da temporalidade) nem suficiente. A prática subsequente os converteu em uma lista a ser somada — preencheu-se uma planilha, contou-se quantos itens estavam satisfeitos, atribuiu-se um veredicto.
+
+Savitz, Pearce e Rothman [-@Savitz2025Considerations] retomam o problema sessenta anos depois com uma tese direta: as considerações de Hill são auxiliares, não critérios. Causalidade não é uma propriedade categórica adquirida pela soma de itens em uma checklist. A inferência causal é processo indireto e gradual, em que uma associação resiste a desafios sucessivos de explicações concorrentes — viés, confundimento, acaso, causalidade reversa, erro de medida — até que a explicação causal se cristaliza como a mais provável.
+
+A reformulação tem consequência prática. Estudos que satisfazem mecanicamente cinco ou seis pontos de Hill não estabelecem causa por isso; estudos que falham em alguns dos nove podem, ainda assim, apresentar evidência causal robusta caso outras formas de evidência triangulem na mesma direção. O que sustenta inferência causal não é a contagem dos pontos, mas a robustez da associação a explicações alternativas explicitadas.
+
+## Os pontos de Hill na leitura contemporânea
+
+A literatura metodológica recente reavaliou cada um dos nove pontos à luz de evidência empírica acumulada e do aparato contrafactual. Ioannidis [-@Ioannidis2016ExposureWide] e Shimonovich et al. [-@Shimonovich2021Assessing] convergem em padrão consistente.
+
+Temporalidade, evidência experimental e consistência (replicação) permanecem como pontos com peso epistêmico significativo. Temporalidade é condição lógica da relação causal, não um indicador. Evidência experimental ganha contraparte observacional precisa via target trial. Consistência atua via heterogeneidade entre populações com diferentes vieses; quando estimativas convergem apesar de vieses divergentes, a explicação causal ganha credibilidade — e quando divergem, a inconsistência informa onde os vieses operam.
+
+Força de associação foi reinterpretada criticamente por Ioannidis [-@Ioannidis2016ExposureWide]: efeitos pequenos podem ser causais, e efeitos muito grandes em estudos observacionais frequentemente refletem viés mais do que causalidade, porque vieses produzem mais facilmente efeitos grandes do que efeitos pequenos. Gradiente biológico pode surgir por confundimento — usuários de doses maiores são também os mais aderentes, o que correlaciona com outros comportamentos protetores não medidos. Plausibilidade biológica permanece relevante, mas com a ressalva já feita por Hill: ela é contingente ao conhecimento mecanístico do período.
+
+Especificidade raramente se aplica em doenças crônicas multifatoriais. Coerência e analogia têm utilidade prática limitada [@Ioannidis2016ExposureWide; @Shimonovich2021Assessing] — coerência é difícil de operacionalizar, e analogia justifica suspeita mas raramente sustenta inferência.
+
+A leitura ponto a ponto deixa três sobreviventes robustos (temporalidade, experimentação, consistência), três cujo peso foi recalibrado para baixo (força, gradiente, plausibilidade) e três largamente abandonados na prática metodológica contemporânea (especificidade, coerência, analogia).
+
+## Triangulação
+
+O recurso epistêmico que substitui a soma mecânica dos pontos é a **triangulação**: combinar fontes de evidência com vieses de direções diferentes. Se um efeito é estimado por estudo de coorte, ensaio randomizado, randomização mendeliana e desenho com controle negativo, e as estimativas convergem, é improvável que cada método tenha viés exatamente compensatório. A convergência sob vieses heterogêneos é o que sustenta a inferência causal.
+
+O argumento, articulado por Savitz, Pearce e Rothman [-@Savitz2025Considerations], representa uma virada epistemológica: o que separa associação de causa não é a presença de propriedades estruturais (força, gradiente, coerência), mas a resistência da associação a múltiplas tentativas de explicação alternativa, vindas de fontes metodologicamente independentes. Inconsistência, sob essa leitura, é informativa: revela onde os vieses operam, e o passo seguinte é entender por que vieses específicos atuam em direções específicas em cada desenho.
+
+## GRADE: Hill na lógica da decisão clínica
+
+Schünemann et al. [-@Schunemann2011GRADE] articulam como o sistema GRADE — adotado por mais de cem organizações para elaboração de diretrizes clínicas — incorpora considerações tipo Hill em uma estrutura de avaliação de qualidade da evidência e força de recomendação. GRADE parte de uma classificação inicial baseada no desenho (ensaios randomizados começam como qualidade alta; observacionais, baixa) e permite ajustes a partir de oito fatores: risco de viés, inconsistência, indireção, imprecisão e viés de publicação podem rebaixar; magnitude do efeito, gradiente dose-resposta e direção plausível do confundimento residual podem elevar.
+
+Os três fatores que elevam a qualidade da evidência são reconhecíveis em Hill: força (magnitude do efeito), gradiente biológico (dose-resposta), plausibilidade direcional do viés. GRADE reabsorve, portanto, os pontos de Hill que perderam peso isolado, mas os reintegra como modificadores em arcabouço hierárquico mais amplo, conectado à decisão sobre conduta clínica.
+
+A implicação é que Hill não foi descartado pela epidemiologia contemporânea: foi reformulado como conjunto de considerações secundárias dentro de uma estrutura — desenho > qualidade do estudo > magnitude e direção do efeito — que opera no plano da decisão clínica concreta.
+
+## Debate contemporâneo
+
+O debate metodológico recente articula três posições sobre o futuro do arcabouço.
+
+**Revisão.** Olsen e Jensen [-@Olsen2019Revision] argumentam que o conjunto original de Hill deve ser revisitado por uma comissão internacional, e propõem a adição de um **critério de consequência**: a avaliação causal deve incluir consideração explícita das consequências da intervenção (ou não-intervenção) baseada na inferência. O argumento é consequencialista: classificar uma associação como causal raramente é exercício acadêmico desinteressado; em saúde pública, a classificação orienta ação, e a moldura metodológica deve refletir essa estrutura. A proposta separa explicitamente o argumento causal do argumento sobre o que fazer, ainda que ambos coexistam na prática.
+
+**Modernização.** Cox [-@Cox2018Modernizing] propõe sete princípios alinhados a algoritmos de descoberta causal automatizada — informação mútua, dependência direcionada, consistência interna e externa, explicação causal coerente da plausibilidade biológica, confirmação por mediação causal, refutação de explicações não causais. A reformulação se afasta do vocabulário associativo de Hill em direção a um vocabulário de **causalidade manipulativa** — o que muda no desfecho quando a exposição é manipulada, não meramente observada — alinhado com a definição contrafactual.
+
+**Releitura.** Lesko e Fox [-@Lesko2025Evolved] propõem reinterpretação dos pontos de Hill que preserva o espírito original do texto de 1965, mas integrada à epistemologia moderna do arcabouço de resultados potenciais e dos grafos causais. Cada ponto se traduz em uma preocupação metodológica específica que o aparato contemporâneo formaliza: força conecta-se à magnitude do efeito identificável e à robustez a confundimento não medido (E-value); gradiente biológico, a hipóteses sobre forma funcional do efeito e a refutações por dose-resposta esperada.
+
+As três posições não são mutuamente excludentes. A primeira adiciona um critério; a segunda substitui o vocabulário; a terceira reinterpreta o conjunto. Convergem na rejeição da leitura de Hill como checklist mecânica.
+
+## Aplicações de domínio
+
+Em áreas específicas, Hill permanece operacional como vocabulário de discussão metodológica, ainda que com adaptações. Frank [-@Frank2025RFEMF] aplica os pontos a estudos de exposição a radiofrequência e saúde — campo com medida de exposição imprecisa e período de latência ainda insuficiente —, mostrando como cada ponto funciona quando esses limites estão presentes. Shakir e Layton [-@Shakir2002Pharmacovigilance] formalizam a aplicação dos pontos à farmacovigilância, em que sinais de eventos adversos surgem de notificação espontânea com sub-relato e ruído. Gvozdenović et al. [-@Gvozdenovic2021Vaccine] mostram como combinar Hill, raciocínio contrafactual e DAGs em três estudos observacionais no contexto de desenvolvimento de vacinas — uma aplicação concreta do que Lesko e Fox descrevem em termos abstratos.
+
+A persistência dos pontos de Hill em domínios específicos não invalida a crítica metodológica. Confirma, ao contrário, que o vocabulário tem valor descritivo e comunicativo — funciona como linguagem comum entre epidemiologistas — mesmo onde a inferência causal propriamente dita é fundamentada em outros aparatos.
+
+## Três perguntas-âncora para a prática clínica
+
+A síntese metodológica acumulada nos cinco capítulos pode ser destilada em três perguntas que orientam a leitura crítica de qualquer alegação observacional sobre tratamento e desfecho:
+
+1. **Qual *target trial* esta análise está tentando emular?** Especificar o protocolo (elegibilidade, estratégias, zero do tempo, atribuição, seguimento, desfecho, análise) revela onde o desenho falha em emular um ensaio sensato — frequentemente, viés de seleção de prevalentes, viés de tempo imortal, ou comparação implausível entre grupos não comparáveis.
+
+2. **Qual a direção do viés mais plausível, e qual seria o E-value necessário para anular o efeito?** A pergunta substitui o reconhecimento qualitativo de "pode haver confundimento residual" por uma quantificação específica. E-values que requerem confundimento implausivelmente forte aumentam a credibilidade do achado; E-values próximos de um indicam fragilidade.
+
+3. **Que outras fontes independentes de evidência existem, e elas triangulam?** Coortes em populações com vieses diferentes, randomização mendeliana, desenhos com controle negativo, ensaios randomizados em populações análogas, evidência mecanística — convergência sob heterogeneidade de viés sustenta inferência causal.
+
+As três perguntas codificam o aparato moderno em prática reproduzível. Não dispensam julgamento epidemiológico, e tampouco oferecem algoritmo. Disciplinam a discussão.
+
+## Encerramento
+
+A trajetória dos cinco capítulos atravessa três séculos de tentativas de definir o que significa, com rigor, dizer que X causa Y em saúde. De Hume e Koch, herdou-se a constatação de que causa não é objeto de percepção e a tentação determinística de exigir agente único e específico. De Hill e Rothman, a primeira refundação operacional para uma epidemiologia de causas múltiplas e probabilísticas. De Greenland, Robins, VanderWeele e Hernán, a precisão formal contrafactual. De Savitz, Pearce, Rothman, Lesko, Ioannidis e outros, a leitura crítica que devolve Hill ao seu lugar original — auxiliar, não algoritmo.
+
+A epidemiologia contemporânea ganhou precisão sem ter alcançado certeza. A inferência causal, como Hill já notava em 1965, permanece indireta e gradual: nenhuma associação é causal por satisfazer condições; uma associação é causal quando, repetidamente testada contra explicações alternativas, sobrevive.
+
+## Exercícios
+
+**1.** Selecione um estudo observacional recente publicado em periódico de impacto (Lancet, NEJM, JAMA, BMJ) que faça afirmação causal sobre relação tratamento-desfecho. Aplique a leitura de Hill como considerações: identifique quais dos nove pontos os autores invocam (explícita ou implicitamente), avalie a evidência para cada ponto invocado, e julgue se a afirmação causal é sustentada — não pela soma dos pontos, mas pela capacidade do estudo de excluir explicações alternativas.
+
+**2.** Para a relação entre níveis de vitamina D e mortalidade — em que estudos observacionais consistentes sustentam associação inversa, mas o ensaio VITAL não confirmou benefício de suplementação —, esboce uma análise de triangulação: liste pelo menos três fontes independentes de evidência (com seus próprios vieses) e discuta o que a (não-)convergência delas revela. Qual a explicação metodológica mais provável para a discrepância entre evidência observacional e experimental?
+
+**3.** Olsen e Jensen [-@Olsen2019Revision] propõem adicionar um critério de consequência aos pontos de Hill. Discuta, em até dez linhas, um cenário clínico ou de saúde pública em que esse critério mudaria substantivamente a recomendação derivada de uma classificação causal — e um cenário em que ele não mudaria. O que isso revela sobre a separação entre julgamento causal e julgamento de ação?
+
+```{=html}
+<nav class="chapter-nav" aria-label="Navegação entre capítulos">
+  <a class="chapter-nav-prev" href="04-confundimento.html">
+    <span aria-hidden="true">←</span>
+    <span><span class="chapter-nav-label">Anterior</span><span class="chapter-nav-title">Confundimento na lente moderna</span></span>
+  </a>
+  <span class="chapter-nav-meta">Capítulo 5 de 5</span>
+  <span class="chapter-nav-spacer"></span>
+</nav>
+```

@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Antiarrítmicos pós-IAM (CAST) – Da Correlação à Causalidade</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bdffe0e269f94e841953b13c185031e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img" aria-label="Início">
+</i> 
+<span class="menu-text">index.html</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-causalidade" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Causalidade</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-causalidade">    
+        <li>
+    <a class="dropdown-item" href="../01-antes-epidemiologia.html">
+ <span class="dropdown-text">1. Antes da epidemiologia: Hume, Mill, Koch</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../02-virada-seculo-xx.html">
+ <span class="dropdown-text">2. A virada do século XX</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../03-revolucao-contrafactual.html">
+ <span class="dropdown-text">3. A revolução contrafactual</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../04-confundimento.html">
+ <span class="dropdown-text">4. Confundimento na lente moderna</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../05-causa-ou-associacao-hoje.html">
+ <span class="dropdown-text">5. Causa ou associação hoje</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-casos-clássicos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Casos Clássicos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-casos-clássicos">    
+        <li>
+    <a class="dropdown-item" href="../casos/index.html">
+ <span class="dropdown-text">Visão Geral</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../casos/trh.html">
+ <span class="dropdown-text">Terapia de Reposição Hormonal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../casos/vitamina-e.html">
+ <span class="dropdown-text">Vitamina E</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../casos/betacaroteno.html">
+ <span class="dropdown-text">Betacaroteno</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../casos/vitamina-d.html">
+ <span class="dropdown-text">Vitamina D</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../casos/omega-3.html">
+ <span class="dropdown-text">Ômega-3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../casos/cast.html">
+ <span class="dropdown-text">Antiarrítmicos (CAST)</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../referencias.html"> 
+<span class="menu-text">Referências</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#contexto-clínico" id="toc-contexto-clínico" class="nav-link active" data-scroll-target="#contexto-clínico">Contexto clínico</a></li>
+  <li><a href="#a-evidência-observacional-e-o-vácuo-experimental" id="toc-a-evidência-observacional-e-o-vácuo-experimental" class="nav-link" data-scroll-target="#a-evidência-observacional-e-o-vácuo-experimental">A evidência observacional e o vácuo experimental</a></li>
+  <li><a href="#cast-o-ensaio-randomizado" id="toc-cast-o-ensaio-randomizado" class="nav-link" data-scroll-target="#cast-o-ensaio-randomizado">CAST: o ensaio randomizado</a></li>
+  <li><a href="#lição-metodológica" id="toc-lição-metodológica" class="nav-link" data-scroll-target="#lição-metodológica">Lição metodológica</a></li>
+  <li><a href="#para-discussão-em-sala" id="toc-para-discussão-em-sala" class="nav-link" data-scroll-target="#para-discussão-em-sala">Para discussão em sala</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Antiarrítmicos pós-IAM (CAST)</h1>
+<p class="subtitle lead">Quando o desfecho substituto engana</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="contexto-clínico" class="level2">
+<h2 class="anchored" data-anchor-id="contexto-clínico">Contexto clínico</h2>
+<p>A morte súbita após infarto agudo do miocárdio é evento clínico relevante e relativamente frequente nas primeiras décadas após o evento isquêmico. A maior parte dessas mortes envolve mecanismos arrítmicos — taquicardia ventricular sustentada que degenera em fibrilação ventricular. A pergunta clínica natural foi: quem está sob risco?</p>
+<p>Em 1977, Ruberman e colaboradores <span class="citation" data-cites="Ruberman1977Ventricular">(<a href="#ref-Ruberman1977Ventricular" role="doc-biblioref">1</a>)</span> publicam estudo de coorte com 1.739 homens com infarto prévio. Demonstram que a presença de extrassístoles ventriculares complexas — em particular as polimorfas, repetitivas, e o fenômeno R sobre T — em registro de uma hora se associa a aumento de três vezes no risco de morte súbita coronariana e de duas vezes no risco de morte por qualquer causa, ajustado para outros marcadores prognósticos. O achado é replicado em outras coortes e cristaliza-se como conhecimento clínico estabelecido: extrassístoles ventriculares complexas são marcador independente de risco pós-infarto.</p>
+<p>A inferência seguinte foi feita em terreno mais escorregadio. Se as extrassístoles indicam risco de morte súbita arrítmica, então — raciocínio aparentemente lógico — suprimi-las deveria reduzir esse risco. Os antiarrítmicos da classe IC, sobretudo encainida e flecainida, tornaram-se rapidamente disponíveis e demonstraram, em ensaios pequenos, capacidade efetiva de suprimir extrassístoles. A aprovação para uso ampliado em arritmias ventriculares assintomáticas ou minimamente sintomáticas levou, no fim dos anos 1980, a uma estimativa de aproximadamente 200 mil pacientes em uso desses fármacos nos Estados Unidos.</p>
+<p>A prática se sustentava em três pilares: a associação observada entre extrassístoles e morte súbita; a plausibilidade biológica do mecanismo arrítmico; e a evidência de que os fármacos atingiam o alvo intermediário (supressão das extrassístoles). Faltava o quarto pilar — evidência de que essa supressão se traduzia em redução da mortalidade real.</p>
+</section>
+<section id="a-evidência-observacional-e-o-vácuo-experimental" class="level2">
+<h2 class="anchored" data-anchor-id="a-evidência-observacional-e-o-vácuo-experimental">A evidência observacional e o vácuo experimental</h2>
+<p>Antes do CAST, a literatura sobre antiarrítmicos da classe I em pacientes pós-infarto consistia majoritariamente em estudos de pequeno porte avaliando o <strong>desfecho substituto</strong> — supressão das extrassístoles em monitorização Holter. Vários estudos confirmavam que os fármacos faziam o que se propunham a fazer no nível eletrocardiográfico. Nenhum deles tinha poder estatístico, tempo de seguimento ou desenho adequado para avaliar o desfecho clinicamente relevante: mortalidade total ou morte súbita.</p>
+<p>Algumas séries observacionais sugeriam tendência favorável; outras eram neutras. Persistia uma assimetria epistêmica entre a base de evidência sobre o marcador (robusta, replicada) e a base sobre o desfecho clínico (escassa, indireta). A prática clínica preencheu o vácuo com inferência: se o fármaco reverte o marcador de risco, espera-se que reverta também o risco. A inferência foi tratada como aproximação razoável até que pudesse ser testada formalmente.</p>
+<p>Foi essa lacuna que o National Heart, Lung, and Blood Institute, com o desenho de Greene e colaboradores <span class="citation" data-cites="Greene1992CAST">(<a href="#ref-Greene1992CAST" role="doc-biblioref">2</a>)</span>, se propôs a fechar.</p>
+</section>
+<section id="cast-o-ensaio-randomizado" class="level2">
+<h2 class="anchored" data-anchor-id="cast-o-ensaio-randomizado">CAST: o ensaio randomizado</h2>
+<p>O Cardiac Arrhythmia Suppression Trial foi desenhado para testar diretamente a hipótese de que a supressão de extrassístoles ventriculares assintomáticas ou minimamente sintomáticas em sobreviventes de infarto reduziria a mortalidade arrítmica e a mortalidade total. O desenho previa uma fase de titulação aberta na qual o fármaco era ajustado até que a supressão fosse documentada; em seguida, o paciente entrava em fase randomizada — fármaco efetivo na supressão <em>versus</em> placebo — em desenho duplo-cego. Três fármacos foram avaliados: encainida, flecainida e moricizina.</p>
+<p>Em abril de 1989, durante análise interina rotineira, o comitê de monitoramento de dados encontra excesso significativo de mortalidade nos braços de encainida e flecainida em comparação com placebo. Após cerca de 10 meses de seguimento médio, os pacientes em uso de droga ativa apresentavam quase três vezes a taxa de mortalidade dos que recebiam placebo. O comitê recomenda parada imediata desses dois braços. O relatório preliminar <span class="citation" data-cites="CAST1989Preliminary">(<a href="#ref-CAST1989Preliminary" role="doc-biblioref">3</a>)</span> é publicado no <em>New England Journal of Medicine</em> em agosto de 1989.</p>
+<p>O relato definitivo dos braços de encainida e flecainida, publicado por Echt e colaboradores <span class="citation" data-cites="Echt1991CAST">(<a href="#ref-Echt1991CAST" role="doc-biblioref">4</a>)</span> em 1991, consolida os números: 89 mortes ao longo do seguimento, das quais 59 por arritmia (43 em droga ativa <em>vs</em> 16 em placebo; <em>p</em> = 0,0004) e 22 por causa cardíaca não arrítmica (17 <em>vs</em> 5; <em>p</em> = 0,01). O risco relativo de morte arrítmica para droga ativa em relação a placebo era 3,6, e o risco relativo de mortalidade total era 2,5. Os fármacos tinham efeito claro sobre o desfecho substituto — suprimiam extrassístoles —, mas o desfecho clínico se movia na direção oposta da expectativa.</p>
+<p>O braço de moricizina (CAST-II) <span class="citation" data-cites="CAST1992MoricizineII">(<a href="#ref-CAST1992MoricizineII" role="doc-biblioref">5</a>)</span> continuou em ensaio modificado, restrito a pacientes com fração de ejeção mais baixa e com janela de inclusão pós-infarto mais curta, no esforço de identificar subpopulação que pudesse se beneficiar. CAST-II também é encerrado precocemente: nas duas primeiras semanas de tratamento, observou-se mortalidade significativamente maior no grupo da moricizina (17 mortes em 665 pacientes) do que no placebo (3 em 660); a análise condicional de poder indicava menos de 8% de chance de detectar benefício de sobrevida caso o ensaio fosse completado.</p>
+</section>
+<section id="lição-metodológica" class="level2">
+<h2 class="anchored" data-anchor-id="lição-metodológica">Lição metodológica</h2>
+<p>A história do CAST é o exemplo mais consequente do que a literatura epidemiológica metodológica passou a chamar de <strong>problema do desfecho substituto</strong>. Um marcador biológico associado a um desfecho clínico — extrassístoles ventriculares e morte súbita, no caso — pode estar associado por mecanismos compartilhados com o desfecho, como expressão de doença subjacente, sem que sua manipulação afete o desfecho. Pior, a manipulação do marcador pode introduzir efeitos paralelos do agente sobre vias causais não consideradas. As classes IC, em particular, têm propriedades pró-arrítmicas próprias: prolongam a condução intraventricular e podem facilitar reentrada em corações com substrato isquêmico. Essas propriedades não eram visíveis no desfecho substituto monitorado; emergiram apenas quando o desfecho clínico foi medido diretamente.</p>
+<p>Vale registrar que o trabalho dos investigadores que conduziram o CAST não foi causa do problema, e sim sua resposta. A prática clínica anterior a 1989 baseava-se em inferência compatível com o conhecimento e a evidência disponíveis na época. O desenho do CAST — randomizado, com placebo, comitê de monitoramento independente — era o instrumento corretivo possível, e a parada precoce em 1989 deu testemunho de que esse instrumento funcionou: o ensaio identificou o dano, comunicou-o à comunidade médica, e a prática mudou. Estima-se que a interrupção precoce do CAST tenha evitado número expressivo de mortes nos anos subsequentes, ao retirar de uso uma intervenção amplamente empregada.</p>
+<p>A lição metodológica que a epidemiologia contemporânea extrai do CAST é direta. A demonstração de que um agente atua sobre um marcador associado a um desfecho não estabelece, por si só, eficácia sobre o desfecho. Eficácia clínica se mede no desfecho clinicamente relevante — mortalidade por todas as causas, eventos cardiovasculares maiores, qualidade de vida, função preservada — e não em parâmetros laboratoriais ou eletrocardiográficos. A formalização dessa exigência aparece, no Cap. 03, na noção de <em>target trial</em>: o protocolo precisa especificar explicitamente qual desfecho clinicamente relevante se pretende afetar, e a análise — observacional ou experimental — precisa estimar exatamente esse desfecho.</p>
+<p>A intuição de que “se o marcador é causa do desfecho, então corrigir o marcador corrige o desfecho” tem outras manifestações na prática contemporânea: ajuste agressivo de glicemia como <em>proxy</em> de evento microvascular; LDL pós-tratamento como <em>proxy</em> de mortalidade cardiovascular; biomarcadores oncológicos circulantes como <em>proxy</em> de sobrevida em ensaios de fase II. Em cada um desses contextos, a história do CAST funciona como advertência: o marcador precisa ter sido validado contra o desfecho clínico em ensaios prévios, e mesmo essa validação tem alcance restrito ao contexto em que foi feita.</p>
+</section>
+<section id="para-discussão-em-sala" class="level2">
+<h2 class="anchored" data-anchor-id="para-discussão-em-sala">Para discussão em sala</h2>
+<ol type="1">
+<li><p>Antes da publicação do CAST, era razoável prescrever encainida ou flecainida para pacientes pós-infarto com extrassístoles ventriculares assintomáticas? Discuta a partir do conhecimento disponível à época, sem contaminar o argumento com o que se sabe hoje.</p></li>
+<li><p>O comitê de monitoramento de dados do CAST decidiu pela parada precoce em abril de 1989. Discuta as obrigações éticas envolvidas nessa decisão — o que se devia aos pacientes randomizados para droga ativa? O que se devia aos pacientes em uso clínico do fármaco fora do ensaio?</p></li>
+<li><p>Em um ensaio fase II que demonstra redução de marcador tumoral circulante após nova quimioterapia, deve-se aprovar o fármaco com base nesse achado, ou aguardar ensaios fase III com desfecho de sobrevida? Argumente com referência ao CAST e à literatura sobre desfechos substitutos.</p></li>
+</ol>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-Ruberman1977Ventricular" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Ruberman W, Weinblatt E, Goldberg JD, Frank CW, Shapiro S. <a href="https://doi.org/10.1056/NEJM197710062971404">Ventricular premature beats and mortality after myocardial infarction</a>. New England Journal of Medicine. 1977;297(14):750–7. </div>
+</div>
+<div id="ref-Greene1992CAST" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Greene HL, Roden DM, Katz RJ, Woosley RL, Salerno DM, Henthorn RW. <a href="https://doi.org/10.1016/0735-1097(92)90267-Q">The <span>C</span>ardiac <span>A</span>rrhythmia <span>S</span>uppression <span>T</span>rial: First <span>CAST</span> ... Then <span>CAST-II</span></a>. Journal of the American College of Cardiology. 1992;19(5):894–8. </div>
+</div>
+<div id="ref-CAST1989Preliminary" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Cardiac Arrhythmia Suppression Trial (CAST) Investigators. <a href="https://doi.org/10.1056/NEJM198908103210629">Preliminary report: Effect of encainide and flecainide on mortality in a randomized trial of arrhythmia suppression after myocardial infarction</a>. New England Journal of Medicine. 1989;321(6):406–12. </div>
+</div>
+<div id="ref-Echt1991CAST" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Echt DS, Liebson PR, Mitchell LB, Peters RW, Obias-Manno D, Barker AH, et al. <a href="https://doi.org/10.1056/NEJM199103213241201">Mortality and morbidity in patients receiving encainide, flecainide, or placebo: The <span>C</span>ardiac <span>A</span>rrhythmia <span>S</span>uppression <span>T</span>rial</a>. New England Journal of Medicine. 1991;324(12):781–8. </div>
+</div>
+<div id="ref-CAST1992MoricizineII" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Cardiac Arrhythmia Suppression Trial II Investigators. <a href="https://doi.org/10.1056/NEJM199207233270403">Effect of the antiarrhythmic agent moricizine on survival after myocardial infarction</a>. New England Journal of Medicine. 1992;327(4):227–33. </div>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

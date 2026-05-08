@@ -1,0 +1,64 @@
+---
+title: "Antes da epidemiologia"
+subtitle: "Hume, Mill e Koch"
+---
+
+## Hume
+
+David Hume (1711–1776), no *Tratado da Natureza Humana* (1739) e na *Investigação Acerca do Entendimento Humano* (1748), sustenta que causalidade não é objeto de percepção. Sucessões repetidas de eventos A e B produzem, na mente do observador, a expectativa de que B siga A; é nesse hábito psicológico, e não num vínculo entre os eventos, que a noção de causa se constitui.
+
+Da formulação humeana decorrem três marcas pelas quais o intelecto reconhece o que chama de causa: contiguidade espacial e temporal, precedência da causa em relação ao efeito, e conjunção constante [@Morabia2013SuiGeneris]. A lista não inclui comparação. O sistema humeano descreve um observador diante de uma sequência de eventos, sem grupo de controle e sem contrafactual; a pergunta sobre o que teria ocorrido na ausência da exposição é estranha ao seu vocabulário [@Morabia2013SuiGeneris].
+
+Aplicadas à clínica, as três marcas validam qualquer série de casos suficientemente longa em que pacientes expostos a determinada intervenção apresentam o desfecho de interesse. O diagnóstico humeano de causa é coerente com seus próprios termos; o diagnóstico epidemiológico exige um passo adicional, a comparação com o curso esperado na ausência da intervenção.
+
+A Hume também se associa o problema da indução: a sucessão repetida de A e B não autoriza, dedutivamente, a previsão de que B seguirá A na próxima ocorrência. Inferência indutiva é, formalmente, sem garantia. A formulação reaparece, dois séculos depois, no argumento de Savitz, Pearce e Rothman [-@Savitz2025Considerations] de que inferência causal em epidemiologia é processo indireto, fundado na exclusão progressiva de explicações concorrentes.
+
+## Mill
+
+John Stuart Mill (1806–1873), em *A System of Logic* (1843), articula o que falta em Hume: comparação explícita entre situações. Os métodos de Mill — concordância, diferença, conjunto, resíduos, variação concomitante — são procedimentos para inferir causa de comparações sistemáticas.
+
+O método da diferença postula que duas situações idênticas em tudo exceto numa circunstância, das quais apenas uma apresenta o fenômeno, identificam essa circunstância como causa ou parte da causa. O método da concordância postula que, se todas as situações em que o fenômeno ocorre compartilham uma circunstância comum, essa circunstância é candidata a causa.
+
+A correspondência entre o método da diferença e o ensaio clínico randomizado é apenas superficial. Morabia [-@Morabia2013SuiGeneris] demonstra que Mill exigia identidade entre as situações comparadas, exceto pela exposição. Estudos epidemiológicos reais, inclusive RCTs bem conduzidos, não satisfazem esse requisito: os grupos diferem em circunstâncias particulares incontáveis, e a randomização garante uma propriedade estatística sobre médias, não a identidade ponto a ponto que Mill demandava. Lido em seus próprios termos, Mill desqualificaria a maior parte da evidência observacional como prova causal e trataria a inferência epidemiológica como, no máximo, sugestiva [@Morabia2013SuiGeneris].
+
+A herança milliana para a epidemiologia é a estrutura comparativa, não o critério de identidade. O aparato estatístico do século XX — distribuições amostrais, randomização, intervalos de confiança — preenche o espaço entre a exigência milliana de identidade e a variação irredutível dos dados populacionais.
+
+## Henle-Koch
+
+Robert Koch (1843–1910), partindo de formulações de Jakob Henle, propõe no fim do século XIX critérios para estabelecer que um microrganismo é o agente causal de uma doença infecciosa específica:
+
+1. O microrganismo deve ser encontrado em todos os indivíduos doentes e ausente nos saudáveis.
+2. Deve ser isolado e cultivado em cultura pura.
+3. Inoculado em hospedeiro susceptível, deve reproduzir a doença.
+4. Deve ser reisolado do hospedeiro experimentalmente infectado.
+
+A formulação postula causalidade determinística e invariável: dado o agente, dada a doença. Distancia-se de Hume por substituir expectativa formada pela repetição por demonstração mecanística.
+
+Morabia [-@Morabia2005Causality] argumenta que essa concepção, decisiva em microbiologia clássica, é estruturalmente incompatível com a epidemiologia das doenças crônicas. Tabaco não produz câncer de pulmão em todos os fumantes; hipertensão não produz acidente vascular em todos os hipertensos. As causas estudadas pela epidemiologia das doenças crônicas são probabilísticas e invariantes apenas no nível populacional [@Morabia2005Causality]. A aplicação literal de Koch a relações como tabaco-câncer constitui erro categorial, e parte do trabalho da epidemiologia do tabaco no século XX consistiu em construir critérios alternativos sem abrir mão do rigor mecanístico.
+
+Schwartz, Susser e Susser [-@Schwartz1999Future] organizam a história da disciplina em paradigmas sucessivos: estatística sanitária do século XIX, epidemiologia das doenças infecciosas no esquema Henle-Koch, epidemiologia das doenças crônicas estruturada em torno do conceito de *risk factor*, e propostas contemporâneas de pensar causa em múltiplos níveis de organização. Cada paradigma redefiniu o objeto da disciplina e arrastou consigo intuições do paradigma anterior.
+
+## Síntese
+
+A herança das três tradições para a epidemiologia moderna pode ser resumida em três proposições. De Hume, causalidade não é observada, e sim inferida; o problema da indução implica que essa inferência nunca é dedutivamente conclusiva. De Mill, comparação é constitutiva da inferência causal; o ideal experimental milliano é matricial para o RCT, embora o critério de identidade não se aplique a populações reais. De Koch, causa requer mecanismo identificável e reproduzível; a exigência funciona em microbiologia clássica e quebra em doenças multifatoriais.
+
+Morabia [-@Morabia2013SuiGeneris] sustenta que as nove considerações de Hill, quando aparecem em 1965, não constituem síntese natural de Hume e Mill: Hume não autoriza o tipo de evidência comparativa que Hill exige, e Mill não autoriza o tipo de evidência observacional que Hill aceita. Os pontos de vista de Hill são, nesse argumento, *sui generis* — formulação nova, ainda sem fundamentação filosófica explícita.
+
+## Exercícios
+
+**1.** Construa um cenário clínico em que uma série de casos satisfaça as três marcas humeanas — contiguidade, precedência, conjunção constante — sem que haja relação causal entre intervenção e desfecho (efeito placebo). Identifique o elemento metodológico, ausente da formulação de Hume, que distingue uma série de casos de um RCT.
+
+**2.** Em um centro de cardiologia, todos os pacientes que receberam um novo dispositivo de monitorização remota apresentaram melhora dos sintomas de insuficiência cardíaca em três meses. O cardiologista conclui que o dispositivo funciona. Aplicando o método da diferença de Mill com rigor, que dado falta para essa conclusão ser defensável? Por que a aplicação literal dos postulados de Koch a esse tipo de pergunta é incoerente?
+
+**3.** Em Morabia [-@Morabia2013SuiGeneris], identifique três passagens em que o autor sustenta que os pontos de vista de Hill não descendem diretamente de Hume ou de Mill. Reformule em uma frase própria a tensão argumentativa entre Hill e o filósofo correspondente em cada passagem.
+
+```{=html}
+<nav class="chapter-nav" aria-label="Navegação entre capítulos">
+  <span class="chapter-nav-spacer"></span>
+  <span class="chapter-nav-meta">Capítulo 1 de 5</span>
+  <a class="chapter-nav-next" href="02-virada-seculo-xx.html">
+    <span><span class="chapter-nav-label">Próximo</span><span class="chapter-nav-title">A virada do século XX</span></span>
+    <span aria-hidden="true">→</span>
+  </a>
+</nav>
+```

@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Da Correlação à Causalidade"
+  description: "Material didático de causalidade em epidemiologia — pós-graduação e residência."
+
+  navbar:
+    background: "#0a0e1a"
+    foreground: "#d8dee9"
+    title: false
+    left:
+      - icon: house
+        text: ""
+        href: index.qmd
+        aria-label: "Início"
+      - text: "Causalidade"
+        menu:
+          - text: "1. Antes da epidemiologia: Hume, Mill, Koch"
+            href: 01-antes-epidemiologia.qmd
+          - text: "2. A virada do século XX"
+            href: 02-virada-seculo-xx.qmd
+          - text: "3. A revolução contrafactual"
+            href: 03-revolucao-contrafactual.qmd
+          - text: "4. Confundimento na lente moderna"
+            href: 04-confundimento.qmd
+          - text: "5. Causa ou associação hoje"
+            href: 05-causa-ou-associacao-hoje.qmd
+      - text: "Casos Clássicos"
+        menu:
+          - text: "Visão Geral"
+            href: casos/index.qmd
+          - text: "---"
+          - text: "Terapia de Reposição Hormonal"
+            href: casos/trh.qmd
+          - text: "Vitamina E"
+            href: casos/vitamina-e.qmd
+          - text: "Betacaroteno"
+            href: casos/betacaroteno.qmd
+          - text: "Vitamina D"
+            href: casos/vitamina-d.qmd
+          - text: "Ômega-3"
+            href: casos/omega-3.qmd
+          - text: "Antiarrítmicos (CAST)"
+            href: casos/cast.qmd
+    right:
+      - text: "Referências"
+        href: referencias.qmd
+      - text: "Sobre"
+        href: about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: right
+    code-fold: true
+    code-tools: false
+    number-sections: false
+    citations-hover: true
+    footnotes-hover: true
+    bibliography: references/references.bib
+    csl: references/csl_styles/vancouver.csl
+
+bibliography: references/references.bib
+csl: references/csl_styles/vancouver.csl
