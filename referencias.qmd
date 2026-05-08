@@ -1,6 +1,11 @@
 ---
 title: "Referências"
+subtitle: "Bibliografia consolidada"
+nocite: |
+  @*
 ---
+
+A lista abaixo agrega todas as referências citadas em qualquer página deste site, formatadas em estilo Vancouver. Cada entrada teve metadados verificados em PubMed (autor, periódico, volume, fascículo, páginas, ano, DOI/PMID). Documentos sem indexação no PubMed (relatórios institucionais como o *Surgeon General Report* de 1964) foram verificados via NLM Catalog ou registro oficial do editor.
 
 ::: {#refs}
 :::

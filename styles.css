@@ -220,6 +220,17 @@ tbody tr:hover { background-color: var(--bg-section); }
   border-bottom: 1px solid var(--border-light) !important;
 }
 
+/* O Quarto injeta o nome do arquivo como texto fallback quando text:""
+   é fornecido junto com icon. Esconde só o texto do item da casinha. */
+.navbar .nav-link:has(.bi-house) .menu-text {
+  display: none !important;
+}
+/* Fallback para navegadores antigos sem :has() — assume casinha como
+   primeiro item da navbar */
+.navbar .navbar-nav > .nav-item:first-child .menu-text {
+  display: none !important;
+}
+
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: var(--text-secondary) !important;
