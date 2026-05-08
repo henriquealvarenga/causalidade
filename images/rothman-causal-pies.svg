@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" font-family="Inter, system-ui, sans-serif">
+  <!--
+    Modelo de causa suficiente-componente de Rothman (1976).
+    Versão original publicada em:
+      Rothman KJ. Causes. Am J Epidemiol. 1976;104(6):587-92.
+      DOI: 10.1093/oxfordjournals.aje.a112335
+
+    Este arquivo é uma RECRIAÇÃO didática que preserva apenas a estrutura
+    conceitual do modelo (três causas suficientes com componentes; A
+    aparece nas três e é a causa necessária). O desenho — proporções,
+    tipografia, cores, estilo gráfico — é original e não deriva da figura
+    publicada por Rothman.
+  -->
+
+  <!-- ===================== Pizza I ===================== -->
+  <g transform="translate(150, 220)">
+    <text x="0" y="-130" text-anchor="middle" font-size="18" font-weight="600" fill="#f0f4f8">Causa suficiente I</text>
+
+    <!-- Slice 1: D (top-right) -->
+    <path d="M 0 0 L 0 -100 A 100 100 0 0 1 95.11 -30.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="35.27" y="-48.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">D</text>
+
+    <!-- Slice 2: C (right) -->
+    <path d="M 0 0 L 95.11 -30.90 A 100 100 0 0 1 58.78 80.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="57.06" y="18.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">C</text>
+
+    <!-- Slice 3: B (bottom) -->
+    <path d="M 0 0 L 58.78 80.90 A 100 100 0 0 1 -58.78 80.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="60" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">B</text>
+
+    <!-- Slice 4: A (left) — NECESSARY CAUSE — highlighted -->
+    <path d="M 0 0 L -58.78 80.90 A 100 100 0 0 1 -95.11 -30.90 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="2.5"/>
+    <text x="-57.06" y="18.54" text-anchor="middle" dominant-baseline="middle" font-size="24" font-weight="700" fill="#00d9c0">A</text>
+
+    <!-- Slice 5: E (top-left) -->
+    <path d="M 0 0 L -95.11 -30.90 A 100 100 0 0 1 0 -100 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-35.27" y="-48.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">E</text>
+  </g>
+
+  <!-- ===================== Pizza II ===================== -->
+  <g transform="translate(450, 220)">
+    <text x="0" y="-130" text-anchor="middle" font-size="18" font-weight="600" fill="#f0f4f8">Causa suficiente II</text>
+
+    <path d="M 0 0 L 0 -100 A 100 100 0 0 1 95.11 -30.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="35.27" y="-48.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">H</text>
+
+    <path d="M 0 0 L 95.11 -30.90 A 100 100 0 0 1 58.78 80.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="57.06" y="18.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">G</text>
+
+    <path d="M 0 0 L 58.78 80.90 A 100 100 0 0 1 -58.78 80.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="60" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">F</text>
+
+    <path d="M 0 0 L -58.78 80.90 A 100 100 0 0 1 -95.11 -30.90 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="2.5"/>
+    <text x="-57.06" y="18.54" text-anchor="middle" dominant-baseline="middle" font-size="24" font-weight="700" fill="#00d9c0">A</text>
+
+    <path d="M 0 0 L -95.11 -30.90 A 100 100 0 0 1 0 -100 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-35.27" y="-48.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">B</text>
+  </g>
+
+  <!-- ===================== Pizza III ===================== -->
+  <g transform="translate(750, 220)">
+    <text x="0" y="-130" text-anchor="middle" font-size="18" font-weight="600" fill="#f0f4f8">Causa suficiente III</text>
+
+    <path d="M 0 0 L 0 -100 A 100 100 0 0 1 95.11 -30.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="35.27" y="-48.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">J</text>
+
+    <path d="M 0 0 L 95.11 -30.90 A 100 100 0 0 1 58.78 80.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="57.06" y="18.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">I</text>
+
+    <path d="M 0 0 L 58.78 80.90 A 100 100 0 0 1 -58.78 80.90 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="60" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">F</text>
+
+    <path d="M 0 0 L -58.78 80.90 A 100 100 0 0 1 -95.11 -30.90 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="2.5"/>
+    <text x="-57.06" y="18.54" text-anchor="middle" dominant-baseline="middle" font-size="24" font-weight="700" fill="#00d9c0">A</text>
+
+    <path d="M 0 0 L -95.11 -30.90 A 100 100 0 0 1 0 -100 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-35.27" y="-48.54" text-anchor="middle" dominant-baseline="middle" font-size="22" font-weight="500" fill="#f0f4f8">C</text>
+  </g>
+</svg>

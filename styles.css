@@ -164,6 +164,40 @@ figcaption {
 
 img { max-width: 100%; }
 
+/* ---------- Imagens flutuantes (texto contornando) ------------------- */
+/* Uso em markdown:
+     ![Legenda](caminho/imagem.png){.fig-right}     -> à direita
+     ![Legenda](caminho/imagem.png){.fig-left}      -> à esquerda
+     ![Legenda](caminho/imagem.png){.fig-right width=400}  -> sobrescreve largura
+   O texto que vier depois contorna a imagem.
+   Em telas <600px, a imagem perde o flutuar e ocupa a linha cheia. */
+
+.fig-right {
+  float: right;
+  max-width: 300px;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.fig-left {
+  float: left;
+  max-width: 300px;
+  margin: 0 1.5rem 1rem 0;
+}
+
+/* Cabeçalhos limpam float — evita que H2/H3 apareça do lado de uma imagem */
+h2, h3 { clear: both; }
+
+/* Mobile: imagem flutuante vira bloco centralizado */
+@media (max-width: 600px) {
+  .fig-right,
+  .fig-left {
+    float: none;
+    max-width: 100%;
+    margin: 1rem auto;
+    display: block;
+  }
+}
+
 /* ---------- Callouts (dark) ----------------------------------------- */
 .callout {
   background-color: var(--bg-section) !important;

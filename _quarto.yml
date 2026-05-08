@@ -2,6 +2,15 @@ project:
   type: website
   output-dir: docs
 
+lang: pt-BR
+
+crossref:
+  fig-title: "Figura"
+  fig-prefix: "Figura"
+  tbl-title: "Tabela"
+  tbl-prefix: "Tabela"
+  eq-prefix: "Equação"
+
 website:
   title: "Da Correlação à Causalidade"
   description: "Material didático de causalidade em epidemiologia — pós-graduação e residência."
@@ -21,8 +30,8 @@ website:
             href: 01-antes-epidemiologia.qmd
           - text: "2. A virada do século XX"
             href: 02-virada-seculo-xx.qmd
-          - text: "3. A revolução contrafactual"
-            href: 03-revolucao-contrafactual.qmd
+          - text: "3. A formalização da inferência causal"
+            href: 03-formalizacao-causal.qmd
           - text: "4. Confundimento na lente moderna"
             href: 04-confundimento.qmd
           - text: "5. Causa ou associação hoje"

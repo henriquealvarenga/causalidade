@@ -66,7 +66,7 @@ format:
         Da Correlação à <span class="accent">Causalidade</span>
       </h1>
       <p class="hero-subtitle">
-        Hume, Mill, Koch, Bradford Hill e a epidemiologia contrafactual contemporânea.
+        Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.
       </p>
     </div>
   </section>
@@ -89,16 +89,16 @@ format:
         <p class="module-card-subtitle">Surgeon General, Hill e Rothman.</p>
       </a>
 
-      <a class="module-card" href="03-revolucao-contrafactual.html">
+      <a class="module-card" href="03-formalizacao-causal.html">
         <div class="module-card-number">03</div>
-        <h3 class="module-card-title">A revolução contrafactual</h3>
+        <h3 class="module-card-title">A formalização da inferência causal</h3>
         <p class="module-card-subtitle">Resultados potenciais, DAGs e target trial.</p>
       </a>
 
       <a class="module-card" href="04-confundimento.html">
         <div class="module-card-number">04</div>
         <h3 class="module-card-title">Confundimento na lente moderna</h3>
-        <p class="module-card-subtitle">Definição contrafactual, direção do viés, controle.</p>
+        <p class="module-card-subtitle">Definição moderna, direção do viés, controle.</p>
       </a>
 
       <a class="module-card" href="05-causa-ou-associacao-hoje.html">

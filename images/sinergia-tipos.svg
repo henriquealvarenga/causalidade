@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Inter, system-ui, sans-serif">
+  <!--
+    Tipos de relação entre dois componentes (B e F) na linguagem da
+    causa suficiente de Rothman: independência, sinergia incompleta,
+    sinergia completa. Recriação didática original; estrutura conceitual
+    pública (Rothman 1976), desenho original.
+  -->
+
+  <!-- Labels dos painéis -->
+  <text x="130" y="50" text-anchor="middle" font-size="15" font-weight="600" fill="#f0f4f8">(a) Independência</text>
+  <text x="460" y="50" text-anchor="middle" font-size="15" font-weight="600" fill="#f0f4f8">(b) Sinergia incompleta</text>
+  <text x="725" y="50" text-anchor="middle" font-size="15" font-weight="600" fill="#f0f4f8">(c) Sinergia completa</text>
+
+  <!-- Separadores verticais sutis entre painéis -->
+  <line x1="262" y1="75" x2="262" y2="265" stroke="#6b7a90" stroke-width="1.2" stroke-dasharray="5 5"/>
+  <line x1="657" y1="75" x2="657" y2="265" stroke="#6b7a90" stroke-width="1.2" stroke-dasharray="5 5"/>
+
+  <!-- ============== Painel A: Independência ============== -->
+  <!-- Pie A1: B sozinho com x, y -->
+  <g transform="translate(65, 200)">
+    <path d="M 0 0 L 0 -50 A 50 50 0 0 1 43.30 25 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="1.5"/>
+    <text x="25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#00d9c0">B</text>
+    <path d="M 0 0 L 43.30 25 A 50 50 0 0 1 -43.30 25 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">x</text>
+    <path d="M 0 0 L -43.30 25 A 50 50 0 0 1 0 -50 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">y</text>
+  </g>
+
+  <!-- Pie A2: F sozinho com z, w -->
+  <g transform="translate(195, 200)">
+    <path d="M 0 0 L 0 -50 A 50 50 0 0 1 43.30 25 Z" fill="rgba(167, 139, 250, 0.25)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#a78bfa">F</text>
+    <path d="M 0 0 L 43.30 25 A 50 50 0 0 1 -43.30 25 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">z</text>
+    <path d="M 0 0 L -43.30 25 A 50 50 0 0 1 0 -50 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">w</text>
+  </g>
+
+  <!-- ============== Painel B: Sinergia incompleta ============== -->
+  <!-- Pie B1: B sozinho -->
+  <g transform="translate(330, 200)">
+    <path d="M 0 0 L 0 -50 A 50 50 0 0 1 43.30 25 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="1.5"/>
+    <text x="25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#00d9c0">B</text>
+    <path d="M 0 0 L 43.30 25 A 50 50 0 0 1 -43.30 25 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">x</text>
+    <path d="M 0 0 L -43.30 25 A 50 50 0 0 1 0 -50 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">y</text>
+  </g>
+
+  <!-- Pie B2: B + F juntos -->
+  <g transform="translate(460, 200)">
+    <path d="M 0 0 L 0 -50 A 50 50 0 0 1 43.30 25 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="1.5"/>
+    <text x="25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#00d9c0">B</text>
+    <path d="M 0 0 L 43.30 25 A 50 50 0 0 1 -43.30 25 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">z</text>
+    <path d="M 0 0 L -43.30 25 A 50 50 0 0 1 0 -50 Z" fill="rgba(167, 139, 250, 0.25)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="-25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#a78bfa">F</text>
+  </g>
+
+  <!-- Pie B3: F sozinho -->
+  <g transform="translate(590, 200)">
+    <path d="M 0 0 L 0 -50 A 50 50 0 0 1 43.30 25 Z" fill="rgba(167, 139, 250, 0.25)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#a78bfa">F</text>
+    <path d="M 0 0 L 43.30 25 A 50 50 0 0 1 -43.30 25 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">w</text>
+    <path d="M 0 0 L -43.30 25 A 50 50 0 0 1 0 -50 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="-25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">v</text>
+  </g>
+
+  <!-- ============== Painel C: Sinergia completa ============== -->
+  <!-- Pie C1: B + F apenas juntos -->
+  <g transform="translate(725, 200)">
+    <path d="M 0 0 L 0 -50 A 50 50 0 0 1 43.30 25 Z" fill="rgba(0, 217, 192, 0.25)" stroke="#00d9c0" stroke-width="1.5"/>
+    <text x="25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#00d9c0">B</text>
+    <path d="M 0 0 L 43.30 25 A 50 50 0 0 1 -43.30 25 Z" fill="#1c2338" stroke="#a8b3c4" stroke-width="1.5"/>
+    <text x="0" y="30" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#a8b3c4">x</text>
+    <path d="M 0 0 L -43.30 25 A 50 50 0 0 1 0 -50 Z" fill="rgba(167, 139, 250, 0.25)" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="-25.98" y="-15" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="700" fill="#a78bfa">F</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="400" y="305" text-anchor="middle" font-size="11" fill="#8a96ab" font-style="italic">Cada círculo representa uma causa suficiente. B e F são os dois componentes em foco; letras minúsculas indicam outros componentes.</text>
+</svg>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.26">
@@ -74,17 +74,17 @@ div.csl-indent {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -98,8 +98,8 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -123,8 +123,8 @@ div.csl-indent {
  <span class="dropdown-text">2. A virada do século XX</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./03-revolucao-contrafactual.html">
- <span class="dropdown-text">3. A revolução contrafactual</span></a>
+    <a class="dropdown-item" href="./03-formalizacao-causal.html">
+ <span class="dropdown-text">3. A formalização da inferência causal</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./04-confundimento.html">
@@ -195,13 +195,16 @@ div.csl-indent {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#por-que-koch-não-bastava" id="toc-por-que-koch-não-bastava" class="nav-link active" data-scroll-target="#por-que-koch-não-bastava">Por que Koch não bastava</a></li>
-  <li><a href="#o-surgeon-general-report-e-a-palestra-de-hill" id="toc-o-surgeon-general-report-e-a-palestra-de-hill" class="nav-link" data-scroll-target="#o-surgeon-general-report-e-a-palestra-de-hill">O Surgeon General Report e a palestra de Hill</a></li>
+  <li><a href="#o-surgeon-general-report-e-a-palestra-de-hill" id="toc-o-surgeon-general-report-e-a-palestra-de-hill" class="nav-link active" data-scroll-target="#o-surgeon-general-report-e-a-palestra-de-hill">O Surgeon General Report e a palestra de Hill</a></li>
   <li><a href="#os-nove-pontos-de-vista" id="toc-os-nove-pontos-de-vista" class="nav-link" data-scroll-target="#os-nove-pontos-de-vista">Os nove pontos de vista</a></li>
-  <li><a href="#rothman-e-a-causa-suficiente" id="toc-rothman-e-a-causa-suficiente" class="nav-link" data-scroll-target="#rothman-e-a-causa-suficiente">Rothman e a causa suficiente</a></li>
+  <li><a href="#rothman-e-a-causa-suficiente" id="toc-rothman-e-a-causa-suficiente" class="nav-link" data-scroll-target="#rothman-e-a-causa-suficiente">Rothman e a causa suficiente</a>
+  <ul class="collapse">
+  <li><a href="#sinergia-e-modificação-de-efeito" id="toc-sinergia-e-modificação-de-efeito" class="nav-link" data-scroll-target="#sinergia-e-modificação-de-efeito">Sinergia e modificação de efeito</a></li>
+  <li><a href="#fração-etiológica" id="toc-fração-etiológica" class="nav-link" data-scroll-target="#fração-etiológica">Fração etiológica</a></li>
+  </ul></li>
   <li><a href="#síntese" id="toc-síntese" class="nav-link" data-scroll-target="#síntese">Síntese</a></li>
   <li><a href="#exercícios" id="toc-exercícios" class="nav-link" data-scroll-target="#exercícios">Exercícios</a></li>
   </ul>
@@ -230,14 +233,27 @@ div.csl-indent {
 </header>
 
 
-<section id="por-que-koch-não-bastava" class="level2">
-<h2 class="anchored" data-anchor-id="por-que-koch-não-bastava">Por que Koch não bastava</h2>
 <p>A epidemiologia da segunda metade do século XX enfrenta um objeto que os postulados de Henle-Koch não cobrem: doenças crônicas, multifatoriais, sem agente único e sem causalidade determinística. O caso paradigmático é tabaco e câncer de pulmão. Não há “germe do câncer de pulmão” no sentido kochiano; nem todos os fumantes desenvolvem a doença; entre os que desenvolvem, alguns nunca fumaram.</p>
 <p>Morabia <span class="citation" data-cites="Morabia2005Causality">(<a href="#ref-Morabia2005Causality" role="doc-biblioref">1</a>)</span> sustenta que essa diferença é estrutural, não temporária. As causas estudadas pela epidemiologia das doenças crônicas são invariantes apenas no nível populacional, não no nível do indivíduo. Postulados desenhados para causação determinística — onde dada presença do agente, dada a doença — produzem erro categorial quando aplicados a relações como tabaco-câncer. A exigência de identificação de agente específico, central em Koch, deixa de ser método e passa a ser obstáculo.</p>
-<p>Schwartz, Susser e Susser <span class="citation" data-cites="Schwartz1999Future">(<a href="#ref-Schwartz1999Future" role="doc-biblioref">2</a>)</span> organizam essa transição em uma sucessão de paradigmas: estatística sanitária do século XIX (sem teoria de mecanismo), era bacteriológica fundada nos postulados de Henle-Koch (causalidade determinística pareada com mecanismo identificado), epidemiologia das doenças crônicas estruturada em torno do conceito de fator de risco probabilístico, e propostas contemporâneas de pensar causa em múltiplos níveis (gene, indivíduo, comunidade, contexto histórico). Cada paradigma redefine o que conta como causa e arrasta consigo intuições do anterior.</p>
-</section>
+<p>Schwartz, Susser e Susser <span class="citation" data-cites="Schwartz1999Future">(<a href="#ref-Schwartz1999Future" role="doc-biblioref">2</a>)</span> organizam essa transição em uma sucessão de paradigmas:</p>
+<ol type="1">
+<li>Estatística sanitária do século XIX (sem teoria de mecanismo), era bacteriológica fundada nos postulados de Henle-Koch (causalidade determinística pareada com mecanismo identificado),</li>
+<li>Epidemiologia das doenças crônicas estruturada em torno do conceito de fator de risco probabilístico</li>
+<li>Propostas contemporâneas de pensar causa em múltiplos níveis (gene, indivíduo, comunidade, contexto histórico).</li>
+</ol>
+<p>Cada paradigma redefine o que conta como causa e arrasta consigo intuições do anterior.</p>
 <section id="o-surgeon-general-report-e-a-palestra-de-hill" class="level2">
 <h2 class="anchored" data-anchor-id="o-surgeon-general-report-e-a-palestra-de-hill">O Surgeon General Report e a palestra de Hill</h2>
+<div id="fig-hill" class="fig-right quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hill-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Bradford-Hill.png" class="fig-right img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hill-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Bradford Hill
+</figcaption>
+</figure>
+</div>
 <p>Em janeiro de 1964, o relatório do U.S. Surgeon General — <em>Smoking and Health: Report of the Advisory Committee to the Surgeon General of the Public Health Service</em> <span class="citation" data-cites="SurgeonGeneral1964Smoking">(<a href="#ref-SurgeonGeneral1964Smoking" role="doc-biblioref">3</a>)</span> — apresenta o primeiro pronunciamento oficial federal afirmando que tabagismo é causa de câncer de pulmão. O documento se sustenta em literatura observacional e laboratorial; nenhum ensaio clínico randomizado existia ou poderia ser conduzido. A conclusão sofreu objeções metodológicas respeitáveis, a mais conhecida sustentando que confundimento por traços genéticos comuns à propensão a fumar e a desenvolver câncer poderia explicar a associação observada. A objeção era logicamente válida e exigia resposta sistemática.</p>
 <p>Em 1965, Austin Bradford Hill profere palestra na Royal Society of Medicine, intitulada “The Environment and Disease: Association or Causation?” <span class="citation" data-cites="Hill1965Environment">(<a href="#ref-Hill1965Environment" role="doc-biblioref">4</a>)</span>. Hill participara, nas décadas anteriores, de investigações empíricas centrais sobre a relação tabaco-câncer; a palestra codifica princípios que vinham orientando essa prática. O texto é breve, escrito em prosa direta, e estabelece um vocabulário que persiste até hoje. Hill apresenta nove pontos de vista — <em>viewpoints</em>, em seu próprio termo — para auxiliar a decisão sobre se uma associação observacional reflete relação causal. Não os apresenta como critérios a serem somados.</p>
 </section>
@@ -257,18 +273,63 @@ div.csl-indent {
 </section>
 <section id="rothman-e-a-causa-suficiente" class="level2">
 <h2 class="anchored" data-anchor-id="rothman-e-a-causa-suficiente">Rothman e a causa suficiente</h2>
+<div id="fig-rothman-paper" class="fig-right quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rothman-paper-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Kenneth-rothman.png" class="fig-right img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rothman-paper-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Capa do artigo de Kenenth Rothman (1976).
+</figcaption>
+</figure>
+</div>
 <p>Onze anos depois, em texto curto publicado no <em>American Journal of Epidemiology</em> <span class="citation" data-cites="Rothman1976Causes">(<a href="#ref-Rothman1976Causes" role="doc-biblioref">5</a>)</span>, Kenneth Rothman propõe modelo formal que organiza a noção multifatorial de causa: o <strong>modelo de causa suficiente</strong> (<em>sufficient component cause model</em>), também conhecido como modelo dos <em>causal pies</em>.</p>
+<div id="fig-rothman-pies" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rothman-pies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/rothman-causal-pies.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rothman-pies-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Modelo de causa suficiente: três combinações de fatores (I, II, III) capazes de produzir a doença. O componente A, presente nas três combinações, é a causa necessária — sem ela, nenhuma combinação resulta em doença.
+</figcaption>
+</figure>
+</div>
 <p>Três definições estruturam o modelo.</p>
+<p><strong>Causa necessária</strong> é um componente que aparece em todas as causas suficientes para o desfecho. Sem ela, a doença não ocorre, qualquer que seja a combinação dos demais fatores. O exemplo canônico é o HPV em câncer de colo uterino.</p>
 <p><strong>Causa suficiente</strong> é um conjunto de fatores que, quando todos presentes simultaneamente, produzem o desfecho de modo invariável. Cada conjunto pode ser representado como uma “torta causal” — daí o apelido informal.</p>
 <p><strong>Componente</strong> é cada fator dentro de uma causa suficiente. A torta inteira produz a doença; o componente isolado, em geral, não.</p>
-<p><strong>Causa necessária</strong> é um componente que aparece em todas as causas suficientes para o desfecho. Sem ela, a doença não ocorre, qualquer que seja a combinação dos demais fatores. O exemplo canônico é o HPV em câncer de colo uterino.</p>
 <p>A doença pode ter múltiplas causas suficientes (várias tortas distintas, cada qual capaz de produzir o desfecho); um mesmo fator pode aparecer como componente de uma, de várias, ou de todas as causas suficientes (caso da causa necessária).</p>
 <p>A implicação imediata, que reorganiza silenciosamente a interpretação de Hill, é a seguinte: a “força” de uma associação não é propriedade intrínseca da causa. Depende da prevalência dos demais componentes na população estudada. Em uma população onde os outros componentes da torta são raros, o efeito do componente em questão será forte; onde são comuns, será fraco. A mesma relação biológica pode produzir associações epidemiológicas de magnitudes distintas em populações distintas — não por ser mais ou menos causal, mas por interagir com a distribuição populacional dos cofatores. Suzuki e Yamamoto <span class="citation" data-cites="Suzuki2021Strength">(<a href="#ref-Suzuki2021Strength" role="doc-biblioref">6</a>)</span> elaboram formalmente essa relação entre força de associação e composição populacional, mostrando como o modelo de causa suficiente articula o que estava implícito em Hill.</p>
+<section id="sinergia-e-modificação-de-efeito" class="level3">
+<h3 class="anchored" data-anchor-id="sinergia-e-modificação-de-efeito">Sinergia e modificação de efeito</h3>
+<p>Dois componentes são <strong>sinérgicos</strong> quando aparecem juntos em uma mesma causa suficiente. Na linguagem de Rothman, sinergia equivale ao que outras tradições epidemiológicas chamam de <strong>modificação de efeito</strong> ou <strong>interação positiva</strong>: dois fatores que, juntos, produzem um efeito maior do que a soma dos efeitos isolados de cada um.</p>
+<p>Considere dois componentes B e F. Três configurações possíveis das causas suficientes que os contêm.</p>
+<p><strong>(a) Independência.</strong> B e F nunca aparecem juntos. Cada um contribui para a doença através de uma causa suficiente diferente. A presença simultânea dos dois produz apenas a soma dos efeitos isolados — não há ganho adicional pela combinação.</p>
+<p><strong>(b) Sinergia incompleta.</strong> B e F aparecem juntos em uma causa suficiente, e cada um também aparece — sozinho, com outros componentes — em outras causas suficientes. Cada fator tem efeito independente, e o efeito combinado excede a soma. Exemplo clínico: álcool e tabaco em câncer de boca e faringe. Cada fator isolado eleva o risco; juntos, o risco excede a soma das contribuições isoladas.</p>
+<p><strong>(c) Sinergia completa.</strong> B e F só atuam quando juntos. Nenhum dos dois aparece em qualquer outra causa suficiente. Sem o outro, nenhum tem efeito. Exemplo: gene da fenilcetonúria (PKU) e fenilalanina na dieta. A doença só ocorre quando o indivíduo tem o gene <strong>e</strong> consome fenilalanina; nenhum dos dois fatores produz a doença sozinho.</p>
+<div id="fig-sinergia" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sinergia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/sinergia-tipos.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sinergia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4: Três configurações de relação entre componentes B (em teal) e F (em violeta) na arcabouço da causa suficiente: independência, sinergia incompleta, sinergia completa.
+</figcaption>
+</figure>
+</div>
+<p>Causas necessárias têm relação particular com a sinergia: por construção, são <strong>parcialmente sinérgicas com todas as outras causas</strong> do mesmo desfecho. Como uma causa necessária é membro de toda causa suficiente, ela atua sempre em combinação com outros componentes. HPV, em câncer de colo uterino, é parcialmente sinérgico com cada outro componente de cada causa suficiente para esse câncer.</p>
+<p>A sinergia, como a força de associação, depende da composição da população. Em uma população onde os componentes que tornariam B e F separadamente eficazes estão ausentes, a sinergia entre eles aparece como completa. Em outra população onde esses componentes são frequentes, a mesma relação biológica aparece como incompleta. O conceito descreve um padrão observado, não uma estrutura biológica fixa.</p>
+</section>
+<section id="fração-etiológica" class="level3">
+<h3 class="anchored" data-anchor-id="fração-etiológica">Fração etiológica</h3>
+<p>A fração etiológica de um componente é a parcela de casos da doença atribuível às causas suficientes que o contêm. A soma dessas frações pode exceder 100%, porque cada caso é atribuído a cada componente da causa suficiente que o produziu — em câncer de boca, álcool e tabaco têm cada um fração etiológica acima de 50% <span class="citation" data-cites="Rothman1976Causes">(<a href="#ref-Rothman1976Causes" role="doc-biblioref">5</a>)</span>.</p>
+<p>Implicação prática: bloquear um único componente elimina todos os casos da causa suficiente que o contém.</p>
+</section>
 </section>
 <section id="síntese" class="level2">
 <h2 class="anchored" data-anchor-id="síntese">Síntese</h2>
-<p>A passagem de Koch para Hill-Rothman é a primeira refundação conceitual da causalidade em epidemiologia. Hill traduz a tarefa do epidemiologista para um vocabulário operacional adaptado à evidência observacional disponível em saúde pública; Rothman fornece a estrutura formal que explica por que essa tarefa é possível, ainda que sem a invariabilidade exigida em microbiologia. Os dois movimentos consolidam a ideia de que doenças crônicas têm causalidade probabilística, multifatorial e contexto-dependente.</p>
-<p>Permanecem, porém, dois problemas em aberto. Primeiro, como definir com rigor o que significa “se a exposição não tivesse ocorrido, o desfecho não teria ocorrido” — pergunta contrafactual ainda sem formulação matemática nesse período. Segundo, como decidir, em presença de variáveis que se influenciam mutuamente, qual ajuste estatístico isola corretamente o efeito da exposição de interesse. O Cap. 03 trata da resposta dada a esses dois problemas pela tradição contrafactual e pelos grafos acíclicos direcionados.</p>
+<p>Hill e Rothman fazem a primeira refundação conceitual da causalidade em epidemiologia. Hill dá o vocabulário operacional para evidência observacional; Rothman dá a estrutura formal que mostra por que essa tarefa é possível sem a invariabilidade exigida em microbiologia.</p>
+<p>Dois problemas ficam abertos: como definir com rigor o que teria acontecido se a exposição não tivesse ocorrido, e como escolher o ajuste estatístico correto quando as variáveis se influenciam mutuamente. O Cap. 03 trata dessas duas questões.</p>
 </section>
 <section id="exercícios" class="level2">
 <h2 class="anchored" data-anchor-id="exercícios">Exercícios</h2>
@@ -281,8 +342,8 @@ div.csl-indent {
     <span><span class="chapter-nav-label">Anterior</span><span class="chapter-nav-title">Antes da epidemiologia</span></span>
   </a>
   <span class="chapter-nav-meta">Capítulo 2 de 5</span>
-  <a class="chapter-nav-next" href="03-revolucao-contrafactual.html">
-    <span><span class="chapter-nav-label">Próximo</span><span class="chapter-nav-title">A revolução contrafactual</span></span>
+  <a class="chapter-nav-next" href="03-formalizacao-causal.html">
+    <span><span class="chapter-nav-label">Próximo</span><span class="chapter-nav-title">A formalização da inferência causal</span></span>
     <span aria-hidden="true">→</span>
   </a>
 </nav>
@@ -291,24 +352,24 @@ div.csl-indent {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-Morabia2005Causality" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Morabia A. Epidemiological causality. History and Philosophy of the Life Sciences [Internet]. 2005;27(3-4):365–79. Available from: <a href="http://www.jstor.org/stable/23333898">http://www.jstor.org/stable/23333898</a></div>
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Morabia A. Epidemiological Causality. History and Philosophy of the Life Sciences [Internet]. 2005;27(3-4):365–79. Disponível em: <a href="http://www.jstor.org/stable/23333898">http://www.jstor.org/stable/23333898</a></div>
 </div>
 <div id="ref-Schwartz1999Future" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Schwartz S, Susser E, Susser M. <a href="https://doi.org/10.1146/annurev.publhealth.20.1.15">A future for epidemiology?</a> Annual Review of Public Health. 1999;20:15–33. </div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Schwartz S, Susser E, Susser M. <a href="https://doi.org/10.1146/annurev.publhealth.20.1.15">A Future for Epidemiology?</a> Annual Review of Public Health. 1999;20:15–33. </div>
 </div>
 <div id="ref-SurgeonGeneral1964Smoking" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">U.S. Department of Health, Education, and Welfare. Smoking and health: Report of the advisory committee to the surgeon general of the public health service. Washington, DC: U.S. Department of Health, Education,; Welfare, Public Health Service; 1964. Report No.: 1103. </div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">U.S. Department of Health, Education, and Welfare. Smoking and Health: Report of the Advisory Committee to the Surgeon General of the Public Health Service [Internet]. Washington, DC: U.S. Department of Health, Education,; Welfare, Public Health Service; 1964. Report No.: 1103. Disponível em: <a href="https://collections.nlm.nih.gov/ext/document/101584932X202/PDF/101584932X202.pdf">https://collections.nlm.nih.gov/ext/document/101584932X202/PDF/101584932X202.pdf</a></div>
 </div>
 <div id="ref-Hill1965Environment" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Hill AB. <a href="https://doi.org/10.1177/003591576505800503">The environment and disease: Association or causation?</a> Proceedings of the Royal Society of Medicine. 1965;58(5):295–300. </div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Hill AB. <a href="https://doi.org/10.1177/003591576505800503">The Environment and Disease: Association or Causation?</a> Proceedings of the Royal Society of Medicine. 1965;58(5):295–300. </div>
 </div>
 <div id="ref-Rothman1976Causes" class="csl-entry" role="listitem">
 <div class="csl-left-margin">5. </div><div class="csl-right-inline">Rothman KJ. <a href="https://doi.org/10.1093/oxfordjournals.aje.a112335">Causes</a>. American Journal of Epidemiology. 1976;104(6):587–92. </div>
 </div>
 <div id="ref-Suzuki2021Strength" class="csl-entry" role="listitem">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline">Suzuki E, Yamamoto E. <a href="https://doi.org/10.1007/s10654-021-00798-6">Strength in causality: Discerning causal mechanisms in the sufficient cause model</a>. European Journal of Epidemiology. 2021;36(9):899–908. </div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Suzuki E, Yamamoto E. <a href="https://doi.org/10.1007/s10654-021-00798-6">Strength in Causality: Discerning Causal Mechanisms in the Sufficient Cause Model</a>. European Journal of Epidemiology. 2021;36(9):899–908. </div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -336,12 +397,12 @@ div.csl-indent {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

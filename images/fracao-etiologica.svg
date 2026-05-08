@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" font-family="Inter, system-ui, sans-serif">
+  <!--
+    Frações etiológicas dos componentes A-J nas três causas suficientes,
+    com Causa I = 50% dos casos, II = 30%, III = 20%.
+    Recriação didática original. Estrutura conceitual pública (Rothman 1976).
+  -->
+
+  <!-- Título e contexto -->
+  <text x="350" y="30" text-anchor="middle" font-size="16" font-weight="600" fill="#f0f4f8">Frações etiológicas dos componentes</text>
+  <text x="350" y="55" text-anchor="middle" font-size="13" fill="#a8b3c4">Causa suficiente I = 50% dos casos · II = 30% · III = 20%</text>
+
+  <!-- Linha de referência 100% -->
+  <line x1="480" y1="80" x2="480" y2="312" stroke="#6b7a90" stroke-width="1.2" stroke-dasharray="5 5"/>
+  <text x="480" y="328" text-anchor="middle" font-size="11" fill="#a8b3c4">100%</text>
+
+  <!-- A: 100% (em I, II, III — necessária) — teal -->
+  <text x="65" y="95" text-anchor="end" dominant-baseline="middle" font-size="15" font-weight="700" fill="#00d9c0">A</text>
+  <rect x="80" y="86" width="400" height="18" fill="rgba(0, 217, 192, 0.35)" stroke="#00d9c0" stroke-width="1.2"/>
+  <text x="488" y="95" dominant-baseline="middle" font-size="12" font-weight="600" fill="#f0f4f8">100%</text>
+
+  <!-- B: 80% (em I e II) — violeta -->
+  <text x="65" y="117" text-anchor="end" dominant-baseline="middle" font-size="14" font-weight="600" fill="#a78bfa">B</text>
+  <rect x="80" y="108" width="320" height="18" fill="rgba(167, 139, 250, 0.30)" stroke="#a78bfa" stroke-width="1"/>
+  <text x="408" y="117" dominant-baseline="middle" font-size="12" fill="#f0f4f8">80%</text>
+
+  <!-- C: 70% (em I e III) — violeta -->
+  <text x="65" y="139" text-anchor="end" dominant-baseline="middle" font-size="14" font-weight="600" fill="#a78bfa">C</text>
+  <rect x="80" y="130" width="280" height="18" fill="rgba(167, 139, 250, 0.30)" stroke="#a78bfa" stroke-width="1"/>
+  <text x="368" y="139" dominant-baseline="middle" font-size="12" fill="#f0f4f8">70%</text>
+
+  <!-- D: 50% (só I) — neutro -->
+  <text x="65" y="161" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#a8b3c4">D</text>
+  <rect x="80" y="152" width="200" height="18" fill="#1c2338" stroke="#a8b3c4" stroke-width="1"/>
+  <text x="288" y="161" dominant-baseline="middle" font-size="12" fill="#f0f4f8">50%</text>
+
+  <!-- E: 50% (só I) — neutro -->
+  <text x="65" y="183" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#a8b3c4">E</text>
+  <rect x="80" y="174" width="200" height="18" fill="#1c2338" stroke="#a8b3c4" stroke-width="1"/>
+  <text x="288" y="183" dominant-baseline="middle" font-size="12" fill="#f0f4f8">50%</text>
+
+  <!-- F: 50% (em II e III) — violeta -->
+  <text x="65" y="205" text-anchor="end" dominant-baseline="middle" font-size="14" font-weight="600" fill="#a78bfa">F</text>
+  <rect x="80" y="196" width="200" height="18" fill="rgba(167, 139, 250, 0.30)" stroke="#a78bfa" stroke-width="1"/>
+  <text x="288" y="205" dominant-baseline="middle" font-size="12" fill="#f0f4f8">50%</text>
+
+  <!-- G: 30% (só II) -->
+  <text x="65" y="227" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#a8b3c4">G</text>
+  <rect x="80" y="218" width="120" height="18" fill="#1c2338" stroke="#a8b3c4" stroke-width="1"/>
+  <text x="208" y="227" dominant-baseline="middle" font-size="12" fill="#f0f4f8">30%</text>
+
+  <!-- H: 30% (só II) -->
+  <text x="65" y="249" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#a8b3c4">H</text>
+  <rect x="80" y="240" width="120" height="18" fill="#1c2338" stroke="#a8b3c4" stroke-width="1"/>
+  <text x="208" y="249" dominant-baseline="middle" font-size="12" fill="#f0f4f8">30%</text>
+
+  <!-- I: 20% (só III) -->
+  <text x="65" y="271" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#a8b3c4">I</text>
+  <rect x="80" y="262" width="80" height="18" fill="#1c2338" stroke="#a8b3c4" stroke-width="1"/>
+  <text x="168" y="271" dominant-baseline="middle" font-size="12" fill="#f0f4f8">20%</text>
+
+  <!-- J: 20% (só III) -->
+  <text x="65" y="293" text-anchor="end" dominant-baseline="middle" font-size="14" fill="#a8b3c4">J</text>
+  <rect x="80" y="284" width="80" height="18" fill="#1c2338" stroke="#a8b3c4" stroke-width="1"/>
+  <text x="168" y="293" dominant-baseline="middle" font-size="12" fill="#f0f4f8">20%</text>
+
+  <!-- Separador -->
+  <line x1="65" y1="358" x2="620" y2="358" stroke="#2a3449" stroke-width="1"/>
+
+  <!-- Soma destacada -->
+  <text x="65" y="385" font-size="14" font-weight="500" fill="#a8b3c4">Soma das frações etiológicas:</text>
+  <text x="305" y="385" font-size="20" font-weight="700" fill="#00d9c0">500%</text>
+
+  <!-- Nota -->
+  <text x="65" y="415" font-size="11" fill="#8a96ab" font-style="italic">Cada caso de doença contribui para a fração etiológica de todos os componentes da causa suficiente que o produziu.</text>
+</svg>

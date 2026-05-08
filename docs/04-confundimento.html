@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.26">
@@ -74,17 +74,17 @@ div.csl-indent {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -98,8 +98,8 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -123,8 +123,8 @@ div.csl-indent {
  <span class="dropdown-text">2. A virada do século XX</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./03-revolucao-contrafactual.html">
- <span class="dropdown-text">3. A revolução contrafactual</span></a>
+    <a class="dropdown-item" href="./03-formalizacao-causal.html">
+ <span class="dropdown-text">3. A formalização da inferência causal</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./04-confundimento.html">
@@ -195,10 +195,10 @@ div.csl-indent {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#a-definição-contrafactual" id="toc-a-definição-contrafactual" class="nav-link active" data-scroll-target="#a-definição-contrafactual">A definição contrafactual</a></li>
+  <li><a href="#a-definição-moderna" id="toc-a-definição-moderna" class="nav-link active" data-scroll-target="#a-definição-moderna">A definição moderna</a></li>
   <li><a href="#confundimento-positivo-e-negativo" id="toc-confundimento-positivo-e-negativo" class="nav-link" data-scroll-target="#confundimento-positivo-e-negativo">Confundimento positivo e negativo</a></li>
   <li><a href="#estratégias-de-controle-por-desenho" id="toc-estratégias-de-controle-por-desenho" class="nav-link" data-scroll-target="#estratégias-de-controle-por-desenho">Estratégias de controle por desenho</a></li>
   <li><a href="#estratégias-de-controle-na-análise" id="toc-estratégias-de-controle-na-análise" class="nav-link" data-scroll-target="#estratégias-de-controle-na-análise">Estratégias de controle na análise</a></li>
@@ -216,7 +216,7 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Confundimento na lente moderna</h1>
-<p class="subtitle lead">Definição contrafactual, direção do viés e estratégias de controle</p>
+<p class="subtitle lead">Definição moderna, direção do viés e estratégias de controle</p>
 </div>
 
 
@@ -233,59 +233,57 @@ div.csl-indent {
 </header>
 
 
-<section id="a-definição-contrafactual" class="level2">
-<h2 class="anchored" data-anchor-id="a-definição-contrafactual">A definição contrafactual</h2>
-<p>O Cap. 03 estabeleceu que confundimento, na leitura contrafactual, é falha de permutabilidade entre os grupos comparados: expostos e não expostos diferem, antes da exposição, em fatores que afetam o desfecho. Um confundidor é uma variável cujo ajuste restaura a permutabilidade condicional.</p>
-<p>Essa formulação resolve uma ambiguidade da definição clássica baseada em “variável associada à exposição e ao desfecho, e não na via causal”. A definição clássica não distingue, com rigor, entre três categorias estruturalmente diferentes:</p>
-<ul>
-<li><strong>Confundidor.</strong> Ancestral comum de exposição e desfecho, fora da via causal. Ajuste reduz viés.</li>
-<li><strong>Mediador.</strong> Descendente da exposição e ancestral do desfecho. Ajustar por mediador remove parte do efeito causal de interesse — o que se quer estimar, e não o viés a ser eliminado.</li>
-<li><strong>Colisor.</strong> Descendente comum de exposição e desfecho, ou de algum ancestral comum a ambos. Ajustar por colisor cria associação espúria onde não havia.</li>
-</ul>
-<p>A definição clássica (“associada à exposição e ao desfecho, não na via causal”) aceita um colisor como satisfazendo o primeiro critério (porque o colisor pode estar associado à exposição e ao desfecho via condicionamento), o que conduz à intuição errada de que ajustar por ele “controla confundimento”. Greenland e Robins <span class="citation" data-cites="Greenland1986Identifiability">(<a href="#ref-Greenland1986Identifiability" role="doc-biblioref">1</a>)</span> mostram, em linguagem contrafactual, que a propriedade relevante é a permutabilidade condicional — não a mera associação com exposição e desfecho.</p>
-<p>A consequência prática é direta: a decisão de incluir uma variável como covariável de ajuste exige conhecimento da estrutura causal subjacente. Não há critério estatístico observacional que distinga confundidor de colisor a partir dos dados isolados.</p>
+<section id="a-definição-moderna" class="level2">
+<h2 class="anchored" data-anchor-id="a-definição-moderna">A definição moderna</h2>
+<p>Em um estudo, comparam-se dois grupos — expostos e não expostos — para isolar o efeito de uma exposição sobre um desfecho. A comparação só é válida se os grupos forem iguais em tudo, exceto na exposição. Quando algum outro fator que afeta o desfecho difere entre eles, parte da diferença observada vem desse fator, e não da exposição. Esse problema é o confundimento.</p>
+<p>A idade é o exemplo mais comum. Pacientes mais velhos costumam receber certos tratamentos com mais frequência — porque acumulam comorbidades, porque preenchem mais indicações clínicas — e, ao mesmo tempo, têm mais chance de morrer ou de ter eventos. Se a comparação ignora a idade, parte do que parece efeito do tratamento é, na verdade, efeito de ser mais velho. Para recuperar o efeito do tratamento, é preciso separar a contribuição da idade — ajustar por ela na análise, parear por ela no desenho do estudo ou restringir o estudo a uma faixa etária.</p>
+<p>Tradicionalmente, confundidor é definido como “uma variável associada à exposição e ao desfecho, que não está na via causal entre eles”. A definição é intuitiva e amplamente usada — e leva, com frequência, a ajustes errados. O problema é que três tipos diferentes de variável satisfazem, ou parecem satisfazer, esse critério, e cada um exige tratamento estatístico oposto: confundidor, mediador e colisor.</p>
+<p><strong>Confundidor</strong> é a causa comum da exposição e do desfecho, como a idade no exemplo acima. Ajustar por ele reduz o viés.</p>
+<p><strong>Mediador</strong> está dentro da via causal entre exposição e desfecho: a exposição age sobre o desfecho passando por ele. Estatinas reduzem eventos cardiovasculares principalmente por reduzirem o LDL; LDL é mediador do efeito da estatina. Ajustar por LDL não controla confundimento — controla o próprio efeito que se queria estimar. A análise passa a capturar apenas a parte do efeito da estatina que age por outras vias e perde a parte que age pela redução do LDL. Sob a definição clássica, o mediador parece satisfazer o critério: está associado à exposição (estatina reduz LDL) e ao desfecho (LDL alto causa evento). Mas não é confundidor.</p>
+<p><strong>Colisor</strong> é variável que é consequência tanto da exposição quanto do desfecho, ou de causas comuns de ambos. Hipertensão grave e infarto, cada um por seu lado, aumentam a chance de hospitalização; hospitalização é colisor de hipertensão e infarto. Ajustar por um colisor — restringir a análise a pacientes hospitalizados, por exemplo — cria associação onde não havia. Sob a definição clássica, o colisor também parece satisfazer o critério, sobretudo quando a amostra já foi filtrada por algum processo de seleção (apenas pacientes internados, apenas voluntários de um registro): ele aparece estatisticamente associado à exposição e ao desfecho. Mas ajustar por ele introduz viés, em vez de removê-lo.</p>
+<p>Greenland e Robins <span class="citation" data-cites="Greenland1986Identifiability">(<a href="#ref-Greenland1986Identifiability" role="doc-biblioref">1</a>)</span> mostram que o critério correto para identificar um confundidor não é estar associado à exposição e ao desfecho — é a capacidade de devolver aos grupos a comparabilidade. Confundidor passa nesse critério; mediador e colisor, não. A consequência prática é direta: decidir se uma variável deve entrar no ajuste exige conhecimento da estrutura causal do problema. Os dados, sozinhos, não distinguem confundidor, mediador e colisor — a mesma associação estatística entre uma covariável e o desfecho é compatível com as três interpretações.</p>
 </section>
 <section id="confundimento-positivo-e-negativo" class="level2">
 <h2 class="anchored" data-anchor-id="confundimento-positivo-e-negativo">Confundimento positivo e negativo</h2>
-<p>VanderWeele, Hernán e Robins <span class="citation" data-cites="VanderWeele2008Direction">(<a href="#ref-VanderWeele2008Direction" role="doc-biblioref">2</a>)</span> elaboram o aparato gráfico para tratar a direção do viés residual quando há confundimento não medido. O artigo introduz arestas com sinal — positivo ou negativo — e estabelece, sob hipóteses de monotonicidade, condições para inferir se o viés residual atua no sentido de <strong>superestimar</strong> o efeito da exposição (viés positivo) ou no sentido de <strong>subestimar ou inverter</strong> (viés negativo).</p>
-<p>A aplicação clínica mais relevante para os casos paradigmáticos do site é o <strong>viés do usuário saudável</strong> (<em>healthy-user bias</em>). Indivíduos que aderem a uma prescrição preventiva — terapia de reposição hormonal, suplementação vitamínica, estatina em prevenção primária — tendem a praticar conjuntamente outros comportamentos protetores não medidos: alimentação adequada, atividade física regular, busca proativa de atendimento de saúde, adesão a outras prescrições. Esses comportamentos são, ao mesmo tempo, causa de receber a intervenção (porque indivíduos saudáveis procuram-na) e causa do desfecho (porque produzem proteção independente).</p>
-<p>A consequência estrutural: a associação observada “da intervenção” com desfechos saudáveis é sistematicamente <strong>superestimada</strong> — viés positivo na direção da proteção aparente. O padrão sustentou décadas de evidência observacional favorável à terapia de reposição hormonal e a suplementos vitamínicos antes que ensaios randomizados a invertessem.</p>
+<p>Quando há um confundidor que ninguém mediu — e que, portanto, não pode ser ajustado —, é útil saber em que direção o viés que sobra atua. VanderWeele, Hernán e Robins <span class="citation" data-cites="VanderWeele2008Direction">(<a href="#ref-VanderWeele2008Direction" role="doc-biblioref">2</a>)</span> estendem o aparato gráfico para responder a essa pergunta. Sob hipóteses específicas, é possível inferir, a partir das setas do DAG, se o confundidor não medido tende a <strong>superestimar</strong> o efeito da exposição (viés positivo) ou a <strong>subestimá-lo ou invertê-lo</strong> (viés negativo).</p>
+<p>A aplicação clínica mais importante para os casos do site é o <strong>viés do usuário saudável</strong> (<em>healthy-user bias</em>). Pessoas que aderem a uma prescrição preventiva — terapia de reposição hormonal, suplementação vitamínica, estatina em prevenção primária — costumam praticar, ao mesmo tempo, outros comportamentos protetores que ninguém mediu: alimentação cuidadosa, atividade física regular, ida frequente ao médico, adesão a outras recomendações. Esses comportamentos causam, ao mesmo tempo, o uso da intervenção (porque pessoas saudáveis a procuram) e o desfecho favorável (porque produzem benefício independente).</p>
+<p>A consequência é estrutural: a associação observada entre a intervenção e desfechos saudáveis fica sistematicamente <strong>superestimada</strong> — o viés tem direção positiva, na direção da proteção aparente. Foi esse padrão que sustentou décadas de evidência observacional favorável à terapia de reposição hormonal e a suplementos vitamínicos, antes que ensaios randomizados invertessem a conclusão.</p>
 </section>
 <section id="estratégias-de-controle-por-desenho" class="level2">
 <h2 class="anchored" data-anchor-id="estratégias-de-controle-por-desenho">Estratégias de controle por desenho</h2>
-<p>A primeira camada de controle do confundimento é estrutural: bloqueia o viés antes da análise estatística.</p>
-<p><strong>Randomização</strong> é o único procedimento que torna os grupos permutáveis em expectativa, condicional a nada — inclusive a confundidores não medidos e desconhecidos. O preço é a artificialidade: o ensaio responde sobre uma população, um período e um regime específicos, e a generalização demanda argumento separado.</p>
-<p><strong>Restrição</strong> elimina a variação no confundidor restringindo a amostra a um único valor dele. Estudo de função pulmonar conduzido apenas em não fumantes elimina o confundimento por tabaco por construção. O custo é a redução de generalizabilidade: o efeito identificado vale para a subpopulação restrita.</p>
-<p><strong>Pareamento</strong> (<em>matching</em>), em coortes, atribui a cada exposto um ou mais não expostos com valores semelhantes do confundidor; em estudos caso-controle, a operação é análoga sobre os pares caso-controle. Pareamento sozinho não controla totalmente o confundimento — a variável de pareamento ainda precisa ser tratada na análise — mas melhora precisão e equilibra distribuições, sendo eficiente quando o confundidor é fortemente associado ao desfecho.</p>
+<p>A primeira camada de controle atua <strong>antes</strong> mesmo de a análise estatística começar — bloqueia o viés ao desenhar o estudo.</p>
+<p><strong>Randomização.</strong> É o único procedimento que, em média, torna os grupos comparáveis em todos os fatores — inclusive nos confundidores que ninguém mediu ou pensou em medir. A moeda decide quem recebe o tratamento; em média, os dois grupos ficam parecidos em tudo. O preço é a artificialidade do desenho: o ensaio responde sobre uma população específica, num período específico, sob um regime específico, e generalizar para a prática clínica exige argumento separado.</p>
+<p><strong>Restrição.</strong> Elimina a variação no confundidor restringindo a amostra a um único valor dele. Um estudo de função pulmonar conduzido apenas em não fumantes elimina, por construção, o confundimento pelo tabaco. O custo é a generalização limitada: o efeito identificado vale para a subpopulação restrita.</p>
+<p><strong>Pareamento</strong> (<em>matching</em>). Em estudos de coorte, atribui a cada exposto um ou mais não expostos com valores semelhantes do confundidor; em caso-controle, a operação é análoga sobre os pares caso-controle. O pareamento sozinho não controla totalmente o confundimento — a variável usada para parear ainda precisa ser tratada na análise —, mas melhora a precisão e equilibra as distribuições. É especialmente útil quando o confundidor está fortemente associado ao desfecho.</p>
 </section>
 <section id="estratégias-de-controle-na-análise" class="level2">
 <h2 class="anchored" data-anchor-id="estratégias-de-controle-na-análise">Estratégias de controle na análise</h2>
 <p>A segunda camada atua sobre os dados já coletados.</p>
-<p><strong>Estratificação</strong> divide a amostra em estratos do confundidor e estima o efeito separadamente em cada um, combinando-os via estimadores ponderados (Mantel-Haenszel é o exemplo clássico). É transparente e revela heterogeneidade entre estratos; mas com muitos confundidores torna-se impraticável, porque o número de estratos cresce multiplicativamente.</p>
-<p><strong>Ajuste regressivo</strong> inclui o confundidor como covariável em modelo regressivo (linear, logístico, Cox). Acomoda múltiplos confundidores e variáveis contínuas. Depende, no entanto, de especificação correta da forma funcional — a relação entre cada covariável e o desfecho precisa ser representada de forma adequada. Modelo mal especificado produz ajuste insuficiente; em amostras pequenas com muitas covariáveis, há risco adicional de viés por dados esparsos.</p>
-<p><strong>Escore de propensão</strong> sumariza, em uma única variável, a probabilidade de receber a exposição condicional aos confundidores medidos. Dentro de estratos do escore, a distribuição dos confundidores fica equilibrada entre expostos e não expostos. O escore é então usado para pareamento, estratificação ou ponderação. A redução dimensional facilita o ajuste em situações com muitas covariáveis. As limitações herdam da análise: o escore só equilibra confundidores <strong>medidos</strong>, e exige positividade dentro de seu intervalo de variação.</p>
+<p><strong>Estratificação.</strong> Divide a amostra em grupos (estratos) definidos pelo confundidor e estima o efeito da exposição separadamente em cada estrato; depois combina os estratos por uma média ponderada. O exemplo clássico é o estimador de Mantel-Haenszel. A estratificação é transparente e revela se o efeito da exposição varia entre estratos. A limitação é prática: com muitos confundidores, o número de estratos cresce multiplicativamente e a maioria deles fica sem casos suficientes para uma estimativa estável.</p>
+<p><strong>Ajuste regressivo.</strong> Inclui o confundidor como variável independente em um modelo de regressão (linear, logística, Cox). Acomoda múltiplos confundidores e variáveis contínuas em um único passo. A dependência crítica é da forma funcional do modelo: a relação entre cada covariável e o desfecho precisa ser representada adequadamente — linear, quadrática, com transformação, com interação. Quando o modelo está mal especificado, o ajuste fica incompleto. Em amostras pequenas com muitas covariáveis, surge ainda o risco de <strong>viés por dados esparsos</strong> (estimativas instáveis quando alguns estratos têm poucos eventos).</p>
+<p><strong>Escore de propensão.</strong> Resume, em uma única variável, a probabilidade de cada paciente receber a exposição, dada a sua combinação de confundidores medidos. Dentro de cada faixa do escore, a distribuição dos confundidores fica equilibrada entre expostos e não expostos. O escore é então usado para parear pacientes, estratificá-los ou ponderá-los na análise. A redução a uma única variável facilita o ajuste quando há muitos confundidores. As limitações são as mesmas da análise convencional: o escore só equilibra os confundidores que foram <strong>medidos</strong>, e exige que existam, dentro de cada faixa do escore, tanto expostos quanto não expostos (a chamada <strong>positividade</strong>).</p>
 </section>
 <section id="confundidores-não-medidos" class="level2">
 <h2 class="anchored" data-anchor-id="confundidores-não-medidos">Confundidores não medidos</h2>
-<p>Quando o confundidor relevante não foi medido, ajuste estatístico convencional é inoperante. Três aparatos lidam com a situação.</p>
-<p><strong>Variável instrumental</strong> é uma variável que afeta a exposição mas afeta o desfecho <strong>apenas</strong> através da exposição (a chamada restrição de exclusão). Identificada uma variável com essa propriedade, é possível estimar o efeito causal mesmo com confundidores não medidos. Exemplos comuns: distância a um centro especializado como instrumento para receber determinado tratamento; aleatoriedade meteorológica como instrumento para exposição ambiental. A randomização mendeliana é um caso particular, em que uma variante genética é o instrumento. A dificuldade está na restrição de exclusão: ela é, em geral, indemonstrável a partir dos dados.</p>
-<p><strong>Regressão descontínua</strong> explora atribuições baseadas em limiar agudo de uma variável contínua — por exemplo, idade 65 para elegibilidade ao Medicare, escore de gravidade para internação em CTI. Indivíduos imediatamente acima e imediatamente abaixo do limiar são, na vizinhança da descontinuidade, comparáveis em todos os fatores que variam continuamente; a diferença no desfecho identifica o efeito local do tratamento atribuído pelo limiar. O método produz inferência local — válida apenas próximo ao limiar — sob premissas de continuidade.</p>
-<p><strong>Análise de sensibilidade</strong> quantifica a robustez de uma associação observada a confundimento não medido. O <strong>E-value</strong>, proposto por VanderWeele e Ding <span class="citation" data-cites="VanderWeele2017Evalue">(<a href="#ref-VanderWeele2017Evalue" role="doc-biblioref">3</a>)</span>, é a versão escalar mais difundida: representa a magnitude mínima da associação (em razão de risco) que um confundidor não medido teria de ter, simultaneamente com a exposição e com o desfecho, para anular o efeito observado. E-value alto significa que considerável confundimento não medido seria necessário para explicar o achado; E-value próximo de um significa que o resultado é frágil a confundimento modesto. A reportagem rotineira do E-value — proposta como prática-padrão em estudos observacionais com pretensão causal — desloca a discussão de “há confundimento residual?” (resposta sempre sim) para “qual a magnitude de confundimento não medido necessária para anular o efeito?”.</p>
+<p>Quando o confundidor relevante não foi medido, o ajuste estatístico convencional é inoperante. Três métodos lidam com essa situação.</p>
+<p><strong>Variável instrumental.</strong> É uma variável que afeta a exposição, mas afeta o desfecho <strong>apenas</strong> através da exposição — não tem outro caminho até ele. Essa propriedade é chamada de <strong>restrição de exclusão</strong>. Identificada uma variável com essa propriedade, é possível estimar o efeito causal mesmo na presença de confundidores não medidos. Alguns exemplos: a distância até um centro especializado como instrumento para receber determinado tratamento (a distância afeta o acesso, mas não afeta o desfecho por outra via que não pelo tratamento); a aleatoriedade meteorológica como instrumento para exposição ambiental. A <strong>randomização mendeliana</strong> é um caso particular: usa uma variante genética como instrumento, aproveitando o fato de que a herança genética é, na prática, um sorteio. A grande dificuldade do método está na restrição de exclusão — ela não pode ser provada a partir dos dados, e exige justificativa biológica sólida.</p>
+<p><strong>Regressão descontínua.</strong> Explora situações em que a atribuição do tratamento depende de um limiar fixo em uma variável contínua. Alguns exemplos: a idade de 65 anos para elegibilidade ao Medicare; um escore de gravidade que define internação em CTI. Pacientes imediatamente acima e imediatamente abaixo do limiar são, na vizinhança da descontinuidade, comparáveis em todos os fatores que variam de forma contínua com a idade ou a gravidade — a única coisa que difere bruscamente entre eles é o tratamento. A diferença no desfecho entre quem está logo acima e logo abaixo do limiar estima o efeito do tratamento naquela vizinhança. O método produz inferência local — vale apenas perto do limiar — e exige premissas de continuidade.</p>
+<p><strong>Análise de sensibilidade.</strong> Quantifica a robustez do achado a confundimento não medido. O <strong>E-value</strong>, proposto por VanderWeele e Ding <span class="citation" data-cites="VanderWeele2017Evalue">(<a href="#ref-VanderWeele2017Evalue" role="doc-biblioref">3</a>)</span>, é a versão mais usada. Em uma única razão de risco, ele responde a uma pergunta direta: qual seria a magnitude mínima de associação que um confundidor não medido precisaria ter, simultaneamente com a exposição e com o desfecho, para anular o efeito observado? Um E-value alto significa que apenas um confundimento substancial poderia explicar o achado; um E-value próximo de 1 significa que o resultado é frágil — confundimento modesto bastaria para anulá-lo. Reportar o E-value rotineiramente, prática hoje recomendada para estudos observacionais com pretensão causal, desloca o debate de “existe confundimento residual?” (resposta sempre sim) para “que magnitude de confundimento residual seria necessária para destruir o efeito?”.</p>
 </section>
 <section id="confundimento-residual-e-análise-de-viés-quantitativa" class="level2">
 <h2 class="anchored" data-anchor-id="confundimento-residual-e-análise-de-viés-quantitativa">Confundimento residual e análise de viés quantitativa</h2>
-<p>Após qualquer estratégia analítica, persiste algum confundimento residual. Sobrevive em pelo menos quatro fontes: confundidores não medidos, erro de medida em confundidores medidos, especificação incorreta do modelo de ajuste, esparsidade de dados em estratos relevantes.</p>
-<p>Savitz, Pearce e Rothman <span class="citation" data-cites="Savitz2025Considerations">(<a href="#ref-Savitz2025Considerations" role="doc-biblioref">4</a>)</span> argumentam que a forma metodologicamente madura de lidar com confundimento residual é a <strong>análise de viés quantitativa</strong>: em vez de reconhecer qualitativamente que “pode haver confundimento residual”, especificar cenários quantitativos — qual seria o efeito estimado se um confundidor não medido com determinadas características estivesse presente, qual a sensibilidade do achado a erro de medida de magnitude X, qual o intervalo de estimativas plausíveis sob diferentes premissas. O E-value é uma forma escalar dessa análise; fórmulas de viés, simulação de Monte Carlo e análise probabilística são outras. O movimento desloca o ônus da inferência: o autor não declara apenas que controlou confundimento, mas demonstra quão robustas são suas conclusões a violações específicas das premissas.</p>
+<p>Mesmo depois de aplicada a melhor estratégia de ajuste, sempre sobra algum <strong>confundimento residual</strong> — o viés que não foi totalmente eliminado. Ele tem pelo menos quatro fontes: confundidores que não foram medidos; erros de medida em confundidores que foram medidos; modelo regressivo com forma funcional inadequada; e estratos com poucos casos.</p>
+<p>Savitz, Pearce e Rothman <span class="citation" data-cites="Savitz2025Considerations">(<a href="#ref-Savitz2025Considerations" role="doc-biblioref">4</a>)</span> argumentam que a forma metodologicamente madura de lidar com esse resíduo é a <strong>análise de viés quantitativa</strong>: em vez de apenas reconhecer no texto que “pode haver confundimento residual”, especificar cenários quantitativos. Qual seria o efeito estimado se um confundidor não medido com determinadas características estivesse presente? Qual a sensibilidade do achado a um erro de medida de magnitude X? Qual o intervalo de estimativas plausíveis sob premissas diferentes? O E-value é uma versão simples dessa análise; fórmulas algébricas de viés, simulação de Monte Carlo e análise probabilística são versões mais elaboradas. O efeito é deslocar o ônus da inferência: o autor não declara apenas que controlou confundimento — demonstra quão robusta é a sua conclusão a violações específicas das premissas.</p>
 </section>
 <section id="aplicação-aos-casos-do-site" class="level2">
 <h2 class="anchored" data-anchor-id="aplicação-aos-casos-do-site">Aplicação aos casos do site</h2>
-<p>O viés do usuário saudável, como confundimento positivo sistemático, é o eixo explicativo dos casos da <a href="./casos/trh.html">terapia de reposição hormonal</a>, da <a href="./casos/vitamina-e.html">vitamina E</a> e parte da história da <a href="./casos/vitamina-d.html">vitamina D</a>. Em cada um, a evidência observacional sustentava efeito protetor robusto antes da inversão experimental. A reanálise contemporânea reconhece, em cada caso, que confundidores não medidos compatíveis com o padrão <em>healthy-user</em> tinham E-values plausíveis para anular as associações observadas; o ensaio randomizado os anulou de fato.</p>
-<p>Para a <a href="./casos/vitamina-d.html">vitamina D</a>, além do confundimento, atua causalidade reversa: indivíduos doentes têm níveis séricos mais baixos por mecanismos da própria doença, e não pelo contrário. Para o <a href="./casos/betacaroteno.html">betacaroteno</a>, incidem ainda dois fenômenos adicionais — a falácia ecológica de transferir associação populacional (consumo de frutas e legumes) para intervenção individual (suplementação isolada) e a fragmentação do “componente ativo” para fora da matriz alimentar onde ele opera. O confundimento explica parte da história, não toda.</p>
+<p>O viés do usuário saudável — confundimento positivo sistemático — é o eixo explicativo dos casos da <a href="./casos/trh.html">terapia de reposição hormonal</a>, da <a href="./casos/vitamina-e.html">vitamina E</a> e parte da história da <a href="./casos/vitamina-d.html">vitamina D</a>. Em cada um deles, a evidência observacional sustentava efeito protetor robusto antes que o ensaio randomizado a invertesse. A reanálise contemporânea reconhece, em cada caso, que existiam confundidores não medidos compatíveis com o padrão <em>healthy-user</em> — e que esses confundidores tinham E-values plausíveis para anular a associação observada. O ensaio randomizado os anulou na prática.</p>
+<p>Para a <a href="./casos/vitamina-d.html">vitamina D</a>, além do confundimento, atua a <strong>causalidade reversa</strong>: pacientes com doença crônica têm níveis séricos de vitamina D mais baixos como consequência da doença, não como sua causa. Para o <a href="./casos/betacaroteno.html">betacaroteno</a>, entram em cena dois fenômenos adicionais — a <strong>falácia ecológica</strong> (transferir uma associação populacional, como consumo de frutas e legumes, para uma intervenção individual, como suplemento isolado) e a fragmentação do “componente ativo” para fora da matriz alimentar onde ele atua. O confundimento explica parte da história, não toda.</p>
 </section>
 <section id="síntese" class="level2">
 <h2 class="anchored" data-anchor-id="síntese">Síntese</h2>
-<p>Confundimento é o problema central da epidemiologia observacional. O aparato moderno — definição contrafactual, DAGs, controle por desenho, ajuste analítico, métodos para confundidor não medido, análise de viés quantitativa — não elimina o problema; o torna disciplinado. Cada decisão analítica passa a ser justificada por uma estrutura causal explícita, e o residual fica quantificável.</p>
-<p>O Cap. 05 trata do que se faz quando, mesmo com todo esse aparato, a evidência permanece ambígua: triangulação, hierarquia GRADE, e a leitura contemporânea dos pontos de Hill como considerações em vez de critérios.</p>
+<p>Confundimento é o problema central da epidemiologia observacional. O aparato moderno — resultados potenciais, DAGs, controle por desenho, ajuste analítico, métodos para confundidor não medido, análise de viés quantitativa — não elimina o problema, mas o torna disciplinado. Cada decisão analítica passa a ser justificada por uma estrutura causal explícita, e o que sobra de viés fica quantificável.</p>
+<p>O Cap. 05 trata do que se faz quando, mesmo com todo esse aparato, a evidência permanece ambígua: triangulação, hierarquia GRADE e a leitura contemporânea dos pontos de Hill como considerações, em vez de critérios.</p>
 </section>
 <section id="exercícios" class="level2">
 <h2 class="anchored" data-anchor-id="exercícios">Exercícios</h2>
@@ -293,9 +291,9 @@ div.csl-indent {
 <p><strong>2.</strong> Um pesquisador estuda o efeito de uma estatina sobre eventos cardiovasculares e ajusta o modelo regressivo por LDL pós-tratamento. Discuta — usando vocabulário de mediador, confundidor e colisor — por que esse ajuste é metodologicamente problemático e o que ele estima realmente. Que ajuste alternativo recuperaria o efeito causal de interesse?</p>
 <p><strong>3.</strong> Um estudo reporta razão de risco de 1,8 para uma associação exposição-desfecho, após ajuste por confundidores medidos. O E-value calculado é 3,0. Em uma frase, interprete o E-value: que magnitude de confundimento não medido seria necessária para anular o efeito? O resultado parece robusto a confundimento moderado, ou é frágil?</p>
 <nav class="chapter-nav" aria-label="Navegação entre capítulos">
-  <a class="chapter-nav-prev" href="03-revolucao-contrafactual.html">
+  <a class="chapter-nav-prev" href="03-formalizacao-causal.html">
     <span aria-hidden="true">←</span>
-    <span><span class="chapter-nav-label">Anterior</span><span class="chapter-nav-title">A revolução contrafactual</span></span>
+    <span><span class="chapter-nav-label">Anterior</span><span class="chapter-nav-title">A formalização da inferência causal</span></span>
   </a>
   <span class="chapter-nav-meta">Capítulo 4 de 5</span>
   <a class="chapter-nav-next" href="05-causa-ou-associacao-hoje.html">
@@ -308,18 +306,18 @@ div.csl-indent {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-Greenland1986Identifiability" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Greenland S, Robins JM. <a href="https://doi.org/10.1093/ije/15.3.413">Identifiability, exchangeability, and epidemiological confounding</a>. International Journal of Epidemiology. 1986;15(3):413–9. </div>
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Greenland S, Robins JM. <a href="https://doi.org/10.1093/ije/15.3.413">Identifiability, Exchangeability, and Epidemiological Confounding</a>. International Journal of Epidemiology. 1986;15(3):413–9. </div>
 </div>
 <div id="ref-VanderWeele2008Direction" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">VanderWeele TJ, Hernán MA, Robins JM. <a href="https://doi.org/10.1097/EDE.0b013e3181810e29">Causal directed acyclic graphs and the direction of unmeasured confounding bias</a>. Epidemiology. 2008;19(5):720–8. </div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">VanderWeele TJ, Hernán MA, Robins JM. <a href="https://doi.org/10.1097/EDE.0b013e3181810e29">Causal Directed Acyclic Graphs and the Direction of Unmeasured Confounding Bias</a>. Epidemiology. 2008;19(5):720–8. </div>
 </div>
 <div id="ref-VanderWeele2017Evalue" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">VanderWeele TJ, Ding P. <a href="https://doi.org/10.7326/M16-2607">Sensitivity analysis in observational research: Introducing the <span>E</span>-value</a>. Annals of Internal Medicine. 2017;167(4):268–74. </div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">VanderWeele TJ, Ding P. <a href="https://doi.org/10.7326/M16-2607">Sensitivity Analysis in Observational Research: Introducing the <span>E</span>-Value</a>. Annals of Internal Medicine. 2017;167(4):268–74. </div>
 </div>
 <div id="ref-Savitz2025Considerations" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Savitz DA, Pearce N, Rothman KJ. <a href="https://doi.org/10.1016/j.jclinepi.2025.112087"><span>H</span>ill’s considerations are not causal criteria</a>. Journal of Clinical Epidemiology. 2025;190:112087. </div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Savitz DA, Pearce N, Rothman KJ. <a href="https://doi.org/10.1016/j.jclinepi.2025.112087"><span>H</span>ill’s Considerations Are Not Causal Criteria</a>. Journal of Clinical Epidemiology. 2025;190:112087. </div>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -347,12 +345,12 @@ div.csl-indent {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
