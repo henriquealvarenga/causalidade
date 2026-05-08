@@ -45,3 +45,5 @@ node_modules/
 # --- PDFs (cópias locais de artigos para consulta — não distribuir) ---
 references/PDF/
 *.pdf
+/.quarto/
+**/*.quarto_ipynb

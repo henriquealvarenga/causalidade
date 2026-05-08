@@ -7,7 +7,7 @@ subtitle: "Informações sobre o autor, metodologia e filosofia por trás do sit
 
 **Henrique Alvarenga da Silva**
 
-Médico psiquiatra. Técnico Administrativo Educacional na Universidade Federal de São João del-Rei (UFSJ) e professor na AFYA Educacional. Especialista em Psiquiatria e Psicopatologia, com foco em metodologia de pesquisa e educação médica baseada em evidências.
+Médico psiquiatra. Professor de Psiquiatria do Curso de Medicina da Universidade Federal de São João del-Rei (UFSJ) e professor na AFYA Educacional. Especialista em Psiquiatria e Psicopatologia, com foco em metodologia de pesquisa e educação médica baseada em evidências. Mestre em Educação Médica.
 
 ::: {.contact-links}
 [🌐 Site pessoal](https://www.henriquealvarenga.com){.contact-link}
@@ -98,13 +98,12 @@ Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
 Este trabalho está licenciado sob **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
 
 **Você pode:**
-- **Compartilhar** — copiar e redistribuir o material
-- **Adaptar** — remixar, transformar e criar a partir do material
+- **Compartilhar** — copiar e redistribuir o material. 
+- **Adaptar** — remixar, transformar e criar a partir do material. 
 
-**Sob as condições:**
-- **Atribuição** — dar crédito apropriado
-- **NãoComercial** — não usar para fins comerciais  
-- **CompartilhaIgual** — distribuir contribuições sob a mesma licença
+**Sob as condições:**. 
+- **Atribuição** — dar crédito apropriado.  
+- **NãoComercial** — não usar para fins comerciais.     
 
 🔗 [Texto completo da licença](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
 :::
