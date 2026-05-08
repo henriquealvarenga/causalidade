@@ -5,19 +5,15 @@ subtitle: "Hill como considerações, triangulação e o debate atual"
 
 ## Hill são considerações, não critérios
 
-A leitura mais influente dos pontos de vista de Hill, ao longo de seis décadas de prática epidemiológica, transformou-os no oposto do que eram. Hill apresentou nove ângulos auxiliares à decisão sobre causalidade, com a advertência explícita de que nenhum, isoladamente, é necessário (com a exceção da temporalidade) nem suficiente. A prática subsequente os converteu em uma lista a ser somada — preencheu-se uma planilha, contou-se quantos itens estavam satisfeitos, atribuiu-se um veredicto.
-
-Savitz, Pearce e Rothman [-@Savitz2025Considerations] retomam o problema sessenta anos depois com uma tese direta: as considerações de Hill são auxiliares, não critérios. Causalidade não é uma propriedade categórica adquirida pela soma de itens em uma checklist. A inferência causal é processo indireto e gradual, em que uma associação resiste a desafios sucessivos de explicações concorrentes — viés, confundimento, acaso, causalidade reversa, erro de medida — até que a explicação causal se cristaliza como a mais provável.
-
-A reformulação tem consequência prática. Estudos que satisfazem mecanicamente cinco ou seis pontos de Hill não estabelecem causa por isso; estudos que falham em alguns dos nove podem, ainda assim, apresentar evidência causal robusta caso outras formas de evidência triangulem na mesma direção. O que sustenta inferência causal não é a contagem dos pontos, mas a robustez da associação a explicações alternativas explicitadas.
+As considerações de Hill são auxiliares, não critérios [-@Savitz2025Considerations]. Causalidade não é uma propriedade categórica adquirida pela soma de itens em uma checklist. Estudos que satisfazem mecanicamente cinco ou seis pontos de Hill não estabelecem causa por isso; estudos que falham em alguns dos nove podem, ainda assim, apresentar evidência causal robusta caso outras formas de evidência indiquem a mesma direção. O que sustenta inferência causal não é a contagem dos pontos, mas a robustez da associação a explicações alternativas explicitadas. A inferência causal é processo indireto e gradual, em que uma associação resiste a desafios sucessivos de explicações concorrentes — viés, confundimento, acaso, causalidade reversa, erro de medida — até que a explicação causal se cristaliza como a mais provável.
 
 ## Os pontos de Hill na leitura contemporânea
 
-A literatura metodológica recente reavaliou cada um dos nove pontos à luz de evidência empírica acumulada e do aparato de resultados potenciais. Ioannidis [-@Ioannidis2016ExposureWide] e Shimonovich et al. [-@Shimonovich2021Assessing] convergem em padrão consistente.
+A literatura metodológica recente reavaliou cada um dos nove pontos à luz de evidência empírica acumulada e do aparato de resultados potenciais. 
 
-Temporalidade, evidência experimental e consistência (replicação) permanecem como pontos com peso epistêmico significativo. Temporalidade é condição lógica da relação causal, não um indicador. Evidência experimental ganha contraparte observacional precisa via target trial. Consistência atua via heterogeneidade entre populações com diferentes vieses; quando estimativas convergem apesar de vieses divergentes, a explicação causal ganha credibilidade — e quando divergem, a inconsistência informa onde os vieses operam.
+Temporalidade, evidência experimental e consistência (replicação) permanecem como pontos com peso significativo. Temporalidade é condição lógica da relação causal, não um indicador. Evidência experimental ganha contraparte observacional precisa via target trial. Consistência atua via heterogeneidade entre populações com diferentes vieses; quando estimativas convergem apesar de vieses divergentes, a explicação causal ganha credibilidade — e quando divergem, a inconsistência informa onde os vieses operam.
 
-Força de associação foi reinterpretada criticamente por Ioannidis [-@Ioannidis2016ExposureWide]: efeitos pequenos podem ser causais, e efeitos muito grandes em estudos observacionais frequentemente refletem viés mais do que causalidade, porque vieses produzem mais facilmente efeitos grandes do que efeitos pequenos. Gradiente biológico pode surgir por confundimento — usuários de doses maiores são também os mais aderentes, o que correlaciona com outros comportamentos protetores não medidos. Plausibilidade biológica permanece relevante, mas com a ressalva já feita por Hill: ela é contingente ao conhecimento mecanístico do período.
+Força de associação foi reinterpretada criticamente por Ioannidis [-@Ioannidis2016ExposureWide]: efeitos pequenos podem ser causais, e efeitos muito grandes em estudos observacionais frequentemente refletem mais viés do que causalidade, porque vieses produzem mais facilmente efeitos grandes do que efeitos pequenos. Gradiente biológico pode surgir por confundimento — usuários de doses maiores são também os mais aderentes, o que correlaciona com outros comportamentos protetores não medidos. Plausibilidade biológica permanece relevante, mas com a ressalva já feita por Hill: ela é contingente ao conhecimento mecanístico do período.
 
 Especificidade raramente se aplica em doenças crônicas multifatoriais. Coerência e analogia têm utilidade prática limitada [@Ioannidis2016ExposureWide; @Shimonovich2021Assessing] — coerência é difícil de operacionalizar, e analogia justifica suspeita mas raramente sustenta inferência.
 
@@ -25,7 +21,7 @@ A leitura ponto a ponto deixa três sobreviventes robustos (temporalidade, exper
 
 ## Triangulação
 
-O recurso epistêmico que substitui a soma mecânica dos pontos é a **triangulação**: combinar fontes de evidência com vieses de direções diferentes. Se um efeito é estimado por estudo de coorte, ensaio randomizado, randomização mendeliana e desenho com controle negativo, e as estimativas convergem, é improvável que cada método tenha viés exatamente compensatório. A convergência sob vieses heterogêneos é o que sustenta a inferência causal.
+O recurso que substitui a soma mecânica dos pontos é a **triangulação**: combinar fontes de evidência com vieses de direções diferentes. Se um efeito é estimado por estudo de coorte, ensaio randomizado, randomização mendeliana e desenho com controle negativo, e as estimativas convergem, é improvável que cada método tenha viés exatamente compensatório. A convergência sob vieses heterogêneos é o que sustenta a inferência causal.
 
 O argumento, articulado por Savitz, Pearce e Rothman [-@Savitz2025Considerations], representa uma virada epistemológica: o que separa associação de causa não é a presença de propriedades estruturais (força, gradiente, coerência), mas a resistência da associação a múltiplas tentativas de explicação alternativa, vindas de fontes metodologicamente independentes. Inconsistência, sob essa leitura, é informativa: revela onde os vieses operam, e o passo seguinte é entender por que vieses específicos atuam em direções específicas em cada desenho.
 
@@ -41,7 +37,7 @@ A implicação é que Hill não foi descartado pela epidemiologia contemporânea
 
 O debate metodológico recente articula três posições sobre o futuro do arcabouço.
 
-**Revisão.** Olsen e Jensen [-@Olsen2019Revision] argumentam que o conjunto original de Hill deve ser revisitado por uma comissão internacional, e propõem a adição de um **critério de consequência**: a avaliação causal deve incluir consideração explícita das consequências da intervenção (ou não-intervenção) baseada na inferência. O argumento é consequencialista: classificar uma associação como causal raramente é exercício acadêmico desinteressado; em saúde pública, a classificação orienta ação, e a moldura metodológica deve refletir essa estrutura. A proposta separa explicitamente o argumento causal do argumento sobre o que fazer, ainda que ambos coexistam na prática.
+**Revisão.** Olsen e Jensen [-@Olsen2019Revision] argumentam que o conjunto original de Hill deve ser revisitado por uma comissão internacional, e propõem a adição de um **critério de consequência**: a avaliação causal deve incluir consideração explícita das consequências da intervenção (ou não-intervenção) baseada na inferência. Classificar uma associação como causal raramente é exercício acadêmico desinteressado; em saúde pública, a classificação orienta ação, e a moldura metodológica deve refletir essa estrutura. A proposta separa explicitamente o argumento causal do argumento sobre o que fazer, ainda que ambos coexistam na prática.
 
 **Modernização.** Cox [-@Cox2018Modernizing] propõe sete princípios alinhados a algoritmos de descoberta causal automatizada — informação mútua, dependência direcionada, consistência interna e externa, explicação causal coerente da plausibilidade biológica, confirmação por mediação causal, refutação de explicações não causais. A reformulação se afasta do vocabulário associativo de Hill em direção a um vocabulário de **causalidade manipulativa** — o que muda no desfecho quando a exposição é manipulada, não meramente observada — alinhado com a definição em termos de resultados potenciais.
 
@@ -67,11 +63,9 @@ A síntese metodológica acumulada nos cinco capítulos pode ser destilada em tr
 
 As três perguntas codificam o aparato moderno em prática reproduzível. Não dispensam julgamento epidemiológico, e tampouco oferecem algoritmo. Disciplinam a discussão.
 
-## Encerramento
+## Considerações
 
-A trajetória dos cinco capítulos atravessa três séculos de tentativas de definir o que significa, com rigor, dizer que X causa Y em saúde. De Hume e Koch, herdou-se a constatação de que causa não é objeto de percepção e a tentação determinística de exigir agente único e específico. De Hill e Rothman, a primeira refundação operacional para uma epidemiologia de causas múltiplas e probabilísticas. De Greenland, Robins, VanderWeele e Hernán, a precisão formal dos resultados potenciais. De Savitz, Pearce, Rothman, Lesko, Ioannidis e outros, a leitura crítica que devolve Hill ao seu lugar original — auxiliar, não algoritmo.
-
-A epidemiologia contemporânea ganhou precisão sem ter alcançado certeza. A inferência causal, como Hill já notava em 1965, permanece indireta e gradual: nenhuma associação é causal por satisfazer condições; uma associação é causal quando, repetidamente testada contra explicações alternativas, sobrevive.
+A epidemiologia contemporânea ganhou precisão sem ter alcançado certeza. A inferência causal, como Hill já notava em 1965, permanece indireta e gradual: a interpretação causal de uma associação não decorre de uma checklist preenchida, mas da resistência dessa associação a sucessivas tentativas de explicá-la por outras vias,
 
 ## Exercícios
 

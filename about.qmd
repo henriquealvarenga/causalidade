@@ -132,9 +132,7 @@ Silva, H. A. (2026). *Da correlação à causalidade: O difícil caminho da evid
 ::: {.about-section}
 ## Agradecimentos
 
-Aos estudantes de medicina que, com suas perguntas sobre "essa nova descoberta que saiu no jornal", motivaram a criação deste material. Aos colegas que compartilharam experiências sobre como explicar "reversões científicas" aos pacientes sem abalar sua confiança na medicina.
-
-À comunidade de medicina baseada em evidências, que nos ensina que decepcionar-se com a evidência é parte do rigor científico, não sinal de fracasso.
+Aos estudantes de medicina que, com suas perguntas sobre "essa nova descoberta que saiu no jornal", motivaram a criação deste material.
 :::
 
 ::: {.about-section}
