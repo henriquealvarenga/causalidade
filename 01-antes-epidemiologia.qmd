@@ -5,7 +5,7 @@ subtitle: "Hume, Mill e Koch"
 
 ## David Hume
 
-![David Hume](images/David-Hume.png){.fig-right #fig-hume}
+![David Hume](images/David-Hume.jpg){.fig-right #fig-hume}
 
 David Hume (1711–1776), no *Tratado da Natureza Humana* (1739) e na *Investigação Acerca do Entendimento Humano* (1748), sustenta que causalidade não é objeto de percepção. Sucessões repetidas de eventos A e B produzem, na mente do observador, a expectativa de que A seja a causa de B; é nesse hábito psicológico, e não num vínculo entre os eventos, que a noção de causa se constitui.
 
@@ -24,7 +24,7 @@ Hume também mostrou, no século XVIII, que o raciocínio indutivo — do tipo "
 
 ## Stuart Mill
 
-![Stuart Mill](images/Stuart-Mill.png){.fig-right #fig-mill}
+![Stuart Mill](images/Stuart-Mill.jpg){.fig-right #fig-mill}
 
 John Stuart Mill (1806–1873), em *A System of Logic* (1843), articula o que falta em Hume: comparação explícita entre situações. Os métodos de Mill são procedimentos para extrair inferência causal de comparações sistemáticas. Postulou 5 métodos: concordância, diferença, conjunto, resíduos, variação concomitante.
 
@@ -42,7 +42,7 @@ O método da diferença lembra um ensaio clínico randomizado, mas estudos epide
 
 ## Henle-Koch
 
-![Henle-Koch](images/Henle-Koch.png){.fig-right #fig-koch}
+![Henle-Koch](images/Henle-Koch.jpg){.fig-right #fig-koch}
 
 Robert Koch (1843–1910), partindo de formulações de Jakob Henle, propõe no fim do século XIX critérios para estabelecer que um microrganismo é o agente causal de uma doença infecciosa específica:
 

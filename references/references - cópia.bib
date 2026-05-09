@@ -1,0 +1,731 @@
+% =============================================================================
+% references.bib — Da Correlação à Causalidade
+% =============================================================================
+%
+% Este arquivo abriga TODAS as referências bibliográficas do site.
+%
+% PRINCÍPIO EDITORIAL NÃO-NEGOCIÁVEL:
+% Toda entrada adicionada aqui DEVE ter sido verificada em uma base
+% bibliográfica primária (PubMed, DOI Crossref, registro do periódico)
+% antes de ser incluída. Não é permitido incluir referências baseadas
+% apenas em memória, em saídas de modelos de linguagem, ou em citações
+% indiretas. Cada entrada tem que carregar DOI verificado.
+%
+% Formato preferido: BibTeX padrão. Campos mínimos para artigos:
+%   author, title, journal, year, volume, number, pages, doi
+%
+% Convenção de citekey: PrimeiroAutorAnoPalavraChave
+%   ex.: Ioannidis2005WhyMostResearch
+%        WHI2002Estrogen
+%
+% =============================================================================
+% SEÇÃO: CAUSALIDADE — TEORIA E CRITÉRIOS
+% Todas as entradas abaixo foram verificadas individualmente no PubMed
+% (campos: autor, título, periódico, volume, fascículo, páginas, ano, DOI).
+% =============================================================================
+
+% --- Referência fundacional dos critérios de Hill ---
+@article{Hill1965Environment,
+  author    = {Hill, Austin Bradford},
+  title     = {The Environment and Disease: Association or Causation?},
+  journal   = {Proceedings of the Royal Society of Medicine},
+  year      = {1965},
+  volume    = {58},
+  number    = {5},
+  pages     = {295--300},
+  doi       = {10.1177/003591576505800503},
+  pmid      = {14283879}
+}
+
+% --- Modelo de causa suficiente (causal pies) ---
+@article{Rothman1976Causes,
+  author    = {Rothman, Kenneth J.},
+  title     = {Causes},
+  journal   = {American Journal of Epidemiology},
+  year      = {1976},
+  volume    = {104},
+  number    = {6},
+  pages     = {587--592},
+  doi       = {10.1093/oxfordjournals.aje.a112335},
+  pmid      = {998606}
+}
+
+% --- Definição contrafactual de confundimento ---
+@article{Greenland1986Identifiability,
+  author    = {Greenland, Sander and Robins, James M.},
+  title     = {Identifiability, Exchangeability, and Epidemiological Confounding},
+  journal   = {International Journal of Epidemiology},
+  year      = {1986},
+  volume    = {15},
+  number    = {3},
+  pages     = {413--419},
+  doi       = {10.1093/ije/15.3.413},
+  pmid      = {3771081}
+}
+
+% --- Direção do viés do confundimento (positivo / negativo) ---
+@article{VanderWeele2008Direction,
+  author    = {VanderWeele, Tyler J. and Hern{\'a}n, Miguel A. and Robins, James M.},
+  title     = {Causal Directed Acyclic Graphs and the Direction of Unmeasured Confounding Bias},
+  journal   = {Epidemiology},
+  year      = {2008},
+  volume    = {19},
+  number    = {5},
+  pages     = {720--728},
+  doi       = {10.1097/EDE.0b013e3181810e29},
+  pmid      = {18633331}
+}
+
+% --- Tutorial de DAGs em pesquisa clínica (d-separação, M-bias, DAGitty) ---
+@article{Byeon2023DAGs,
+  author    = {Byeon, Sangmin and Lee, Woojoo},
+  title     = {Directed Acyclic Graphs for Clinical Research: A Tutorial},
+  journal   = {Journal of Minimally Invasive Surgery},
+  year      = {2023},
+  volume    = {26},
+  number    = {3},
+  pages     = {97--107},
+  doi       = {10.7602/jmis.2023.26.3.97},
+  pmid      = {37712307},
+  pmcid     = {PMC10505364}
+}
+
+% --- Hume, Mill, Hill: raízes filosóficas dos viewpoints ---
+@article{Morabia2013SuiGeneris,
+  author    = {Morabia, Alfredo},
+  title     = {{H}ume, {M}ill, {H}ill, and the Sui Generis Epidemiologic Approach to Causal Inference},
+  journal   = {American Journal of Epidemiology},
+  year      = {2013},
+  volume    = {178},
+  number    = {10},
+  pages     = {1526--1532},
+  doi       = {10.1093/aje/kwt223},
+  pmid      = {24071010}
+}
+
+% --- Causalidade epidemiológica vs causalidade da microbiologia ---
+@article{Morabia2005Causality,
+  author    = {Morabia, Alfredo},
+  title     = {Epidemiological Causality},
+  journal   = {History and Philosophy of the Life Sciences},
+  year      = {2005},
+  volume    = {27},
+  number    = {3-4},
+  pages     = {365--379},
+  pmid      = {16898206},
+  url       = {http://www.jstor.org/stable/23333898}
+}
+
+% --- Eras da epidemiologia (causalidade em múltiplos níveis) ---
+@article{Schwartz1999Future,
+  author    = {Schwartz, Sharon and Susser, Ezra and Susser, Mervyn},
+  title     = {A Future for Epidemiology?},
+  journal   = {Annual Review of Public Health},
+  year      = {1999},
+  volume    = {20},
+  pages     = {15--33},
+  doi       = {10.1146/annurev.publhealth.20.1.15},
+  pmid      = {10352847}
+}
+
+% =============================================================================
+% SEÇÃO: CASO ÔMEGA-3 (caso contemporâneo, ainda em evolução)
+% =============================================================================
+% (GISSI-Prevenzione 1999 está catalogada na seção Vitamina E porque o
+% mesmo ensaio testou ambos os agentes em desenho fatorial.)
+
+% --- ASCEND: ômega-3 1g/dia em diabéticos sem DCV (2018) ---
+@article{ASCEND2018Omega3,
+  author    = {{ASCEND Study Collaborative Group} and Bowman, Louise and Mafham, Marion and Wallendszus, Karl and Stevens, Will and Buck, Georgina and Barton, Jill and Murphy, Kevin and Aung, Theingi and Haynes, Richard and Cox, Jolyon and Murawska, Aleksandra and Young, Allen and Lay, Michael and Chen, Fang and Sammons, Emily and Waters, Emma and Adler, Amanda and Bodansky, Jonathan and Farmer, Andrew and McPherson, Roger and Neil, Andrew and Simpson, David and Peto, Richard and Baigent, Colin and Collins, Rory and Parish, Sarah and Armitage, Jane},
+  title     = {Effects of n-3 Fatty Acid Supplements in Diabetes Mellitus},
+  journal   = {New England Journal of Medicine},
+  year      = {2018},
+  volume    = {379},
+  number    = {16},
+  pages     = {1540--1550},
+  doi       = {10.1056/NEJMoa1804989},
+  pmid      = {30146932}
+}
+
+% --- VITAL ômega-3: prevenção primária CV e câncer (Manson 2019) ---
+@article{Manson2019VITALOmega,
+  author    = {Manson, JoAnn E. and Cook, Nancy R. and Lee, I-Min and Christen, William and Bassuk, Shari S. and Mora, Samia and Gibson, Heike and Albert, Christine M. and Gordon, David and Copeland, Trisha and D'Agostino, Denise and Friedenberg, Georgina and Ridge, Claire and Bubes, Vadim and Giovannucci, Edward L. and Willett, Walter C. and Buring, Julie E.},
+  title     = {Marine n-3 Fatty Acids and Prevention of Cardiovascular Disease and Cancer},
+  journal   = {New England Journal of Medicine},
+  year      = {2019},
+  volume    = {380},
+  number    = {1},
+  pages     = {23--32},
+  doi       = {10.1056/NEJMoa1811403},
+  pmid      = {30415637}
+}
+
+% --- REDUCE-IT: icosapent etil em hipertrigliceridemia (Bhatt 2019) ---
+@article{Bhatt2019REDUCEIT,
+  author    = {Bhatt, Deepak L. and Steg, P. Gabriel and Miller, Michael and Brinton, Eliot A. and Jacobson, Terry A. and Ketchum, Steven B. and Doyle, Ralph T. and Juliano, Rebecca A. and Jiao, Lixia and Granowitz, Craig and Tardif, Jean-Claude and Ballantyne, Christie M.},
+  title     = {Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia},
+  journal   = {New England Journal of Medicine},
+  year      = {2019},
+  volume    = {380},
+  number    = {1},
+  pages     = {11--22},
+  doi       = {10.1056/NEJMoa1812792},
+  pmid      = {30415628}
+}
+
+% --- STRENGTH: ômega-3 carboxylic acid 4g/dia, parada precoce (Nicholls 2020) ---
+@article{Nicholls2020STRENGTH,
+  author    = {Nicholls, Stephen J. and Lincoff, A. Michael and Garcia, Michelle and Bash, Dianna and Ballantyne, Christie M. and Barter, Philip J. and Davidson, Michael H. and Kastelein, John J. P. and Koenig, Wolfgang and McGuire, Darren K. and Mozaffarian, Dariush and Ridker, Paul M. and Ray, Kausik K. and Katona, Brian G. and Himmelmann, Anders and Loss, Larrye E. and Rensfeldt, Martin and Lundstr{\"o}m, Torbj{\"o}rn and Agrawal, Rahul and Menon, Venu and Wolski, Kathy and Nissen, Steven E.},
+  title     = {Effect of High-Dose Omega-3 Fatty Acids vs Corn Oil on Major Adverse Cardiovascular Events in Patients at High Cardiovascular Risk: The {STRENGTH} Randomized Clinical Trial},
+  journal   = {JAMA},
+  year      = {2020},
+  volume    = {324},
+  number    = {22},
+  pages     = {2268--2280},
+  doi       = {10.1001/jama.2020.22258},
+  pmid      = {33190147}
+}
+
+% --- Gencer: meta-análise de fibrilação atrial em ensaios de ômega-3 (2021) ---
+@article{Gencer2021AFOmega,
+  author    = {Gencer, Baris and Djousse, Luc and Al-Ramady, Omar T. and Cook, Nancy R. and Manson, JoAnn E. and Albert, Christine M.},
+  title     = {Effect of Long-Term Marine Omega-3 Fatty Acids Supplementation on the Risk of Atrial Fibrillation in Randomized Controlled Trials of Cardiovascular Outcomes: A Systematic Review and Meta-Analysis},
+  journal   = {Circulation},
+  year      = {2021},
+  volume    = {144},
+  number    = {25},
+  pages     = {1981--1990},
+  doi       = {10.1161/CIRCULATIONAHA.121.055654},
+  pmid      = {34612056}
+}
+
+% =============================================================================
+% SEÇÃO: CASO VITAMINA D (suplementação e prevenção primária)
+% =============================================================================
+
+% --- VITAL: vitamina D e prevenção de câncer e DCV (Manson 2019) ---
+@article{Manson2019VITAL,
+  author    = {Manson, JoAnn E. and Cook, Nancy R. and Lee, I-Min and Christen, William and Bassuk, Shari S. and Mora, Samia and Gibson, Heike and Gordon, David and Copeland, Trisha and D'Agostino, Denise and Friedenberg, Georgina and Ridge, Claire and Bubes, Vadim and Giovannucci, Edward L. and Willett, Walter C. and Buring, Julie E.},
+  title     = {Vitamin {D} Supplements and Prevention of Cancer and Cardiovascular Disease},
+  journal   = {New England Journal of Medicine},
+  year      = {2019},
+  volume    = {380},
+  number    = {1},
+  pages     = {33--44},
+  doi       = {10.1056/NEJMoa1809944},
+  pmid      = {30415629}
+}
+
+% --- Autier: 25(OH)D como marcador de doença e não causa (revisão sistemática) ---
+@article{Autier2014VitaminD,
+  author    = {Autier, Philippe and Boniol, Mathieu and Pizot, C{\'e}cile and Mullie, Patrick},
+  title     = {Vitamin {D} Status and Ill Health: A Systematic Review},
+  journal   = {The Lancet Diabetes \& Endocrinology},
+  year      = {2014},
+  volume    = {2},
+  number    = {1},
+  pages     = {76--89},
+  doi       = {10.1016/S2213-8587(13)70165-7},
+  pmid      = {24622671}
+}
+
+% --- Theodoratou (Ioannidis): umbrella review de vitamina D ---
+@article{Theodoratou2014Umbrella,
+  author    = {Theodoratou, Evropi and Tzoulaki, Ioanna and Zgaga, Lina and Ioannidis, John P. A.},
+  title     = {Vitamin {D} and Multiple Health Outcomes: Umbrella Review of Systematic Reviews and Meta-Analyses of Observational Studies and Randomised Trials},
+  journal   = {BMJ},
+  year      = {2014},
+  volume    = {348},
+  pages     = {g2035},
+  doi       = {10.1136/bmj.g2035},
+  pmid      = {24690624}
+}
+
+% --- Zittermann: vitamina D e DCV — RCT e Mendelian randomization ---
+@article{Zittermann2019VitaminD,
+  author    = {Zittermann, Armin and Pilz, Stefan},
+  title     = {Vitamin {D} and Cardiovascular Disease: An Update},
+  journal   = {Anticancer Research},
+  year      = {2019},
+  volume    = {39},
+  number    = {9},
+  pages     = {4627--4635},
+  doi       = {10.21873/anticanres.13643},
+  pmid      = {31519560}
+}
+
+% =============================================================================
+% SEÇÃO: CASO BETACAROTENO (suplementação e câncer de pulmão)
+% =============================================================================
+
+% --- ATBC: aumento de incidência de câncer de pulmão em fumantes (1994) ---
+@article{ATBC1994,
+  author    = {{The Alpha-Tocopherol, Beta Carotene Cancer Prevention Study Group}},
+  title     = {The Effect of Vitamin {E} and Beta Carotene on the Incidence of Lung Cancer and Other Cancers in Male Smokers},
+  journal   = {New England Journal of Medicine},
+  year      = {1994},
+  volume    = {330},
+  number    = {15},
+  pages     = {1029--1035},
+  doi       = {10.1056/NEJM199404143301501},
+  pmid      = {8127329}
+}
+
+% --- CARET: parada precoce por aumento de câncer e mortalidade (Omenn 1996) ---
+@article{Omenn1996CARET,
+  author    = {Omenn, Gilbert S. and Goodman, Gary E. and Thornquist, Mark D. and Balmes, John and Cullen, Mark R. and Glass, Andrew and Keogh, James P. and Meyskens, Frank L. and Valanis, Barbara and Williams, James H. and Barnhart, Scott and Hammar, Samuel},
+  title     = {Effects of a Combination of Beta Carotene and Vitamin {A} on Lung Cancer and Cardiovascular Disease},
+  journal   = {New England Journal of Medicine},
+  year      = {1996},
+  volume    = {334},
+  number    = {18},
+  pages     = {1150--1155},
+  doi       = {10.1056/NEJM199605023341802},
+  pmid      = {8602180}
+}
+
+% --- Physicians' Health Study: betacaroteno em homens saudáveis (Hennekens 1996) ---
+@article{Hennekens1996PHS,
+  author    = {Hennekens, Charles H. and Buring, JoAnn E. and Manson, JoAnn E. and Stampfer, Meir and Rosner, Bernard and Cook, Nancy R. and Belanger, Charlene and LaMotte, Frances and Gaziano, J. Michael and Ridker, Paul M. and Willett, Walter and Peto, Richard},
+  title     = {Lack of Effect of Long-Term Supplementation With Beta Carotene on the Incidence of Malignant Neoplasms and Cardiovascular Disease},
+  journal   = {New England Journal of Medicine},
+  year      = {1996},
+  volume    = {334},
+  number    = {18},
+  pages     = {1145--1149},
+  doi       = {10.1056/NEJM199605023341801},
+  pmid      = {8602179}
+}
+
+% --- Bjelakovic meta-análise: antioxidantes e mortalidade (2007) ---
+@article{Bjelakovic2007Antioxidants,
+  author    = {Bjelakovic, Goran and Nikolova, Dimitrinka and Gluud, Lise Lotte and Simonetti, Rosa G. and Gluud, Christian},
+  title     = {Mortality in Randomized Trials of Antioxidant Supplements for Primary and Secondary Prevention: Systematic Review and Meta-analysis},
+  journal   = {JAMA},
+  year      = {2007},
+  volume    = {297},
+  number    = {8},
+  pages     = {842--857},
+  doi       = {10.1001/jama.297.8.842},
+  pmid      = {17327526}
+}
+
+% =============================================================================
+% SEÇÃO: CASO VITAMINA E (antioxidante e prevenção)
+% =============================================================================
+
+% --- NHS mulheres: associação inversa observacional (Stampfer 1993) ---
+@article{Stampfer1993VitaminEWomen,
+  author    = {Stampfer, Meir J. and Hennekens, Charles H. and Manson, JoAnn E. and Colditz, Graham A. and Rosner, Bernard and Willett, Walter C.},
+  title     = {Vitamin {E} Consumption and the Risk of Coronary Disease in Women},
+  journal   = {New England Journal of Medicine},
+  year      = {1993},
+  volume    = {328},
+  number    = {20},
+  pages     = {1444--1449},
+  doi       = {10.1056/NEJM199305203282003},
+  pmid      = {8479463}
+}
+
+% --- HPFS homens: associação inversa observacional (Rimm 1993) ---
+@article{Rimm1993VitaminEMen,
+  author    = {Rimm, Eric B. and Stampfer, Meir J. and Ascherio, Alberto and Giovannucci, Edward and Colditz, Graham A. and Willett, Walter C.},
+  title     = {Vitamin {E} Consumption and the Risk of Coronary Heart Disease in Men},
+  journal   = {New England Journal of Medicine},
+  year      = {1993},
+  volume    = {328},
+  number    = {20},
+  pages     = {1450--1456},
+  doi       = {10.1056/NEJM199305203282004},
+  pmid      = {8479464}
+}
+
+% --- GISSI-Prevenzione: vitamina E sem benefício, ômega-3 positivo (1999) ---
+@article{GISSI1999Prevenzione,
+  author    = {{Gruppo Italiano per lo Studio della Sopravvivenza nell'Infarto miocardico (GISSI-Prevenzione Investigators)}},
+  title     = {Dietary Supplementation With n-3 Polyunsaturated Fatty Acids and Vitamin {E} After Myocardial Infarction: Results of the {GISSI-Prevenzione} Trial},
+  journal   = {Lancet},
+  year      = {1999},
+  volume    = {354},
+  number    = {9177},
+  pages     = {447--455},
+  pmid      = {10465168}
+}
+
+% --- HOPE: vitamina E sem efeito em alto risco (Yusuf 2000) ---
+@article{Yusuf2000HOPE,
+  author    = {Yusuf, Salim and Dagenais, Gilles and Pogue, Janice and Bosch, Jackie and Sleight, Peter and {The Heart Outcomes Prevention Evaluation Study Investigators}},
+  title     = {Vitamin {E} Supplementation and Cardiovascular Events in High-Risk Patients},
+  journal   = {New England Journal of Medicine},
+  year      = {2000},
+  volume    = {342},
+  number    = {3},
+  pages     = {154--160},
+  doi       = {10.1056/NEJM200001203420302},
+  pmid      = {10639540}
+}
+
+% --- Miller meta-análise: doses altas de vitamina E e mortalidade (2005) ---
+@article{Miller2005VitaminEMortality,
+  author    = {Miller, Edgar R. and Pastor-Barriuso, Roberto and Dalal, Darshan and Riemersma, Rudolph A. and Appel, Lawrence J. and Guallar, Eliseo},
+  title     = {Meta-Analysis: High-Dosage Vitamin {E} Supplementation May Increase All-Cause Mortality},
+  journal   = {Annals of Internal Medicine},
+  year      = {2005},
+  volume    = {142},
+  number    = {1},
+  pages     = {37--46},
+  doi       = {10.7326/0003-4819-142-1-200501040-00110},
+  pmid      = {15537682}
+}
+
+% --- SELECT: vitamina E aumenta risco de câncer de próstata (Klein 2011) ---
+@article{Klein2011SELECT,
+  author    = {Klein, Eric A. and Thompson, Ian M. and Tangen, Catherine M. and Crowley, John J. and Lucia, M. Scott and Goodman, Phyllis J. and Minasian, Lori M. and Ford, Leslie G. and Parnes, Howard L. and Gaziano, J. Michael and Karp, Daniel D. and Lieber, Michael M. and Walther, Philip J. and Klotz, Laurence and Parsons, J. Kellogg and Chin, Joseph L. and Darke, Amy K. and Lippman, Scott M. and Goodman, Gary E. and Meyskens, Frank L. and Baker, Laurence H.},
+  title     = {Vitamin {E} and the Risk of Prostate Cancer: The {S}elenium and {V}itamin {E} {C}ancer {P}revention {T}rial ({SELECT})},
+  journal   = {JAMA},
+  year      = {2011},
+  volume    = {306},
+  number    = {14},
+  pages     = {1549--1556},
+  doi       = {10.1001/jama.2011.1437},
+  pmid      = {21990298}
+}
+
+% =============================================================================
+% SEÇÃO: CASO TRH (terapia de reposição hormonal)
+% =============================================================================
+
+% --- Nurses' Health Study: primeiro relato prospectivo (1985) ---
+@article{Stampfer1985Prospective,
+  author    = {Stampfer, Meir J. and Willett, Walter C. and Colditz, Graham A. and Rosner, Bernard and Speizer, Frank E. and Hennekens, Charles H.},
+  title     = {A Prospective Study of Postmenopausal Estrogen Therapy and Coronary Heart Disease},
+  journal   = {New England Journal of Medicine},
+  year      = {1985},
+  volume    = {313},
+  number    = {17},
+  pages     = {1044--1049},
+  doi       = {10.1056/NEJM198510243131703},
+  pmid      = {4047106}
+}
+
+% --- Nurses' Health Study: seguimento de 10 anos (1991) ---
+@article{Stampfer1991Postmenopausal,
+  author    = {Stampfer, Meir J. and Colditz, Graham A. and Willett, Walter C. and Manson, JoAnn E. and Rosner, Bernard and Speizer, Frank E. and Hennekens, Charles H.},
+  title     = {Postmenopausal Estrogen Therapy and Cardiovascular Disease: Ten-Year Follow-Up From the Nurses' Health Study},
+  journal   = {New England Journal of Medicine},
+  year      = {1991},
+  volume    = {325},
+  number    = {11},
+  pages     = {756--762},
+  doi       = {10.1056/NEJM199109123251102},
+  pmid      = {1870648}
+}
+
+% --- HERS: prevenção secundária, null result com aumento precoce (1998) ---
+@article{Hulley1998HERS,
+  author    = {Hulley, Stephen and Grady, Deborah and Bush, Trudy and Furberg, Curt and Herrington, David and Riggs, Barbara and Vittinghoff, Eric},
+  title     = {Randomized Trial of Estrogen Plus Progestin for Secondary Prevention of Coronary Heart Disease in Postmenopausal Women: {H}eart and {E}strogen/progestin {R}eplacement {S}tudy ({HERS})},
+  journal   = {JAMA},
+  year      = {1998},
+  volume    = {280},
+  number    = {7},
+  pages     = {605--613},
+  doi       = {10.1001/jama.280.7.605},
+  pmid      = {9718051}
+}
+
+% --- WHI: prevenção primária, parada precoce por dano (2002) ---
+@article{Rossouw2002WHI,
+  author    = {Rossouw, Jacques E. and Anderson, Garnet L. and Prentice, Ross L. and LaCroix, Andrea Z. and Kooperberg, Charles and Stefanick, Marcia L. and Jackson, Rebecca D. and Beresford, Shirley A. A. and Howard, Barbara V. and Johnson, Karen C. and Kotchen, Jane Morley and Ockene, Judith and {Writing Group for the Women's Health Initiative Investigators}},
+  title     = {Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results From the {W}omen's {H}ealth {I}nitiative Randomized Controlled Trial},
+  journal   = {JAMA},
+  year      = {2002},
+  volume    = {288},
+  number    = {3},
+  pages     = {321--333},
+  doi       = {10.1001/jama.288.3.321},
+  pmid      = {12117397}
+}
+
+% --- WHI: seguimento estendido com hipótese de timing (Manson 2013) ---
+@article{Manson2013WHIExtended,
+  author    = {Manson, JoAnn E. and Chlebowski, Rowan T. and Stefanick, Marcia L. and Aragaki, Aaron K. and Rossouw, Jacques E. and Prentice, Ross L. and Anderson, Garnet and Howard, Barbara V. and Thomson, Cynthia A. and LaCroix, Andrea Z. and Wactawski-Wende, Jean and Jackson, Rebecca D. and Limacher, Marian and Margolis, Karen L. and others},
+  title     = {Menopausal Hormone Therapy and Health Outcomes During the Intervention and Extended Poststopping Phases of the {W}omen's {H}ealth {I}nitiative Randomized Trials},
+  journal   = {JAMA},
+  year      = {2013},
+  volume    = {310},
+  number    = {13},
+  pages     = {1353--1368},
+  doi       = {10.1001/jama.2013.278040},
+  pmid      = {24084921}
+}
+
+% --- WHI: mortalidade cumulativa em 18 anos (Manson 2017) ---
+@article{Manson2017WHIMortality,
+  author    = {Manson, JoAnn E. and Aragaki, Aaron K. and Rossouw, Jacques E. and Anderson, Garnet L. and Prentice, Ross L. and LaCroix, Andrea Z. and Chlebowski, Rowan T. and Howard, Barbara V. and Thomson, Cynthia A. and Margolis, Karen L. and Lewis, Cora E. and Stefanick, Marcia L. and Jackson, Rebecca D. and Johnson, Karen C. and Martin, Lisa W. and Shumaker, Sally A. and Espeland, Mark A. and Wactawski-Wende, Jean},
+  title     = {Menopausal Hormone Therapy and Long-term All-Cause and Cause-Specific Mortality: The {W}omen's {H}ealth {I}nitiative Randomized Trials},
+  journal   = {JAMA},
+  year      = {2017},
+  volume    = {318},
+  number    = {10},
+  pages     = {927--938},
+  doi       = {10.1001/jama.2017.11217},
+  pmid      = {28898378}
+}
+
+% =============================================================================
+% SEÇÃO: CASO CAST (antiarrítmicos pós-IAM)
+% =============================================================================
+
+% --- Marcador clássico de risco: PVCs e mortalidade pós-IAM ---
+@article{Ruberman1977Ventricular,
+  author    = {Ruberman, William and Weinblatt, Eve and Goldberg, Judith D. and Frank, Charles W. and Shapiro, Sam},
+  title     = {Ventricular Premature Beats and Mortality After Myocardial Infarction},
+  journal   = {New England Journal of Medicine},
+  year      = {1977},
+  volume    = {297},
+  number    = {14},
+  pages     = {750--757},
+  doi       = {10.1056/NEJM197710062971404},
+  pmid      = {70750}
+}
+
+% --- CAST: relatório preliminar (parada precoce de encainide/flecainide) ---
+@article{CAST1989Preliminary,
+  author    = {{Cardiac Arrhythmia Suppression Trial (CAST) Investigators}},
+  title     = {Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression After Myocardial Infarction},
+  journal   = {New England Journal of Medicine},
+  year      = {1989},
+  volume    = {321},
+  number    = {6},
+  pages     = {406--412},
+  doi       = {10.1056/NEJM198908103210629},
+  pmid      = {2473403}
+}
+
+% --- CAST: relato principal (Echt 1991) ---
+@article{Echt1991CAST,
+  author    = {Echt, Debra S. and Liebson, Philip R. and Mitchell, L. Brent and Peters, Robert W. and Obias-Manno, Dulce and Barker, Allan H. and Arensberg, Daniel and Baker, Andrea and Friedman, Lawrence and Greene, H. Leon and others},
+  title     = {Mortality and Morbidity in Patients Receiving Encainide, Flecainide, or Placebo: The {C}ardiac {A}rrhythmia {S}uppression {T}rial},
+  journal   = {New England Journal of Medicine},
+  year      = {1991},
+  volume    = {324},
+  number    = {12},
+  pages     = {781--788},
+  doi       = {10.1056/NEJM199103213241201},
+  pmid      = {1900101}
+}
+
+% --- CAST-II: moricizina (parada precoce, mortalidade nas duas primeiras semanas) ---
+@article{CAST1992MoricizineII,
+  author    = {{Cardiac Arrhythmia Suppression Trial II Investigators}},
+  title     = {Effect of the Antiarrhythmic Agent Moricizine on Survival After Myocardial Infarction},
+  journal   = {New England Journal of Medicine},
+  year      = {1992},
+  volume    = {327},
+  number    = {4},
+  pages     = {227--233},
+  doi       = {10.1056/NEJM199207233270403},
+  pmid      = {1377359}
+}
+
+% --- Greene 1992: revisão do desenho e racional do CAST e CAST-II ---
+@article{Greene1992CAST,
+  author    = {Greene, H. Leon and Roden, Dan M. and Katz, Richard J. and Woosley, Raymond L. and Salerno, Daniel M. and Henthorn, Robert W.},
+  title     = {The {C}ardiac {A}rrhythmia {S}uppression {T}rial: First {CAST} ... Then {CAST-II}},
+  journal   = {Journal of the American College of Cardiology},
+  year      = {1992},
+  volume    = {19},
+  number    = {5},
+  pages     = {894--898},
+  doi       = {10.1016/0735-1097(92)90267-Q},
+  pmid      = {1552108}
+}
+
+% --- Surgeon General Report (1964): primeiro pronunciamento oficial dos EUA
+%     afirmando que tabagismo é causa de câncer de pulmão. Marco histórico
+%     contemporâneo do debate metodológico que produziu Hill (1965).
+%     Verificado via NLM Catalog (mesma instituição que mantém o PubMed);
+%     não tem DOI por ser monograph, mas é fonte primária canônica. ---
+@techreport{SurgeonGeneral1964Smoking,
+  author      = {{U.S. Department of Health, Education, and Welfare}},
+  title       = {Smoking and Health: Report of the Advisory Committee to the Surgeon General of the Public Health Service},
+  institution = {U.S. Department of Health, Education, and Welfare, Public Health Service},
+  year        = {1964},
+  address     = {Washington, DC},
+  type        = {Public Health Service Publication},
+  number      = {1103},
+  url         ={https://collections.nlm.nih.gov/ext/document/101584932X202/PDF/101584932X202.pdf}
+}
+
+% --- E-value: análise de sensibilidade para confundimento não medido ---
+@article{VanderWeele2017Evalue,
+  author    = {VanderWeele, Tyler J. and Ding, Peng},
+  title     = {Sensitivity Analysis in Observational Research: Introducing the {E}-Value},
+  journal   = {Annals of Internal Medicine},
+  year      = {2017},
+  volume    = {167},
+  number    = {4},
+  pages     = {268--274},
+  doi       = {10.7326/M16-2607},
+  pmid      = {28693043}
+}
+
+% --- Target trial: arcabouço contemporâneo de inferência causal ---
+@article{Hernan2016TargetTrial,
+  author    = {Hern{\'a}n, Miguel A. and Robins, James M.},
+  title     = {Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available},
+  journal   = {American Journal of Epidemiology},
+  year      = {2016},
+  volume    = {183},
+  number    = {8},
+  pages     = {758--764},
+  doi       = {10.1093/aje/kwv254},
+  pmid      = {26994063}
+}
+
+% =============================================================================
+% Referências obtidas via Open Evidence e individualmente reconfirmadas
+% no PubMed (PMIDs anotados em cada entrada).
+% =============================================================================
+
+% --- 1 ---
+@article{Shimonovich2021Assessing,
+  author    = {Shimonovich, Michal and Pearce, Anna and Thomson, Hilary and Keyes, Katherine and Katikireddi, Srinivasa Vittal},
+  title     = {Assessing Causality in Epidemiology: Revisiting {B}radford {H}ill to Incorporate Developments in Causal Thinking},
+  journal   = {European Journal of Epidemiology},
+  year      = {2021},
+  volume    = {36},
+  number    = {9},
+  pages     = {873--887},
+  doi       = {10.1007/s10654-020-00703-7},
+  pmid      = {33324996}
+}
+
+% --- 2 ---
+@article{Lesko2025Evolved,
+  author    = {Lesko, Catherine R. and Fox, Matthew P.},
+  title     = {An Evolved Interpretation of {A}ustin {B}radford {H}ill's Causal Viewpoints and Their Influence on Epidemiologic Methods},
+  journal   = {American Journal of Epidemiology},
+  year      = {2025},
+  volume    = {194},
+  number    = {6},
+  pages     = {1476--1481},
+  doi       = {10.1093/aje/kwae367},
+  pmid      = {39289169}
+}
+
+% --- 3 ---
+@article{Savitz2025Considerations,
+  author    = {Savitz, David A. and Pearce, Neil and Rothman, Kenneth J.},
+  title     = {{H}ill's Considerations Are Not Causal Criteria},
+  journal   = {Journal of Clinical Epidemiology},
+  year      = {2025},
+  volume    = {190},
+  pages     = {112087},
+  doi       = {10.1016/j.jclinepi.2025.112087},
+  pmid      = {41285283}
+}
+
+% --- 4 ---
+@article{Gvozdenovic2021Vaccine,
+  author    = {Gvozdenovi{\'c}, Emilia and Malvisi, Lucio and Cinconze, Elisa and Vansteelandt, Stijn and Nakanwagi, Phoebe and Aris, Emmanuel and Rosillon, Dominique},
+  title     = {Causal Inference Concepts Applied to Three Observational Studies in the Context of Vaccine Development: From Theory to Practice},
+  journal   = {BMC Medical Research Methodology},
+  year      = {2021},
+  volume    = {21},
+  number    = {1},
+  pages     = {35},
+  doi       = {10.1186/s12874-021-01220-1},
+  pmid      = {33588764}
+}
+
+% --- 5 ---
+@article{Frank2025RFEMF,
+  author    = {Frank, John William},
+  title     = {Epidemiological Criteria for Causation Applied to Human Health Harms From {RF-EMF} Exposure: {B}radford {H}ill Revisited},
+  journal   = {Frontiers in Public Health},
+  year      = {2025},
+  volume    = {13},
+  pages     = {1559868},
+  doi       = {10.3389/fpubh.2025.1559868},
+  pmid      = {40496459}
+}
+
+% --- 6 ---
+@article{Shakir2002Pharmacovigilance,
+  author    = {Shakir, Saad A. W. and Layton, Deborah},
+  title     = {Causal Association in Pharmacovigilance and Pharmacoepidemiology: Thoughts on the Application of the {A}ustin {B}radford-{H}ill Criteria},
+  journal   = {Drug Safety},
+  year      = {2002},
+  volume    = {25},
+  number    = {6},
+  pages     = {467--471},
+  doi       = {10.2165/00002018-200225060-00012},
+  pmid      = {12071785}
+}
+
+% --- 7 ---
+@article{Suzuki2021Strength,
+  author    = {Suzuki, Etsuji and Yamamoto, Eiji},
+  title     = {Strength in Causality: Discerning Causal Mechanisms in the Sufficient Cause Model},
+  journal   = {European Journal of Epidemiology},
+  year      = {2021},
+  volume    = {36},
+  number    = {9},
+  pages     = {899--908},
+  doi       = {10.1007/s10654-021-00798-6},
+  pmid      = {34564795}
+}
+
+% --- 8 ---
+@article{Ioannidis2016ExposureWide,
+  author    = {Ioannidis, John P. A.},
+  title     = {Exposure-Wide Epidemiology: Revisiting {B}radford {H}ill},
+  journal   = {Statistics in Medicine},
+  year      = {2016},
+  volume    = {35},
+  number    = {11},
+  pages     = {1749--1762},
+  doi       = {10.1002/sim.6825},
+  pmid      = {26646432}
+}
+
+% --- 9 ---
+@article{Olsen2019Revision,
+  author    = {Olsen, J{\o}rn and Jensen, Uffe Juul},
+  title     = {Causal Criteria: Time Has Come for a Revision},
+  journal   = {European Journal of Epidemiology},
+  year      = {2019},
+  volume    = {34},
+  number    = {6},
+  pages     = {537--541},
+  doi       = {10.1007/s10654-018-00479-x},
+  pmid      = {30649703}
+}
+
+% --- 10 ---
+@article{Cox2018Modernizing,
+  author    = {Cox, Louis Anthony},
+  title     = {Modernizing the {B}radford {H}ill Criteria for Assessing Causal Relationships in Observational Data},
+  journal   = {Critical Reviews in Toxicology},
+  year      = {2018},
+  volume    = {48},
+  number    = {8},
+  pages     = {682--712},
+  doi       = {10.1080/10408444.2018.1518404},
+  pmid      = {30433840}
+}
+
+% --- 11 ---
+@article{Schunemann2011GRADE,
+  author    = {Sch{\"u}nemann, Holger and Hill, Suzanne and Guyatt, Gordon and Akl, Elie A. and Ahmed, Faruque},
+  title     = {The {GRADE} Approach and {B}radford {H}ill's Criteria for Causation},
+  journal   = {Journal of Epidemiology and Community Health},
+  year      = {2011},
+  volume    = {65},
+  number    = {5},
+  pages     = {392--395},
+  doi       = {10.1136/jech.2010.119933},
+  pmid      = {20947872}
+}

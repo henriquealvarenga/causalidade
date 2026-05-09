@@ -17,7 +17,7 @@ Cada paradigma redefine o que conta como causa e arrasta consigo intuições do 
 
 ## O Surgeon General Report e a palestra de Hill
 
-![Bradford Hill](images/Bradford-Hill.png){.fig-right #fig-hill}
+![Bradford Hill](images/Bradford-Hill.jpg){.fig-right #fig-hill}
 
 
 Em janeiro de 1964, o relatório do U.S. Surgeon General — *Smoking and Health: Report of the Advisory Committee to the Surgeon General of the Public Health Service* [-@SurgeonGeneral1964Smoking] — apresenta o primeiro pronunciamento oficial federal afirmando que tabagismo é causa de câncer de pulmão. O documento se sustenta em literatura observacional e laboratorial; nenhum ensaio clínico randomizado existia ou poderia ser conduzido. A conclusão sofreu objeções metodológicas respeitáveis, a mais conhecida sustentando que confundimento por traços genéticos comuns à propensão a fumar e a desenvolver câncer poderia explicar a associação observada. A objeção era logicamente válida e exigia resposta sistemática.
