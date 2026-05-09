@@ -121,18 +121,18 @@ Este trabalho está licenciado sob **Creative Commons Atribuição-NãoComercial
 ## Citação sugerida
 
 **ABNT:**
-SILVA, Henrique Alvarenga da. **Da Correlação à Causalidade: O Difícil Caminho da Evidência Científica**. Recurso educacional aberto, 2026. Disponível em: https://henriquealvarenga.com/correlacao-causalidade/
+SILVA, Henrique Alvarenga da. **Da Correlação à Causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.**. Recurso educacional aberto, 2026. Disponível em: https://henriquealvarenga.com/causalidade/
 
 **APA 7ª ed.:**
-Silva, H. A. (2026). *Da correlação à causalidade: O difícil caminho da evidência científica*. Recurso educacional aberto. https://henriquealvarenga.com/correlacao-causalidade/
+Silva, H. A. (2026). *Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.*. Recurso educacional aberto. https://henriquealvarenga.com/causalidade/
 
 **BibTeX:**
 ```
-@misc{silva2026correlacao,
+@misc{silva2026causalidade,
   author = {Silva, Henrique Alvarenga da},
-  title = {Da Correlação à Causalidade: O Difícil Caminho da Evidência Científica},
+  title = {Da Correlação à Causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.},
   year = {2026},
-  url = {https://henriquealvarenga.com/correlacao-causalidade/},
+  url = {https://henriquealvarenga.com/causalidade/},
   note = {Recurso educacional aberto}
 }
 ```
