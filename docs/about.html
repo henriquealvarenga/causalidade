@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -297,8 +332,14 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>ISBN:</strong> 978-65-02-09855-4</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/barcode.jpeg" class="img-fluid figure-img" width="150"></p>
+<p><img src="images/barcode.jpeg" class="img-fluid figure-img" width="300"></p>
 <figcaption>Código de barras ISBN</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ficha-catalografica.png" class="img-fluid figure-img"></p>
+<figcaption>Ficha Catalográfica</figcaption>
 </figure>
 </div>
 </section>
@@ -312,16 +353,33 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="citação-sugerida" class="level2 about-section">
 <h2 class="anchored" data-anchor-id="citação-sugerida">Citação sugerida</h2>
-<p><strong>ABNT:</strong> SILVA, Henrique Alvarenga da. <strong>Da Correlação à Causalidade: O Difícil Caminho da Evidência Científica</strong>. Recurso educacional aberto, 2026. Disponível em: https://henriquealvarenga.com/correlacao-causalidade/</p>
-<p><strong>APA 7ª ed.:</strong> Silva, H. A. (2026). <em>Da correlação à causalidade: O difícil caminho da evidência científica</em>. Recurso educacional aberto. https://henriquealvarenga.com/correlacao-causalidade/</p>
-<p><strong>BibTeX:</strong></p>
-<pre><code>@misc{silva2026correlacao,
-  author = {Silva, Henrique Alvarenga da},
-  title = {Da Correlação à Causalidade: O Difícil Caminho da Evidência Científica},
-  year = {2026},
-  url = {https://henriquealvarenga.com/correlacao-causalidade/},
-  note = {Recurso educacional aberto}
-}</code></pre>
+<p>Selecione o estilo abaixo:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">ABNT (NBR 6023)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Vancouver</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">APA (7ª ed.)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">BibTeX</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>SILVA, Henrique Alvarenga da. <strong>Da correlação à causalidade</strong>: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea. São João del Rei, MG: Ed. do Autor, 2026. E-book (HTML). ISBN 978-65-02-09855-4. Disponível em: <a href="https://henriquealvarenga.com/causalidade/" class="uri">https://henriquealvarenga.com/causalidade/</a>. Acesso em: [data de acesso].</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Silva HA. Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea [livro eletrônico]. São João del Rei (MG): Ed. do Autor; 2026. ISBN 978-65-02-09855-4. Disponível em: <a href="https://henriquealvarenga.com/causalidade/" class="uri">https://henriquealvarenga.com/causalidade/</a>.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Silva, H. A. da. (2026). <em>Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea</em> [E-book]. Ed. do Autor. <a href="https://henriquealvarenga.com/causalidade/" class="uri">https://henriquealvarenga.com/causalidade/</a></p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@book</span>{<span class="ot">silva2026causalidade</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>    = {Silva, Henrique Alvarenga da},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>     = {Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>      = {2026},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span> = {Ed. do Autor},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">address</span>   = {São João del Rei, MG},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">isbn</span>      = {978-65-02-09855-4},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>       = {https://henriquealvarenga.com/causalidade/},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span>      = {Livro eletrônico (HTML)}</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
 </section>
 <section id="agradecimentos" class="level2 about-section">
 <h2 class="anchored" data-anchor-id="agradecimentos">Agradecimentos</h2>

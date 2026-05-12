@@ -17,9 +17,6 @@ Médico psiquiatra. Professor de Psiquiatria do Curso de Medicina da Universidad
 :::
 
 
-
-
-
 ::: {.about-section}
 ## Metodologia e tecnologias
 
@@ -95,9 +92,12 @@ Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
 ::: {.about-section}
 ## Dados de publicação
 
-**ISBN:** 978-65-02-09855-4
+**ISBN:** 978-65-02-09855-4   
 
-![Código de barras ISBN](images/barcode.jpeg){width=150}
+![Código de barras ISBN](images/barcode.jpeg){width=300}
+
+![Ficha Catalográfica](images/ficha-catalografica.png)
+
 
 :::
 
@@ -120,22 +120,39 @@ Este trabalho está licenciado sob **Creative Commons Atribuição-NãoComercial
 ::: {.about-section}
 ## Citação sugerida
 
-**ABNT:**
-SILVA, Henrique Alvarenga da. **Da Correlação à Causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.**. Recurso educacional aberto, 2026. Disponível em: https://henriquealvarenga.com/causalidade/
+Selecione o estilo abaixo:
 
-**APA 7ª ed.:**
-Silva, H. A. (2026). *Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.*. Recurso educacional aberto. https://henriquealvarenga.com/causalidade/
+::: {.panel-tabset}
 
-**BibTeX:**
-```
-@misc{silva2026causalidade,
-  author = {Silva, Henrique Alvarenga da},
-  title = {Da Correlação à Causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea.},
-  year = {2026},
-  url = {https://henriquealvarenga.com/causalidade/},
-  note = {Recurso educacional aberto}
+### ABNT (NBR 6023)
+
+SILVA, Henrique Alvarenga da. **Da correlação à causalidade**: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea. São João del Rei, MG: Ed. do Autor, 2026. E-book (HTML). ISBN 978-65-02-09855-4. Disponível em: <https://henriquealvarenga.com/causalidade/>. Acesso em: [data de acesso].
+
+### Vancouver
+
+Silva HA. Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea [livro eletrônico]. São João del Rei (MG): Ed. do Autor; 2026. ISBN 978-65-02-09855-4. Disponível em: <https://henriquealvarenga.com/causalidade/>.
+
+### APA (7ª ed.)
+
+Silva, H. A. da. (2026). *Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea* [E-book]. Ed. do Autor. <https://henriquealvarenga.com/causalidade/>
+
+### BibTeX
+
+```bibtex
+@book{silva2026causalidade,
+  author    = {Silva, Henrique Alvarenga da},
+  title     = {Da correlação à causalidade: Hume, Mill, Koch, Bradford Hill e a epidemiologia causal contemporânea},
+  year      = {2026},
+  publisher = {Ed. do Autor},
+  address   = {São João del Rei, MG},
+  isbn      = {978-65-02-09855-4},
+  url       = {https://henriquealvarenga.com/causalidade/},
+  note      = {Livro eletrônico (HTML)}
 }
 ```
+
+:::
+
 :::
 
 ::: {.about-section}
