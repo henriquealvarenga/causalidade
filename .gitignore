@@ -1,7 +1,10 @@
 # ==============================================================
 # .gitignore — Da Correlação à Causalidade
-# Quarto + GitHub Pages (servido a partir de /docs em main)
+# Quarto + GitHub Pages (publicado via GitHub Actions)
 # ==============================================================
+
+# --- Saída do Quarto (gerada pelo workflow, não versionar) ---
+docs/
 
 # --- Cache do Quarto (regenerável) ---
 .quarto/
