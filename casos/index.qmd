@@ -7,7 +7,7 @@ subtitle: "Seis exemplos para discussão metodológica em sala"
 
 Os casos abaixo são exemplos paradigmáticos da literatura clínica recente em que a evidência observacional sustentou uma expectativa de efeito que ensaios randomizados subsequentes mataram, modificaram ou complicaram. Cada caso é discutido com estrutura comum — contexto clínico, evidência observacional, evidência experimental, lição metodológica — e finaliza com perguntas para discussão em sala. As referências são primárias e verificadas em PubMed.
 
-A intenção pedagógica não é apresentar uma lista de "estudos que erraram". A maior parte dos investigadores citados trabalhou dentro do estado da arte da época e produziu dados sólidos; o que mudou foi a qualidade da inferência possível à medida que evidências de tipos diferentes se acumularam. Os casos servem para tornar concretos os argumentos abstratos da seção [Causalidade](../01-antes-epidemiologia.qmd) — confundimento por usuário saudável, causalidade reversa, falácia do componente ativo, problema do desfecho substituto, comparador e formulação como variáveis ocultas.
+A intenção pedagógica não é apresentar uma lista de "estudos que erraram". A maior parte dos investigadores citados trabalhou dentro do estado da arte da época e produziu dados sólidos; o que mudou foi a qualidade da inferência possível à medida que evidências de tipos diferentes se acumularam. Os casos servem para tornar concretos os argumentos abstratos desenvolvidos nos cinco capítulos de causalidade, a começar por [Antes da epidemiologia](../01-antes-epidemiologia.qmd) — confundimento por usuário saudável, causalidade reversa, falácia do componente ativo, problema do desfecho substituto, comparador e formulação como variáveis ocultas.
 
 ## Os seis casos
 
