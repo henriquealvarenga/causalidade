@@ -1,6 +1,6 @@
 ---
 title: "Antes da epidemiologia"
-subtitle: "Hume, Mill e Koch"
+subtitle: "Hume, Mill e Henle-Koch"
 ---
 
 ## David Hume
