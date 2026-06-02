@@ -7,11 +7,12 @@ A epidemiologia da segunda metade do século XX enfrenta um objeto que os postul
 
 Morabia [-@Morabia2005Causality] sustenta que essa diferença é estrutural, não temporária. As causas estudadas pela epidemiologia das doenças crônicas são invariantes apenas no nível populacional, não no nível do indivíduo. Postulados desenhados para causação determinística — onde dada presença do agente, dada a doença — produzem erro categorial quando aplicados a relações como tabaco-câncer. A exigência de identificação de agente específico, central em Koch, deixa de ser método e passa a ser obstáculo.
 
-Schwartz, Susser e Susser [-@Schwartz1999Future] organizam essa transição em uma sucessão de paradigmas: 
+Schwartz, Susser e Susser [-@Schwartz1999Future] organizam essa transição em uma sucessão de paradigmas:
 
-1. Estatística sanitária do século XIX (sem teoria de mecanismo), era bacteriológica fundada nos postulados de Henle-Koch (causalidade determinística pareada com mecanismo identificado), 
-2. Epidemiologia das doenças crônicas estruturada em torno do conceito de fator de risco probabilístico
-3. Propostas contemporâneas de pensar causa em múltiplos níveis (gene, indivíduo, comunidade, contexto histórico). 
+1. Estatística sanitária do século XIX, sem teoria de mecanismo;
+2. Era bacteriológica fundada nos postulados de Henle-Koch — causalidade determinística pareada com mecanismo identificado;
+3. Epidemiologia das doenças crônicas, estruturada em torno do conceito de fator de risco probabilístico;
+4. Propostas contemporâneas de pensar causa em múltiplos níveis (gene, indivíduo, comunidade, contexto histórico).
 
 Cada paradigma redefine o que conta como causa e arrasta consigo intuições do anterior.
 
@@ -50,7 +51,7 @@ A conclusão da palestra retoma a advertência inicial: a tarefa do epidemiologi
 
 ## Rothman e a causa suficiente
 
-![Capa do artigo de Kenenth Rothman (1976).](images/Kenneth-rothman.png){.fig-right #fig-rothman-paper}
+![Capa do artigo de Kenneth Rothman (1976).](images/Kenneth-rothman.png){.fig-right #fig-rothman-paper}
 
 Onze anos depois, em texto curto publicado no *American Journal of Epidemiology* [@Rothman1976Causes], Kenneth Rothman propõe modelo formal que organiza a noção multifatorial de causa: o **modelo de causa suficiente** (*sufficient component cause model*), também conhecido como modelo dos *causal pies*.
 

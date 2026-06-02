@@ -83,10 +83,10 @@ Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
 ::: {.about-section}
 ## Outros projetos do autor
 
-- [Tipos de Dados em Saúde](www.henriquealvarenga.com/tiposdedados) — Classificação e organização de dados para pesquisa
-- [Dos Dados aos Gráficos](www.henriquealvarenga.com/graficos) — Visualização estatística para profissionais de saúde    
-- [Revisões de Literatura em Saúde](www.henriquealvarenga.com/literature-review) — Metodologia para revisão sistemática
-- [Manual Básico da Linguagem R](www.henriquealvarenga.com/manual-r) — Introdução à programação estatística
+- [Tipos de Dados em Saúde](https://www.henriquealvarenga.com/tiposdedados) — Classificação e organização de dados para pesquisa
+- [Dos Dados aos Gráficos](https://www.henriquealvarenga.com/graficos) — Visualização estatística para profissionais de saúde
+- [Revisões de Literatura em Saúde](https://www.henriquealvarenga.com/literature-review) — Metodologia para revisão sistemática
+- [Manual Básico da Linguagem R](https://www.henriquealvarenga.com/manual-r) — Introdução à programação estatística
 :::
 
 ::: {.about-section}

@@ -65,7 +65,7 @@ As três perguntas codificam o aparato moderno em prática reproduzível. Não d
 
 ## Considerações
 
-A epidemiologia contemporânea ganhou precisão sem ter alcançado certeza. A inferência causal, como Hill já notava em 1965, permanece indireta e gradual: a interpretação causal de uma associação não decorre de uma checklist preenchida, mas da resistência dessa associação a sucessivas tentativas de explicá-la por outras vias,
+A epidemiologia contemporânea ganhou precisão sem ter alcançado certeza. A inferência causal, como Hill já notava em 1965, permanece indireta e gradual: a interpretação causal de uma associação não decorre de uma checklist preenchida, mas da resistência dessa associação a sucessivas tentativas de explicá-la por outras vias — viés, confundimento, acaso, causalidade reversa, erro de medida. O que muda, da formulação de 1965 ao aparato atual, não é a natureza da tarefa, mas o rigor com que cada explicação concorrente pode ser especificada, quantificada e, quando possível, descartada.
 
 ## Exercícios
 
