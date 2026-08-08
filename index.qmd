@@ -169,13 +169,5 @@ format:
     </div>
   </section>
 
-  <footer class="landing-footer">
-    <div class="landing-footer-inner">
-      <a href="https://www.henriquealvarenga.com" target="_blank" rel="noopener">Henrique Alvarenga</a>
-      <span class="footer-sep">·</span>
-      <a href="about.html">Créditos <sup>®</sup></a>
-    </div>
-  </footer>
-
 </div>
 ```
