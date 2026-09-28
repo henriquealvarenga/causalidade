@@ -1,6 +1,6 @@
 ---
-title: "Sobre este projeto"
-subtitle: "Informações sobre o autor, metodologia e filosofia por trás do site"
+title: "Sobre este livro"
+subtitle: "Informações sobre o autor, metodologia e filosofia por trás do livro"
 ---
 
 ## Autor
@@ -20,7 +20,7 @@ Médico psiquiatra. Professor de Psiquiatria do Curso de Medicina da Universidad
 ::: {.about-section}
 ## Metodologia e tecnologias
 
-Este recurso foi construído usando ferramentas de código aberto e ciência aberta:
+Este livro foi construído usando ferramentas de código aberto e ciência aberta:
 
 ::: {.tech-stack}
 ::: {.tech-item}
@@ -92,7 +92,11 @@ Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
 ::: {.about-section}
 ## Dados de publicação
 
-**ISBN:** 978-65-02-09855-4   
+<!-- A data de publicação é a do registro do ISBN e é fixa: não deve ser
+     alterada em edições ou correções posteriores do livro. -->
+
+**ISBN:** 978-65-02-09855-4  
+**Data de publicação:** 9 de maio de 2026
 
 ![Código de barras ISBN](images/barcode.jpeg){width=300}
 
@@ -104,11 +108,11 @@ Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
 ::: {.about-section}
 ## Licenciamento
 
-Este trabalho está licenciado sob **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
+Este livro está licenciado sob **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
 
 **Você pode:**
-- **Compartilhar** — copiar e redistribuir o material. 
-- **Adaptar** — remixar, transformar e criar a partir do material. 
+- **Compartilhar** — copiar e redistribuir o livro. 
+- **Adaptar** — remixar, transformar e criar a partir do livro. 
 
 **Sob as condições:**. 
 - **Atribuição** — dar crédito apropriado.  
@@ -158,7 +162,7 @@ Silva, H. A. da. (2026). *Da correlação à causalidade: Hume, Mill, Koch, Brad
 ::: {.about-section}
 ## Agradecimentos
 
-Aos estudantes de medicina que, com suas perguntas sobre "essa nova descoberta que saiu no jornal", motivaram a criação deste material.
+Aos estudantes de medicina que, com suas perguntas sobre "essa nova descoberta que saiu no jornal", motivaram a criação deste livro.
 :::
 
 ::: {.about-section}
@@ -169,10 +173,6 @@ Dúvidas, sugestões ou correções:
 📧 [henriquealvarenga@ufsj.edu.br](mailto:henriquealvarenga@ufsj.edu.br)
 
 Ou via *issues* no repositório GitHub.
-
----
-
-*Última atualização: Agosto de 2026*
 :::
 
 

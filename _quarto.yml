@@ -13,7 +13,7 @@ crossref:
 
 website:
   title: "Da Correlação à Causalidade"
-  description: "Material didático de causalidade em epidemiologia — pós-graduação e residência."
+  description: "Livro sobre causalidade em epidemiologia — pós-graduação e residência."
   # Sem site-url o Quarto não gera sitemap nem robots.txt, e o canonical não
   # tem como ser montado. Sem barra final: a barra dispara um defeito conhecido
   # do Quarto que produz barra dupla no canonical.
@@ -22,6 +22,9 @@ website:
     center: |
       Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381<br>
       [henriquealvarenga.com](https://henriquealvarenga.com)
+    right:
+      - text: "Sobre este livro"
+        href: about.qmd
 
   navbar:
     background: "#0a0e1a"
