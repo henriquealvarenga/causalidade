@@ -14,9 +14,18 @@ body:has(.landing) #title-block-header,
 body:has(.landing) #quarto-header,
 body:has(.landing) header.headroom,
 body:has(.landing) .navbar,
-body:has(.landing) .quarto-secondary-nav,
-body:has(.landing) footer.footer,
-body:has(.landing) .nav-footer { display: none !important; }
+body:has(.landing) .quarto-secondary-nav { display: none !important; }
+
+/* O rodapé do Quarto continua visível na capa: é nele que ficam a
+   identificação profissional e o link "Sobre este livro", e a capa não tem
+   navbar. Aqui só recebe os tons escuros da landing. */
+body:has(.landing) .nav-footer {
+  background: #07090f;
+  border-top: 1px solid #1e2638;
+  color: #6b7a90;
+}
+body:has(.landing) .nav-footer a { color: #a8b3c4; }
+body:has(.landing) .nav-footer a:hover { color: #00d9c0; }
 
 .landing {
   --bg-0: #0a0e1a;
